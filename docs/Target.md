@@ -36,7 +36,7 @@ This Software Requirements Specification (SRS) describes all specifications for 
 ### 1.2 Scope
 The project is going to be realized as an Android and iOs App.  
 
-<!--*<!--Actors of this App can be users or moderators.*-->-->  
+<!--*<!--Actors of this App can be users or moderators.*-->
 
 <!--*Planned Subsystems are:*--> 
 
@@ -129,10 +129,10 @@ Until June, we want to implement:
 ### 3.2 Usability
 We plan on designing the user interface as intuitive and self-explanatory as possible to make the user feel as comfortable as possible using the app. Though an FAQ document will be available, it should not be necessary to use it.
 
-#### 3.2.1 No training time needed
+#### <!--3.2.1 No training time needed-->
 <!--Our goal is that a user installs the android application, opens it and is able to use all features without any explanation or help.-->
 
-#### 3.2.2 Familiar Feeling
+#### <!--3.2.2 Familiar Feeling-->
 <!--We want to implement an app with familiar designs and functions. This way the user is able to interact in familiar ways with the app without having to get to know new interfaces.-->
 
 ### 3.3 Reliability
