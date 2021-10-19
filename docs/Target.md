@@ -36,21 +36,26 @@ This Software Requirements Specification (SRS) describes all specifications for 
 ### 1.2 Scope
 The project is going to be realized as an Android and iOs App.  
 
-*<!--Actors of this App can be users or moderators.*-->  
+<!--*<!--Actors of this App can be users or moderators.*-->-->  
 
 <!--*Planned Subsystems are:*--> 
 
-* <!--*Notice Board:  
+<!--*Notice Board:  
 The notice board is the essential part of the user interface. Game sessions should be visualized as postings including relevant information about the session. Those should be partly standardized by a form with a free text option for specifics. The data must be stored accordingly.*-->
-* <!--*Account System:  
+
+<!--*Account System:  
 Users can create accounts so sessions can be connected to a person as well as to join requests. User data must be stored alongside the posting data.*-->
-* <!--*Friend List and User Rating:  
+
+<!--*Friend List and User Rating:  
 Once the account system is created there will be the option to mark users as favorites. Also users or game sessions should get a rating to counter abuse.*-->
-* <!--*Connecting People:  
+
+<!--*Connecting People:  
 The host of a game session has to be notified when someone wants to join their game. Both must then be able to get in touch to organize the details, so messages between the host and the guest have to be enabled. This could be done via automated emails or a custom in-app system. For this an account system is needed.*-->
-* <!--*Storing Data:  
+
+<!--*Storing Data:  
 User data for accounts and possibly profiles has to be stored. Also the game sessions have to be stored as datasets containing the form contents and possibly contact data. The data storage will form the foundation for the visualization, account system and the search feature.*-->
-* <!--*Finding your Game:  
+
+<!--*Finding your Game:  
 We need a tag system so everyone looking to join a game can search for the kind of games they are interested in. Possibly other aspects can be searchable, such as place or date. Tags must be stored and a search function developed.*--> 
 
 ### 1.3 Definitions, Acronyms and Abbreviations
@@ -98,18 +103,28 @@ The app should be available on iOS and Android. To code we will use  Kotlin, bec
 ### 3.1 Functionality
 This section will explain the different use cases, you could see in the Use Case Diagram, and their functionality.  
 Until December we plan to implement:
-- <!--*3.1.1 Posting a session*-->
-- <!--*3.1.2 Getting an overview*-->
-- <!--*3.1.3 Creating an account*-->
-- <!--*3.1.4 Logging in*-->
-- <!--*3.1.5 Logging out*-->
+
+<!--*3.1.1 Posting a session*-->
+
+<!--*3.1.2 Getting an overview*-->
+
+<!--*3.1.3 Creating an account*-->
+
+<!--*3.1.4 Logging in*-->
+
+<!--*3.1.5 Logging out*-->
 
 Until June, we want to implement:
-- <!--*3.1.6 Joining a session*-->
-- <!--*3.1.7 Keeping track of your sessions*-->
-- <!--*3.1.8 Leaving a session*-->
-- <!--*3.1.9 Finding a session*-->
-- <!--*3.1.10 Getting in touch*-->
+
+<!--*3.1.6 Joining a session*-->
+
+<!--*3.1.7 Keeping track of your sessions*-->
+
+<!--*3.1.8 Leaving a session*-->
+
+<!--*3.1.9 Finding a session*-->
+
+<!--*3.1.10 Getting in touch*-->
 
 ### 3.2 Usability
 We plan on designing the user interface as intuitive and self-explanatory as possible to make the user feel as comfortable as possible using the app. Though an FAQ document will be available, it should not be necessary to use it.
@@ -153,8 +168,10 @@ We plan on designing the user interface as intuitive and self-explanatory as pos
 <!--Because we are progamming an Android App we chose Java as our programming language. Also we are using the common MVC-architecture to keep the front end and back end seperated. For a clean front end structure we use MVVM.-->
 <!--To make the communication between the two parts easy, we will implement a RESTful-API between them which will provide the data in JSON-Format.--> 
 <!--The supported Platforms will be:-->
-- <!--Android 4.4 and higher-->
-- <!--Java 8 and higher-->
+
+<!--Android 4.4 and higher-->
+
+<!--Java 8 and higher-->
 
 ### 3.7 On-line User Documentation and Help System Requirements
 <!--The usage of the app should be as intuitive as possible so it won't need any further documentation. If the user needs some help we will implement a "Help"-Button in the App which includes a FAQ and a formular to contact the developement team.-->
@@ -166,14 +183,22 @@ We plan on designing the user interface as intuitive and self-explanatory as pos
 
 #### <!--3.9.1 User Interfaces-->
 <!--The User interfaces that will be implented are:-->
-- <!--Dashboard - lists all session and makes it possible to filter sessions-->
-- <!--Session Page - shows detailed information about the session and makes it possible to connect session attendants for example via messaging system-->
-- <!--Login - this page is used to log in--> 
-- <!--Register - provides a registration form-->
-- <!--Overwiew of personal sessions - shows all the sessions a user participates in-->
-- <!--Friend List - friends can be added-->
-- <!--Profile - makes it possible to post information about yourself, might provide messaging feature, also shows additional information about users (for example: Language, country, favorite games, etc.)-->
-- <!--Settings - shows the settings-->
+
+<!--Dashboard - lists all session and makes it possible to filter sessions-->
+
+<!--Session Page - shows detailed information about the session and makes it possible to connect session attendants for example via messaging system-->
+
+<!--Login - this page is used to log in--> 
+
+<!--Register - provides a registration form-->
+
+<!--Overwiew of personal sessions - shows all the sessions a user participates in-->
+
+<!--Friend List - friends can be added-->
+
+<!--Profile - makes it possible to post information about yourself, might provide messaging feature, also shows additional information about users (for example: Language, country, favorite games, etc.)-->
+
+<!--Settings - shows the settings-->
 
 #### <!--3.9.2 Hardware Interfaces-->
 <!--(n/a)-->
@@ -195,10 +220,14 @@ We plan on designing the user interface as intuitive and self-explanatory as pos
 ## 4. Supporting Information
 <!--For any further information you can contact the Common Playground Team or check our [Common Playground Blog](http://commonplayground.wordpress.com).--> 
 <!--The Team Members are:-->
-- <!--Celina Adam-->
-- <!--Inga Batton-->
-- <!--Nils Krehl--> 
-- <!--Denis Reibel-->
+
+<!--Celina Adam-->
+
+<!--Inga Batton-->
+
+<!--Nils Krehl--> 
+
+<!--Denis Reibel-->
 
 <!-- Picture-Link definitions: -->
 
