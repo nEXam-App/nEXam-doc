@@ -1,4 +1,4 @@
-# Common Playground - Software Requirements Specification 
+# nEXam - Software Requirements Specification 
 
 ## Table of contents
 - [Table of contents](#table-of-contents)
@@ -34,7 +34,7 @@ This Software Requirements Specification (SRS) describes all specifications for 
 
 
 ### 1.2 Scope
-The project is going to be realized as an Android and iOs App.  
+The project is going to be realized as an Android and iOs App. The planned scope till end of december is shown in the [use-case specification](https://github.com/Calco2001/nEXam/blob/main/docs/Use-Case%20Specification.md#1-use-case).
 
 <!--*<!--Actors of this App can be users or moderators.*-->
 
@@ -105,17 +105,23 @@ The app should be available on iOS and Android. To code we will use  Kotlin, bec
 This section will explain the different use cases, you could see in the Use Case Diagram, and their functionality.  
 Until December we plan to implement:
 
-<!--*3.1.1 Posting a session*-->
+<!--TODO: Add infos for planned use cases-->
 
-<!--*3.1.2 Getting an overview*-->
+*3.1.1 Create exams*
 
-<!--*3.1.3 Creating an account*-->
+The creation of a new exam, where the users will be asked about the topic, subject, content and date.
 
-<!--*3.1.4 Logging in*-->
+*3.1.2 Add topics*
 
-<!--*3.1.5 Logging out*-->
+The user can 
 
-Until June, we want to implement:
+*3.1.3 Edit info*
+
+*3.1.4 Show agenda*
+
+*3.1.5 Calendar*
+
+<!--Until June, we want to implement:-->
 
 <!--*3.1.6 Joining a session*-->
 
@@ -231,6 +237,3 @@ We plan on designing the user interface as intuitive and self-explanatory as pos
 <!--Denis Reibel-->
 
 <!-- Picture-Link definitions: -->
-
-[OUCD]: https://github.com/IB-KA/CommonPlayground/blob/master/UseCaseDiagramCP.png "Overall Use Case Diagram"
-
