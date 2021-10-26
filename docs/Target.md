@@ -90,7 +90,7 @@ You need to enter your exam information, including date, subject and  topic. Bas
 
 ### 2.2 Use Case Diagram
 
-![OUCD](./UseCaseDiagramCP.png)
+![OUCD](C:\Users\Service\Desktop\nEXam\nEXam\docs\use case diagram.jpg)
 
 - Green: Planned till end of december
 - Yellow: Planned till end of june
