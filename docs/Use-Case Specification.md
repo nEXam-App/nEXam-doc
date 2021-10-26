@@ -39,6 +39,8 @@ Perhaps exams are cancelled, so you want to be able to delete them. In case of t
 
 ## 4. Preconditions
 
+Since we don't want to use a large database, we agreed not to have an authentication process. So the only requirement for the use cases is an open app.
+
 ## 5. Postconditions
 ### 5.1 Create
 After creating a new exam, the user will be redirected to the overview, where all entires will be displayed.
