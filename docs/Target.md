@@ -90,8 +90,6 @@ You need to enter your exam information, including date, subject and  topic. Bas
 
 ### 2.2 Use Case Diagram
 
-![OUCD](./UseCaseDiagramCP.png)
-
 ![OUCD](https://github.com/Calco2001/nEXam/blob/main/docs/use%20case%20diagram.jpg)
 
 - Green: Planned till end of december
