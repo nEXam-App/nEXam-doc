@@ -1,58 +1,55 @@
 # Use-Case Specification: nEXam
 
-# 1. nEXam
+## 1. Use-Case
+This use case allows useres to have an overview of their learning progress.
+You will see an agenda showing when to study which topic.
+While studying you should use the in app timer for the optimum experience.
 
-## 1.1 Brief Description
-<!--This use case allows users to list all items which are currently in the shopping list. A item has a title and may contain information the number of items and who the product shall be bought for. Bought items shall be removed from the list. Furthermore the user can sort the items regarding their attributes.-->
+![Use Case](https://github.com/Calco2001/nEXam/blob/main/docs/use%20case%20diagram.jpg)
 
-## <!--1.2 Mockup-->
-<!--[![Mockup CheckedList](../Mockups/uc_shopping_list_CheckedList_200px.png)](../Mockups/uc_shopping_list_CheckedList.PNG)-->
+## 2. Flow of Events
+### 2.1 Basic flow
+A user will create an exam and list all of them. He can edit them if changes occur or delete them altogether.
 
-## <!--1.3 Screenshot-->
+![Basic Flow](https://github.com/Calco2001/nEXam/blob/main/docs/basic%20flow.jpg)
 
-### <!--Empty Shopping List-->
-<!--![Shopping List without items](../Screenshots/shopping_list_no_items_screenshot.png)-->
-### <!--Shopping List with items-->
-<!--![Shopping List with items](../Screenshots/shopping_list_screenshot_items.png)-->
-### <!--Shopping List selected items-->
-<!--![Shopping List selected items](../Screenshots/shopping_list_screenshot_selected.png)-->
-### <!--Shopping List sort items dialog-->
-<!--![Shopping List sort items dialog](../Screenshots/shopping_list_screenshot_sort.png)-->
+### 2.2 Creation
+The creation of a new exam, where the user will be asked about the topic, subject, content and date.
 
-# 2. Flow of Events
+[//]: <Add Screenshot of create mockup> 
 
-## 2.1 Basic Flow
+### 2.3 Edit
+By editing the user can change information of the exam.
 
-### Activity Diagram
+[//]: <Add Screenshot of edit mockup> 
+
+### 2.4 List
+The user wants to get an overview, therefore he is given a list of all entires on an agenda.
+
+[//]: <Add Screenshot of list mockup> 
+
+### 2.5 Delete
+Perhaps exams are cancelled, so you want to be able to delete them. In case of this scenario we will add a delete button on the edit page.
+
+[//]: <Add Screenshot of delete mockup - button> 
+[//]: <Add are you sure popup to avoid accidental deletions> 
+
+## 3. Activity Diagram
 ![Activity Diagram](https://github.com/Calco2001/nEXam/blob/main/docs/activity%20diagram.jpg)
 
-### <!--.feature File-->
-<!--![.feature file](./FeatureFiles/feature_file_manage_shopping_list.png)-->
+## 4. Preconditions
 
+## 5. Postconditions
+### 5.1 Create
+After creating a new exam, the user will be redirected to the overview, where all entires will be displayed.
 
-## 2.2 Alternative Flows
-<!--n/a-->
+### 5.2 Edit
+After the user saved his edits, the updated data will be displayed to the overview.
 
-# 3. Special Requirements
-<!--n/a-->
+### 5.3 Delete
+After confirming the deletion modal, the exam will be removed from the overview.
 
-# 4. Preconditions
-<!--The main preconditions for this use case are:-->
+## 6. Function Points
+[//]: <Domain Characteristic Table>
 
-<!--<!--The users app instance is registered.-->
-
-<!--<!--The user is member of a group/shared flat.-->
-
-<!--<!--The user has started the app and has navigated to "Shopping List".-->
-
-# 5. Postconditions
-
-### <!--5.1 Save changes / Sync with server-->
-<!--If a product has been added, edited or removed, it must be synced with the server.-->
-
-# 6. Function Points
-<!--To calculate function points, we used the tool on [http://groups.umd.umich.edu](http://groups.umd.umich.edu/cis/course.des/cis375/projects/fp99/main.html).-->
-
-<!--For this use case we set a score of *20* function points. It took 790min to implement this use case.-->
-
-<!--![Function Points](../FunctionPoints/ShoppingList.png)-->
+[//]: <Complexity Adjustment Table>
