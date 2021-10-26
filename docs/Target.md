@@ -103,8 +103,6 @@ We all agreed to use VS Code as our IDE because it gives us more  flexibility to
 
 As we mentioned in our first blog we will use Kotlin and SQLite. 
 
-<img src="https://nexam955203221.files.wordpress.com/2021/10/kotlin_250x250-1.png?w=158" alt="img" style="zoom:67%;" />Kotlin logo	 <img src="https://nexam955203221.files.wordpress.com/2021/10/1504193333_sqlite_editor_logo.jpg?w=230" alt="img" style="zoom: 33%;" />SQLite logo
-
 The main argument why we will use Kotlin (even if nobody has any  experience with it) is usability. With Kotlin we are able to create the  front- and backend, also Kotlin provides us with the possibility to  develop the app for Android and iOS without a huge additional workload.
 
 We will use SQLite to store some data. Our goal would be to not need a large database and store all the data we need on the client. There will be no need to ‘work’ with the client’s data and everything should be  able to run only on the user’s device. 
