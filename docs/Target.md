@@ -93,7 +93,8 @@ You need to enter your exam information, including date, subject and  topic. Bas
 ![OUCD](https://github.com/Calco2001/nEXam/blob/main/docs/use%20case%20diagram.jpg)
 
 - Green: Planned till end of december
-- Yellow: Planned till end of june
+
+  <!--Yellow: Planned till end of june-->
 
 ### 2.3 Technology Stack
 The app should be available on iOS and Android. To code we will use  Kotlin, because it supports an easy way to create smartphone  applications with common business logic for both iOS and Android apps.  It can also can be used for front- and backend. To store the data we are planning to use SQLight, but we haven’t committed yet.
