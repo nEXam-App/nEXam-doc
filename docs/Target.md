@@ -92,7 +92,7 @@ You need to enter your exam information, including date, subject and  topic. Bas
 
 ![OUCD](./UseCaseDiagramCP.png)
 
-![OUCD](/use case diagram.jpg)
+![OUCD](https://github.com/Calco2001/nEXam/blob/main/docs/use%20case%20diagram.jpg)
 
 - Green: Planned till end of december
 - Yellow: Planned till end of june
