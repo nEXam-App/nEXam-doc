@@ -36,7 +36,7 @@ This Software Requirements Specification (SRS) describes all specifications for 
 ### 1.2 Scope
 The project is going to be realized as an Android and iOs App. The planned scope till end of december is shown in the [use-case specification](https://github.com/Calco2001/nEXam/blob/main/docs/Use-Case%20Specification.md#1-use-case).
 
-<!--*<!--Actors of this App can be users or moderators.*-->
+Actors of this app are students.
 
 <!--*Planned Subsystems are:*--> 
 
@@ -59,14 +59,14 @@ User data for accounts and possibly profiles has to be stored. Also the game ses
 We need a tag system so everyone looking to join a game can search for the kind of games they are interested in. Possibly other aspects can be searchable, such as place or date. Tags must be stored and a search function developed.*--> 
 
 ### 1.3 Definitions, Acronyms and Abbreviations
-| Abbrevation | Explanation                         |
-| ----------- | ----------------------------------- |
-| SRS         | Software Requirements Specification |
-| UC          | Use Case                            |
-| n/a         | not applicable                      |
-| tbd         | to be determined                    |
-| UCD         | overall Use Case Diagram            |
-| FAQ         | Frequently asked Questions          |
+| Abbreviation | Explanation                         |
+| ------------ | ----------------------------------- |
+| SRS          | Software Requirements Specification |
+| UC           | Use Case                            |
+| n/a          | not applicable                      |
+| tbd          | to be determined                    |
+| UCD          | overall Use Case Diagram            |
+| FAQ          | Frequently asked Questions          |
 
 ### 1.4 References
 
@@ -117,11 +117,11 @@ Until December we plan to implement:
 
 *3.1.1 Create exams*
 
-The creation of a new exam, where the users will be asked about the topic, subject, content and date.
+<!--The creation of a new exam, where the users will be asked about the topic, subject, content and date.-->
 
 *3.1.2 Add topics*
 
-The user can 
+<!--Here can the user add topics for an exam. This gives him the opportunity to split the content in smaller pieces to be more--> 
 
 *3.1.3 Edit info*
 
