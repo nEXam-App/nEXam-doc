@@ -37,6 +37,8 @@ Perhaps exams are cancelled, so you want to be able to delete them. In case of t
 ## 3. Activity Diagram
 ![Activity Diagram](https://github.com/Calco2001/nEXam/blob/main/docs/activity%20diagram.jpg)
 
+Below you will find our first wireframes. Those will show you our first thoughts about the look.
+
 ![](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/dashboard.PNG)
 
 ![](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20edit%20exam.PNG)
