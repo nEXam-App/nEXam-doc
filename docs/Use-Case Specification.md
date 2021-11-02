@@ -14,7 +14,7 @@ A user will create an exam and list all of them. He can edit them if changes occ
 ![Basic Flow](https://github.com/Calco2001/nEXam/blob/main/docs/basic%20flow.jpg)
 
 ### 2.2 Creation
-The creation of a new exam, where the user will be asked about the topic, subject, content and date.
+The creation of a new exam, where the user will be asked about the topic and the additional information(subject, content and date).
 
 [//]: <Add Screenshot of create mockup> 
 
