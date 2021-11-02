@@ -37,6 +37,16 @@ Perhaps exams are cancelled, so you want to be able to delete them. In case of t
 ## 3. Activity Diagram
 ![Activity Diagram](https://github.com/Calco2001/nEXam/blob/main/docs/activity%20diagram.jpg)
 
+![](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/dashboard.PNG)
+
+![](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20edit%20exam.PNG)
+
+![](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/error.PNG)
+
+![](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/success%20message.PNG)
+
+![](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/exam%20view.PNG)
+
 ## 4. Preconditions
 
 Since we don't want to use a large database, we agreed not to have an authentication process. So the only requirement for the use cases is an open app.
