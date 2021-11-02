@@ -111,7 +111,7 @@ We will use SQLite to store some data. Our goal would be to not need a large dat
 
 ### 3.1 Functionality
 This section will explain the different use cases, you could see in the Use Case Diagram, and their functionality.  
-Until December we plan to implement:
+More information is available at our [Use-Case-Specification](https://github.com/Calco2001/nEXam/blob/main/docs/Use-Case%20Specification.md).
 
 <!--TODO: Add infos for planned use cases-->
 
