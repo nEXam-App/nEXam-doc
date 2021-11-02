@@ -51,7 +51,7 @@ Below you will find our first wireframes. Those will show you our first thoughts
 
 ## 4. Preconditions
 
-Since we don't want to use a large database, we agreed not to have an authentication process. So the only requirement for the use cases is an open app.
+Since we don't want to use a large database, we agreed not to have an authentication process. So the only requirements are read and write permissions on the local device.
 
 ## 5. Postconditions
 ### 5.1 Create
