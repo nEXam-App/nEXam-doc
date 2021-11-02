@@ -37,16 +37,6 @@ Perhaps exams are cancelled, so you want to be able to delete them. In case of t
 ## 3. Activity Diagram
 ![Activity Diagram](https://github.com/Calco2001/nEXam/blob/main/docs/activity%20diagram.jpg)
 
-![image-20211102091257736](C:\Users\Service\AppData\Roaming\Typora\typora-user-images\image-20211102091257736.png)
-
-![image-20211102091325039](C:\Users\Service\AppData\Roaming\Typora\typora-user-images\image-20211102091325039.png)
-
-![image-20211102091336505](C:\Users\Service\AppData\Roaming\Typora\typora-user-images\image-20211102091336505.png)
-
-![image-20211102091400227](C:\Users\Service\AppData\Roaming\Typora\typora-user-images\image-20211102091400227.png)
-
-![image-20211102091417944](C:\Users\Service\AppData\Roaming\Typora\typora-user-images\image-20211102091417944.png)
-
 ## 4. Preconditions
 
 Since we don't want to use a large database, we agreed not to have an authentication process. So the only requirement for the use cases is an open app.
