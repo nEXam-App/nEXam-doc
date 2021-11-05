@@ -47,15 +47,15 @@ The feature files for the first two use cases.
 
 Below you will find our first wireframes. Those will show you our first thoughts about the look.
 
-![](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/dashboard.PNG)
+![Dashboard](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/dashboard.PNG)
 
-![](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20edit%20exam.PNG)
+![Create/ Edit exam](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20edit%20exam.PNG)
 
-![](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/error.PNG)
+![Error](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/error.PNG)
 
-![](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/success%20message.PNG)
+![Success message](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/success%20message.PNG)
 
-![](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/exam%20view.PNG)
+![Exam view](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/exam%20view.PNG)
 
 ## 4. Preconditions
 
