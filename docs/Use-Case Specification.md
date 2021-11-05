@@ -40,7 +40,7 @@ Perhaps exams are cancelled, so you want to be able to delete them. In case of t
 
 ### 3.2 Narratives
 The feature files for the first two use cases.
-#### Usecase 1: Create Exam
+#### ![Usecase 1](https://github.com/Calco2001/nEXam/blob/main/feature%20files/UC1.feature): Create Exam
 ```Gherkin
 Feature: Use Case 1 Create Exam
     As a USER 
@@ -73,9 +73,8 @@ Feature: Use Case 1 Create Exam
         Then No exam is saved
         And The user returns to the previous screen
 ```
-![UC1](https://github.com/Calco2001/nEXam/blob/main/feature%20files/UC1.feature)
 
-#### Usecase 2: Edit Exam
+#### ![Usecase 2](https://github.com/Calco2001/nEXam/blob/main/feature%20files/UC2.feature): Edit Exam
 ```Gherkin
 Feature: Use Case 2 edit an existing Exam
     As a USER 
@@ -129,7 +128,6 @@ Feature: Use Case 2 edit an existing Exam
         Then No exam is updated
         And The user returns to the previous screen
 ```
-![UC2](https://github.com/Calco2001/nEXam/blob/main/feature%20files/UC2.feature)
 
 ### 3.3 Mockups
 
