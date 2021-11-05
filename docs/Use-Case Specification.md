@@ -49,6 +49,8 @@ Below you will find our first wireframes. Those will show you our first thoughts
 
 ![](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/exam%20view.PNG)
 
+The feature files for the first two use cases
+
 ## 4. Preconditions
 
 Since we don't want to use a large database, we agreed not to have an authentication process. So the only requirements are read and write permissions on the local device.
