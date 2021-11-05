@@ -111,35 +111,7 @@ We will use SQLite to store some data. Our goal would be to not need a large dat
 
 ### 3.1 Functionality
 This section will explain the different use cases, you could see in the Use Case Diagram, and their functionality.  
-Until December we plan to implement:
-
-<!--TODO: Add infos for planned use cases-->
-
-*3.1.1 Create exams*
-
-<!--The creation of a new exam, where the users will be asked about the topic, subject, content and date.-->
-
-*3.1.2 Add topics*
-
-<!--Here can the user add topics for an exam. This gives him the opportunity to split the content in smaller pieces to be more--> 
-
-*3.1.3 Edit info*
-
-*3.1.4 Show agenda*
-
-*3.1.5 Calendar*
-
-<!--Until June, we want to implement:-->
-
-<!--*3.1.6 Joining a session*-->
-
-<!--*3.1.7 Keeping track of your sessions*-->
-
-<!--*3.1.8 Leaving a session*-->
-
-<!--*3.1.9 Finding a session*-->
-
-<!--*3.1.10 Getting in touch*-->
+More information is available at our [Use-Case-Specification](https://github.com/Calco2001/nEXam/blob/main/docs/Use-Case%20Specification.md).
 
 ### 3.2 Usability
 We plan on designing the user interface as intuitive and self-explanatory as possible to make the user feel as comfortable as possible using the app. Though an FAQ document will be available, it should not be necessary to use it.
