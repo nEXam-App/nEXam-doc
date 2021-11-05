@@ -35,7 +35,15 @@ Perhaps exams are cancelled, so you want to be able to delete them. In case of t
 [//]: <Add are you sure popup to avoid accidental deletions> 
 
 ## 3. Activity Diagram
+### 3. Activity Diagram
 ![Activity Diagram](https://github.com/Calco2001/nEXam/blob/main/docs/activity%20diagram.jpg)
+
+### 3.2 Narratives
+The feature files for the first two use cases.
+![UC1](https://github.com/Calco2001/nEXam/blob/main/feature%20files/UC1.feature)
+![UC2](https://github.com/Calco2001/nEXam/blob/main/feature%20files/UC2.feature)
+
+### 3.3 Mockups
 
 Below you will find our first wireframes. Those will show you our first thoughts about the look.
 
@@ -48,8 +56,6 @@ Below you will find our first wireframes. Those will show you our first thoughts
 ![](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/success%20message.PNG)
 
 ![](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/exam%20view.PNG)
-
-The feature files for the first two use cases
 
 ## 4. Preconditions
 
