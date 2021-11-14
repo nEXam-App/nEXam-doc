@@ -103,15 +103,12 @@ We plan on designing the user interface as intuitive and self-explanatory as pos
 ### 3.3 Reliability
 
 #### <!--3.3.1 Availability-->
-<!--The server shall be available 95% of the time. This also means we have to figure out the "rush hours" of our app because the downtime of the server is only tolerable when as few as possible players want to use the app.-->
 
 #### <!--3.3.2 Defect Rate-->
-<!--Our goal is that we have no loss of any data. This is important so that the game sessions can carry on, even after a downtime of the server.-->
 
 ### <!--3.4 Perfomance-->
 
 #### <!--3.4.1 Capacity-->
-<!--The system should be able to manage thousands of requests. Also it should be possible to register as many users as necessary.-->
 
 #### <!--3.4.2 Storage--> 
 <!--Smartphones don't provide much storage. Therefore we are aiming to keep the needed storage as small as possible.-->
