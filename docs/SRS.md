@@ -38,11 +38,6 @@ The project is going to be realized as an Android and iOs App. The planned scope
 
 Actors of this app are students.
 
-<!--*Planned Subsystems are:*--> 
-
-<!--*Notice Board:  
-The notice board is the essential part of the user interface. Game sessions should be visualized as postings including relevant information about the session. Those should be partly standardized by a form with a free text option for specifics. The data must be stored accordingly.*-->
-
 ### 1.3 Definitions, Acronyms and Abbreviations
 | Abbreviation | Explanation                         |
 | ------------ | ----------------------------------- |
@@ -78,8 +73,6 @@ You need to enter your exam information, including date, subject and  topic. Bas
 ![OUCD](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/use%20case%20diagram.jpg)
 
 - Green: Planned till end of december
-
-  <!--Yellow: Planned till end of june-->
 
 ### 2.3 Technology Stack
 The app should be available on iOS and Android.
@@ -192,13 +185,5 @@ We plan on designing the user interface as intuitive and self-explanatory as pos
 ## 4. Supporting Information
 <!--For any further information you can contact the Common Playground Team or check our [Common Playground Blog](http://commonplayground.wordpress.com).--> 
 <!--The Team Members are:-->
-
-<!--Celina Adam-->
-
-<!--Inga Batton-->
-
-<!--Nils Krehl--> 
-
-<!--Denis Reibel-->
 
 <!-- Picture-Link definitions: -->
