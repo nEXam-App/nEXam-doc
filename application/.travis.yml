@@ -1,0 +1,4 @@
+language: kotlin
+jdk: openjdk8
+after_success:
+  - mvn coveralls:report
