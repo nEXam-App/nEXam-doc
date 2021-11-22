@@ -8,11 +8,11 @@
     - [Definitions, Acronyms and Abbreviations](#13-definitions-acronyms-and-abbreviations)
     - [References](#14-references)
     - [Overview](#15-overview)
-- [Overall Description](#2-overall-description)
+- [Architectural representation](#2-architectural-representation)
     - [Vision](#21-vision)
     - [Use Case Diagram](#22-use-case-diagram)
 	- [Technology Stack](#23-technology-stack)
-- [Specific Requirements](#3-specific-requirements)
+- [Architectural Goals and Constrains](#3-architectural-goals-and-constraints)
     - [Functionality](#31-functionality)
     - [Usability](#32-usability)
     - [Reliability](#33-reliability)
@@ -25,20 +25,44 @@
     - [Licensing Requirements](#310-licensing-requirements)
     - [Legal, Copyright And Other Notices](#311-legal-copyright-and-other-notices)
     - [Applicable Standards](#312-applicable-standards)
-- [Supporting Information](#4-supporting-information)
+- [Use-Case View](#4-use-case-view)
+    - [Use-Case Realizations](#41-use-case-realizations)
+- [Logical view](#5-logical-view)
+    - [Overview](#51-overview)
+    -  [Architecturally Significant Design Packages](#52-architecturally-significant-design-packages)
+- [Process View](#6-process-view)
+- [Deployment View](#7-deployment-view)
+- [Implementation View](#8-implementation-view)
+    - [Overview](#81-overview)
+    - [Layers](#82-layers)
+- [Data View (optional)](#9-data-view-(optional))
+- [Size and Performance](#10-size-and-performance)
+- [Quality](#11-quality)
 
 ## 1. Introduction
 
+<!--[The introduction of the **Software Architecture Document**     should provide an overview of the entire **Software Architecture Document**.     It should include the purpose, scope, definitions, acronyms, abbreviations,     references, and overview of the **Software Architecture Document**.]-->
+
 ### 1.1 Purpose
+
+<!--This document provides a comprehensive architectural overview     of the system, using a number of different architectural views to depict different     aspects of the system. It is intended to capture and convey the significant     architectural decisions which have been made on the system.-->
+
+<!--[This section defines the purpose of the **Software     Architecture Document**, in the overall project documentation, and     briefly describes the structure of the document. The specific audiences for     the document should be identified, with an indication of how they are expected     to use the document.]-->
+
 This Software Requirements Specification (SRS) describes all specifications for the application "nEXam". It includes an overview about this project and its vision, detailed information about the planned features and boundary conditions of the development process.
 
-
 ### 1.2 Scope
+
+<!--[A brief description of what the Software Architecture Document     applies to; what is affected or influenced by this document.]-->
+
 The project is going to be realized as an Android and iOs App. The planned scope till end of december is shown in the [use-case specification](https://github.com/Calco2001/nEXam/blob/main/docs/Use-Case%20Specification.md#1-use-case).
 
 Actors of this app are students.
 
 ### 1.3 Definitions, Acronyms and Abbreviations
+
+<!--[This subsection should provide the definitions of all terms,     acronyms, and abbreviations required to properly interpret the **Software     Architecture Document**. This information may be provided by     reference to the project Glossary.]-->
+
 | Abbreviation | Explanation                         |
 | ------------ | ----------------------------------- |
 | SRS          | Software Requirements Specification |
@@ -50,16 +74,23 @@ Actors of this app are students.
 
 ### 1.4 References
 
+<!--[This subsection should provide a complete list of all documents     referenced elsewhere in the **Software Architecture Document**.     Each document should be identified by title, report number (if applicable),     date, and publishing organization. Specify the sources from which the references     can be obtained. This information may be provided by reference to an appendix     or to another document.]-->
+
 | Title                                               |    Date    | Publishing organization |
 | --------------------------------------------------- | :--------: | ----------------------- |
 | [nEXam blog](https://nexam955203221.wordpress.com/) | 18.10.2018 | nEXam-Team              |
 | [GitHub](https://github.com/Calco2001/nEXam)        | 18.10.2018 | nEXam-Team              |
 
-
 ### 1.5 Overview
+
+<!--[This subsection should describe what the rest of the **Software     Architecture Document** contains and explain how the **Software     Architecture Document** is organized.]-->
+
 The following chapter provides an overview of this project with vision and Overall Use Case Diagram. The third chapter (Requirements Specification) delivers more details about the specific requirements in terms of functionality, usability and design parameters. Finally there is a chapter with supporting information. 
     
-## 2. Overall Description
+## 2. Architectural Representation 
+<!--before: Overall Description-->
+
+<!--[This section describes what software architecture is for     the current system, and how it is represented. Of the **Use-Case**,     **Logical**, **Process**, **Deployment**,     and **Implementation Views**, it enumerates the views that are     necessary, and for each view, explains what types of model elements it contains.]-->
 
 ### 2.1 Vision
 
@@ -85,7 +116,10 @@ The main argument why we will use Kotlin (even if nobody has any  experience wit
 
 We will use SQLite to store some data. Our goal would be to not need a large database and store all the data we need on the client. There will be no need to ‘work’ with the client’s data and everything should be  able to run only on the user’s device. 
 
-## 3. Specific Requirements
+## 3. Architectural Goals and Constraints
+<!--before: Specific Requirements-->
+
+<!--[This section describes the software requirements and objectives     that have some significant impact on the architecture, for example, safety,     security, privacy, use of an off-the-shelf product, portability, distribution,     and reuse. It also captures the special constraints that may apply: design     and implementation strategy, development tools, team structure, schedule,     legacy code, and so on.]-->
 
 ### 3.1 Functionality
 This section will explain the different use cases, you could see in the Use Case Diagram, and their functionality.  
@@ -177,10 +211,73 @@ We plan on designing the user interface as intuitive and self-explanatory as pos
 <!--The logo is licensed to the Common Playground Team and is only allowed to use for the application. We do not take responsibilty for any incorrect data or errors in the application.-->
 
 ### 3.12 Applicable Standards
+
 <!--The development will follow the common clean code standards and naming conventions. Also we will create a definition of d which will be added here as soon as its complete.-->
 
-## 4. Supporting Information
+## 4. Use-Case View
+<!--before: Supporting Information-->
+
+<!--[This section lists use cases or scenarios from the use-case     model if they represent some significant, central functionality of the final     system, or if they have a large architectural coverage - they exercise many     architectural elements, or if they stress or illustrate a specific, delicate     point of the architecture.]-->
+
 <!--For any further information you can contact the Common Playground Team or check our [Common Playground Blog](http://commonplayground.wordpress.com).--> 
 <!--The Team Members are:-->
 
 <!-- Picture-Link definitions: -->
+
+### 4.1 Use-Case Realizations
+
+<!--[This section illustrates how the software actually works     by giving a few selected use-case (or scenario) realizations, and explains     how the various design model elements contribute to their functionality.]-->
+
+## 5. Logical View
+
+<!--[This section describes the architecturally significant parts     of the design model, such as its decomposition into subsystems and packages.     And for each significant package, its decomposition into classes and class     utilities. You should introduce architecturally significant classes and describe     their responsibilities, as well as a few very important relationships, operations,     and attributes.]-->
+
+### 5.1 Overview
+
+<!--[This subsection describes the overall decomposition of the     design model in terms of its package hierarchy and layers.]-->
+
+### 5.2 Architecturally Significant Design Packages
+
+<!--[For each significant package, include a subsection with its     name, its brief description, and a diagram with all significant classes and     packages contained within the package.--> 
+
+<!--For each significant class in the package, include its name,     brief description, and, optionally a description of some of its major responsibilities,     operations and attributes.]-->
+
+## 6. Process View
+
+<!--[This section describes the system's decomposition into lightweight     processes (single threads of control) and heavyweight processes (groupings     of lightweight processes). Organize the section by groups of processes that     communicate or interact. Describe the main modes of communication between     processes, such as message passing, interrupts, and rendezvous.]-->
+
+## 7. Deployment View 
+
+<!--[This section describes one or more physical network (hardware)     configurations on which the software is deployed and run. It is a view of     the Deployment Model. At a minimum for each configuration it should indicate     the physical nodes (computers, CPUs) that execute the software, and their     interconnections (bus, LAN, point-to-point, and so on.) Also include a mapping     of the processes of the **Process View** onto the physical nodes.]-->
+
+## 8. Implementation View 
+
+<!--[This section describes the overall structure of the implementation     model, the decomposition of the software into layers and subsystems in the     implementation model, and any architecturally significant components.]-->
+
+### 8.1 Overview
+
+<!--[This subsection names and defines the various layers and     their contents, the rules that govern the inclusion to a given layer, and     the boundaries between layers. Include a component diagram that shows the     relations between layers. ]-->
+
+### 8.2 Layers
+
+<!--[For each layer, include a subsection with its name, an enumeration     of the subsystems located in the layer, and a component diagram.]-->
+
+## 9. Data View (optional)
+
+<!--[A description of the persistent data storage perspective     of the system. This section is optional if there is little or no persistent     data, or the translation between the Design Model and the Data Model is trivial.]-->
+
+Below you can see our db schema diagram and our class diagram:
+
+![db schema](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/DB-Schema.jpg)
+DB schema
+
+![class diagram](https://github.com/Calco2001/nEXam/tree/main/docs/diagrams)
+Class diagram
+
+## 10. Size and Performance 
+
+<!--[A description of the major dimensioning characteristics of     the software that impact the architecture, as well as the target performance     constraints.]-->
+
+## 11. Quality 
+
+<!--[A description of how the software architecture contributes     to all capabilities (other than functionality) of the system: extensibility,     reliability, portability, and so on. If these characteristics have special     significance, for example safety, security or privacy implications, they should     be clearly delineated.]-->
