@@ -269,10 +269,8 @@ We plan on designing the user interface as intuitive and self-explanatory as pos
 Below you can see our db schema diagram and our class diagram:
 
 ![db schema](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/DB-Schema.jpg)
-DB schema
 
-![class diagram](https://github.com/Calco2001/nEXam/tree/main/docs/diagrams)
-Class diagram
+![class diagram](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/UML%20class%20diagram.jpg)
 
 ## 10. Size and Performance 
 
