@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">nEXam</string>
+    <string name="subject">Subject:</string>
+    <string name="enter_subject">enter Subject</string>
+</resources>
