@@ -23,17 +23,44 @@
             android:text="@string/subject"
             android:textSize="16sp" />
 
-        <com.google.android.material.textfield.TextInputLayout
+        <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:hint="@string/enter_subject"
+            android:minHeight="48dp"
+            android:textColorHint="#757575" />
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#FFFFFF"
-                android:hint="@string/enter_subject"
-                android:minHeight="48dp"
-                android:textColorHint="#757575" />
-        </com.google.android.material.textfield.TextInputLayout>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/topic" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/content" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/enter_content_of_first_topic"
+            android:hintTextColor="#757575"
+            android:inputType="textMultiLine"
+            android:minHeight="48dp"
+            android:textColorHint="#757575" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
