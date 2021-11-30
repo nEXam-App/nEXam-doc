@@ -22,7 +22,7 @@ The creation of a new exam, where the user will be asked about the topic and the
 
 ### 3.2 Narratives
 The feature files for the first case.
-#### ![Usecase 1](https://github.com/Calco2001/nEXam/blob/main/feature%20files/UC1.feature): Create Exam
+#### ![Usecase 1](https://github.com/Calco2001/nEXam/blob/main/src/main/nexam/maven/test/UC1.feature): Create Exam
 ```Gherkin
 Feature: Use Case 1 Create Exam
     As a USER 
