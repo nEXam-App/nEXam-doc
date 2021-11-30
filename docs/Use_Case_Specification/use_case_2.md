@@ -22,7 +22,7 @@ By editing the user can change information of the exam.
 
 ### 3.2 Narratives
 The feature files for the use case.
-#### ![Usecase 2](https://github.com/Calco2001/nEXam/blob/main/src/main/nexam/maven/test/UC2.feature): Edit Exam
+#### ![Usecase 2](https://github.com/Calco2001/nEXam/blob/main/application/src/test/UC2.feature): Edit Exam
 ```Gherkin
 Feature: Use Case 2 edit an existing Exam
     As a USER 
