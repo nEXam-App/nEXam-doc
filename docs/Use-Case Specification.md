@@ -36,7 +36,7 @@ Perhaps exams are cancelled, so you want to be able to delete them. In case of t
 
 ## 3. Activity Diagram
 ### 3.1 Activity Diagram
-![Activity Diagram](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/activity%20diagram.jpg)
+![Activity Diagram](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/activity_diagram_1.jpg)
 
 ### 3.2 Narratives
 The feature files for the first two use cases.
@@ -129,7 +129,7 @@ Feature: Use Case 2 edit an existing Exam
         And The user returns to the previous screen
 ```
 
-### 3.3 Mockups
+### 3.3 Wireframes
 
 Below you will find our first wireframes. Those will show you our first thoughts about the look.
 

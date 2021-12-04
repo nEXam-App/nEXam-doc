@@ -1,9 +1,7 @@
-# Use-Case Specification: nEXam
+# Use-Case Specification: Edit Exam
 
 ## 1. Use-Case
-This use case allows useres to have an overview of their learning progress.
-You will see an agenda showing when to study which topic.
-While studying you should use the in app timer for the optimum experience.
+This use case allows users to edit the infos of an existing exam.
 
 ![Use Case](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/use%20case%20diagram.jpg)
 
@@ -13,12 +11,12 @@ A user will create an exam and list all of them. He can edit them if changes occ
 
 ![Basic Flow](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/basic%20flow.jpg)
 
-### 2.2 Creation
-By editing the user can change information of the exam.
+### 2.2 Edit
+By editing the user can change all the info he wants for the current exam. The data will be validated afterwards.
 
 ## 3. Activity Diagram
 ### 3.1 Activity Diagram
-![Activity Diagram](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/activity_diagram_1.jpg)
+![Activity Diagram](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/activity_diagram_2.jpg)
 
 ### 3.2 Narratives
 The feature files for the use case.
@@ -77,19 +75,15 @@ Feature: Use Case 2 edit an existing Exam
         And The user returns to the previous screen
 ```
 
-### 3.3 Mockups
+### 3.3 Wireframes
 
 Below you will find our first wireframes. Those will show you our first thoughts about the look.
 
-![Dashboard](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/dashboard.PNG)
-
-![Create/ Edit exam](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20edit%20exam.PNG)
+![Edit exam](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20edit%20exam.PNG)
 
 ![Error](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/error.PNG)
 
 ![Success message](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/success%20message.PNG)
-
-![Exam view](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/exam%20view.PNG)
 
 ## 4. Preconditions
 
@@ -98,7 +92,7 @@ Since we don't want to use a large database, we agreed not to have an authentica
 ## 5. Postconditions
 
 ### 5.2 Edit
-After the user saved his edits, the updated data will be displayed to the overview.
+After the user saved his edits, the updated data will be displayed in the overview.
 
 ### 5.3 Delete
 After confirming the deletion modal, the exam will be removed from the overview.
