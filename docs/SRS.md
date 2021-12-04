@@ -246,7 +246,11 @@ OVERALL USE CASE DIAGRAM
 
 <!--[This subsection describes the overall decomposition of the     design model in terms of its package hierarchy and layers.]-->
 
+ADD HIGH LEVEL DIAGRAM
+
 ### 5.2 Architecturally Significant Design Packages
+
+ADD CLASS DIAGRAM WITH CLEARLY MARKED SECTIONS OF MVC
 
 <!--[For each significant package, include a subsection with its     name, its brief description, and a diagram with all significant classes and     packages contained within the package.--> 
 
@@ -258,17 +262,21 @@ OVERALL USE CASE DIAGRAM
 
 ## 7. Deployment View 
 
+ADD UML-DIAGRAM WITH SERVER/CLIENT ARCHITECTURE
+
 <!--[This section describes one or more physical network (hardware)     configurations on which the software is deployed and run. It is a view of     the Deployment Model. At a minimum for each configuration it should indicate     the physical nodes (computers, CPUs) that execute the software, and their     interconnections (bus, LAN, point-to-point, and so on.) Also include a mapping     of the processes of the **Process View** onto the physical nodes.]-->
 
 ## 8. Implementation View 
 
+n/a
+
 <!--[This section describes the overall structure of the implementation     model, the decomposition of the software into layers and subsystems in the     implementation model, and any architecturally significant components.]-->
 
-### 8.1 Overview
+### <!--8.1 Overview-->
 
 <!--[This subsection names and defines the various layers and     their contents, the rules that govern the inclusion to a given layer, and     the boundaries between layers. Include a component diagram that shows the     relations between layers. ]-->
 
-### 8.2 Layers
+### <!--8.2 Layers-->
 
 <!--[For each layer, include a subsection with its name, an enumeration     of the subsystems located in the layer, and a component diagram.]-->
 
@@ -284,8 +292,12 @@ Below you can see our db schema diagram and our class diagram:
 
 ## 10. Size and Performance 
 
+n/a
+
 <!--[A description of the major dimensioning characteristics of     the software that impact the architecture, as well as the target performance     constraints.]-->
 
 ## 11. Quality 
+
+n/a
 
 <!--[A description of how the software architecture contributes     to all capabilities (other than functionality) of the system: extensibility,     reliability, portability, and so on. If these characteristics have special     significance, for example safety, security or privacy implications, they should     be clearly delineated.]-->
