@@ -85,6 +85,22 @@ Below you will find our first wireframes. Those will show you our first thoughts
 
 ![Success message](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/success%20message.PNG)
 
+3.4 Created views
+
+We designed a light and a dark mode.
+
+![Edit exam dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam.png)
+
+![Edit exam light](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam%20light.png)
+
+![Error message dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examError_dark.png)
+
+![Error message dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examError_light.png)
+
+![Success message dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examSuccess_dark.png)
+
+![Success message light](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examSuccess_light.png)
+
 ## 4. Preconditions
 
 Since we don't want to use a large database, we agreed not to have an authentication process. So the only requirements are read and write permissions on the local device.

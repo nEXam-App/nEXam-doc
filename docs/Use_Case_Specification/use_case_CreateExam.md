@@ -58,7 +58,7 @@ Feature: Use Case 1 Create Exam
 
 Below you will find our first wireframes. Those will show you our first thoughts about the look.
 
-![Create/ Edit exam](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20edit%20exam.PNG)
+![Create exam](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20edit%20exam.PNG)
 
 ![Error](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/error.PNG)
 
@@ -68,9 +68,17 @@ Below you will find our first wireframes. Those will show you our first thoughts
 
 We designed a light and a dark mode.
 
-![Create exam dark mode](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam.png)
+![Create exam dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam.png)
 
 ![Create exam light](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam%20light.png)
+
+![Error message dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examError_dark.png)
+
+![Error message dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examError_light.png)
+
+![Success message dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examSuccess_dark.png)
+
+![Success message light](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examSuccess_light.png)
 
 ## 4. Preconditions
 
