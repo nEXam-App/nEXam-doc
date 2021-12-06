@@ -16,7 +16,7 @@ By editing the user can change all the info he wants for the current exam. The d
 
 ## 3. Activity Diagram
 ### 3.1 Activity Diagram
-![Activity Diagram](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/activity_diagram_2.jpg)
+![Activity Diagram](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/activity_diagram_EditInfo.jpg)
 
 ### 3.2 Narratives
 The feature files for the use case.
@@ -99,7 +99,7 @@ We designed a light and a dark mode.
 
 ![Success message dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examSuccess_dark.png)
 
-![Success message light](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examSuccess_light.png)
+![Success message light](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examSuccess_ligt.png)
 
 ## 4. Preconditions
 
