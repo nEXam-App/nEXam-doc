@@ -15,7 +15,9 @@
 	- [Model view controller](#24-model_view_controller)
 - [Architectural Goals and Constrains](#3-architectural-goals-and-constraints)
     - [Functionality](#31-functionality)
+    
     - [Usability](#32-usability)
+    
     - [MVC tool](#33-mvc-tool)
     
       <!--[Reliability](#33-reliability)-->
@@ -68,7 +70,7 @@ This Software Requirements Specification (SRS) describes all specifications for 
 
 <!--[A brief description of what the Software Architecture Document     applies to; what is affected or influenced by this document.]-->
 
-The project is going to be realized as an Android and iOs App. The planned scope till end of december is shown in the [use-case specification](https://github.com/Calco2001/nEXam/blob/main/docs/Use-Case%20Specification.md#1-use-case).
+The project is going to be realized as an Android and iOS App. The planned scope till end of December is shown in the [use-case specification](https://github.com/Calco2001/nEXam/tree/main/docs/Use_Case_Specification).
 
 Actors of this app are students.
 
@@ -98,7 +100,7 @@ Actors of this app are students.
 
 <!--[This subsection should describe what the rest of the **Software     Architecture Document** contains and explain how the **Software     Architecture Document** is organized.]-->
 
-The following chapter provides an overview of this project with vision and Overall Use Case Diagram. The third chapter (Requirements Specification) delivers more details about the specific requirements in terms of functionality, usability and design parameters. Finally there is a chapter with supporting information. 
+The following chapter provides an overview of this project with vision and Overall Use Case Diagram. The third chapter (Architectural Goals and Constraints) delivers more details about the specific requirements in terms of functionality, usability and design parameters. Finally, there is a chapter with supporting information. 
     
 ## 2. Architectural Representation 
 <!--before: Overall Description-->
@@ -109,21 +111,22 @@ The following chapter provides an overview of this project with vision and Overa
 
 “nEXam” will be an app which helps you plan out when you should start learning before an exam and how much time you should spend learning. 
 
-How does it work?
-You need to enter your exam information, including date, subject and  topic. Based on this information the app will create an agenda when you  should study which topic. While studying you can run the in app timer,  so the app will change the background color of the topic to visualise  what has already been learned. Also you should be able to export the  iCal file to import it in your calendar of choice.
+How does it work? You need to enter your exam information, including date, subject and  topic. Based on this information, the app will create an agenda when you  should study which topic. While studying, you can run the in-app timer,  so the app will change the background color of the topic to visualize  what has already been learned. Also, you should be able to export the  iCal file to import it in your calendar of choice.
 
 ### 2.3 Technology Stack
 The app should be available on iOS and Android.
 
-We all agreed to use VS Code as our IDE because it gives us more  flexibility to use other programming languages (if needed) in the same  application. Yes we have to adjust and customize the VS Code a bit, but  we think that’s fine. Some of us have also had great experiences with  the ‘Live Share’ extension, which allows us to work on code together and simultaneously. This is usefull when more than one person is working on a topic or someone needs help. 
+We all agreed to  use VS Code as our IDE because it gives us more flexibility to use other programming languages (if needed) in the same application. Yes, we have to adjust and customize the VS Code a bit, but we think that’s fine.  Some of us have also had great experiences with the ‘Live Share’  extension, which allows us to work on code together and simultaneously.  This is useful when more than one person is working on a topic or  someone needs help.
 
-As we mentioned in our first blog we will use Kotlin and SQLite. 
+As we mentioned in our first blog, we will use Kotlin and SQLite. The  views will be implemented in Android Studio because it supplies an easy  workflow for the designs. Furthermore, it points out possible  difficulties and gives hints for an accessible design.
 
-The main argument why we will use Kotlin (even if nobody has any  experience with it) is usability. With Kotlin we are able to create the  front- and backend, also Kotlin provides us with the possibility to  develop the app for Android and iOS without a huge additional workload.
+The main  argument why we will use Kotlin (even if nobody has any experience with  it) is usability. With Kotlin, we are able to create the front- and  backend, also Kotlin provides us with the possibility to develop the app for Android and iOS without a huge additional workload.
 
-We will use SQLite to store some data. Our goal would be to not need a large database and store all the data we need on the client. There will be no need to ‘work’ with the client’s data and everything should be  able to run only on the user’s device. 
+We will  use SQLite to store some data. Our goal would be to not need a large  database and store all the data we need on the client. There will be no  need to ‘work’ with the client’s data, and everything should be able to  run only on the user’s device.
 
 ### 2.4 Model view controller
+
+n/a
 
 ## 3. Architectural Goals and Constraints
 <!--before: Specific Requirements-->
@@ -132,12 +135,14 @@ We will use SQLite to store some data. Our goal would be to not need a large dat
 
 ### 3.1 Functionality
 This section will explain the different use cases, you could see in the Use Case Diagram, and their functionality.  
-More information is available at our [Use-Case-Specification](https://github.com/Calco2001/nEXam/blob/main/docs/Use-Case%20Specification.md).
+More information is available at our [Use-Case-Specification](https://github.com/Calco2001/nEXam/tree/main/docs/Use_Case_Specification).
 
 ### 3.2 Usability
-We plan on designing the user interface as intuitive and self-explanatory as possible to make the user feel as comfortable as possible using the app. Though an FAQ document will be available, it should not be necessary to use it.
+We plan on designing the user interface as intuitive and  self-explanatory as possible to make the user feel as comfortable as  possible using the app. Though an FAQ document will be available, it  should not be necessary to use it. Through the use of Android Studio, it should be in an accessible design.
 
 ### 3.3 MVC tool
+
+n/a
 
 #### <!--3.2.1 No training time needed-->
 <!--Our goal is that a user installs the android application, opens it and is able to use all features without any explanation or help.-->
@@ -227,13 +232,11 @@ We plan on designing the user interface as intuitive and self-explanatory as pos
 
 ## 4. Use-Case View
 
-OVERALL USE CASE DIAGRAM
-
 ### 4.1 Use Case Diagram
 
 ![OUCD](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/use%20case%20diagram.jpg)
 
-- Green: Planned till end of december
+- Green: Planned till end of December
 
 <!--before: Supporting Information-->
 
@@ -246,6 +249,8 @@ OVERALL USE CASE DIAGRAM
 
 ### 4.2 Use-Case Realizations
 
+The details for the use-cases can be found in the respective [use-case-specification document](https://github.com/Calco2001/nEXam/tree/main/docs/Use_Case_Specification).
+
 <!--[This section illustrates how the software actually works     by giving a few selected use-case (or scenario) realizations, and explains     how the various design model elements contribute to their functionality.]-->
 
 ## 5. Logical View
@@ -256,11 +261,15 @@ OVERALL USE CASE DIAGRAM
 
 <!--[This subsection describes the overall decomposition of the     design model in terms of its package hierarchy and layers.]-->
 
-ADD HIGH LEVEL DIAGRAM
+n/a
+
+<!--ADD HIGH LEVEL DIAGRAM-->
 
 ### 5.2 Architecturally Significant Design Packages
 
-ADD CLASS DIAGRAM WITH CLEARLY MARKED SECTIONS OF MVC
+n/a
+
+<!--ADD CLASS DIAGRAM WITH CLEARLY MARKED SECTIONS OF MVC-->
 
 <!--[For each significant package, include a subsection with its     name, its brief description, and a diagram with all significant classes and     packages contained within the package.--> 
 
@@ -272,7 +281,9 @@ ADD CLASS DIAGRAM WITH CLEARLY MARKED SECTIONS OF MVC
 
 ## 7. Deployment View 
 
-ADD UML-DIAGRAM WITH SERVER/CLIENT ARCHITECTURE
+n/a
+
+<!--ADD UML-DIAGRAM WITH SERVER/CLIENT ARCHITECTURE-->
 
 <!--[This section describes one or more physical network (hardware)     configurations on which the software is deployed and run. It is a view of     the Deployment Model. At a minimum for each configuration it should indicate     the physical nodes (computers, CPUs) that execute the software, and their     interconnections (bus, LAN, point-to-point, and so on.) Also include a mapping     of the processes of the **Process View** onto the physical nodes.]-->
 

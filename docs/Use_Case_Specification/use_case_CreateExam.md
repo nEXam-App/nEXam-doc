@@ -16,7 +16,7 @@ During the creation of a new exam the user is asked, to enter the topic and addi
 
 ## 3. Activity Diagram
 ### 3.1 Activity Diagram
-![Activity Diagram](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/activity_diagram_1.jpg)
+![Activity Diagram](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/activity_diagram_CreateExam.jpg)
 
 ### 3.2 Narratives
 The feature file for the first case.
@@ -68,7 +68,7 @@ Below you will find our first wireframes. Those will show you our first thoughts
 
 We designed a light and a dark mode.
 
-![Create exam dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam.png)
+![Create exam dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam.png style="zoom:33%;)
 
 ![Create exam light](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam%20light.png)
 
