@@ -68,8 +68,6 @@ Below you will find our first wireframes. Those will show you our first thoughts
 
 We designed a light and a dark mode.
 
-<img src="https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam.png" alt ="Create exam dark" style="zoom:33%;" />
-
 ![Create exam dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam.png)
 
 ![Create exam light](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam%20light.png)
@@ -80,7 +78,7 @@ We designed a light and a dark mode.
 
 ![Success message dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examSuccess_dark.png)
 
-![Success message light](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examSuccess_light.png)
+![Success message light](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examSuccess_ligt.png)
 
 ## 4. Preconditions
 
