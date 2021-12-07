@@ -66,9 +66,10 @@ Below you will find our first wireframes. Those will show you our first thoughts
 
 ### 3.4 Created views
 
-We designed a light and a dark mode. \n
+We designed a light and a dark mode.
+
 <img src="https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam.png" alt="drawing" width="200"/>
-<!--![Create exam dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam.png)-->
+![Create exam dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam.png)
 
 ![Create exam light](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam%20light.png)
 
