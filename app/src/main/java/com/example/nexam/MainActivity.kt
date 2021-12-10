@@ -3,6 +3,7 @@ package com.example.nexam
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.AdapterView
 import android.widget.ListView
 import android.widget.ArrayAdapter
 import android.widget.Button
@@ -40,14 +41,19 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun fillList(list:Int, array:Int){
-        println("glück")
-        val examListView = findViewById<ListView>(list)
+        val examListView:ListView? = findViewById(list)
         if(examListView == null) return
-        println("pech")
-        examListView.adapter = ArrayAdapter(this,android.R.layout.simple_expandable_list_item_1,resources.getStringArray(array))
-        for (entry in examListView){
-            println("schwefel")
-            entry.setOnClickListener(View.OnClickListener { setContentView(R.layout.exam_view) })
+        examListView.setAdapter(ArrayAdapter(this,android.R.layout.simple_expandable_list_item_1,resources.getStringArray(array)))
+        examListView.onItemClickListener = object :AdapterView.OnItemClickListener{
+            override fun onItemClick(
+                parent: AdapterView<*>?,
+                view: View?,
+                position: Int,
+                id: Long
+            ) {
+                setContentView(R.layout.exam_view)
+                loadView()
+            }
         }
     }
 
