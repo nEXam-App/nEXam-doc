@@ -78,14 +78,14 @@ Actors of this app are students.
 
 | Title                                               |    Date    | Publishing organization |
 | --------------------------------------------------- | :--------: | ----------------------- |
-| [nEXam blog](https://nexam955203221.wordpress.com/) | 18.10.2018 | nEXam-Team              |
-| [GitHub](https://github.com/Calco2001/nEXam)        | 18.10.2018 | nEXam-Team              |
+| [nEXam blog](https://nexam955203221.wordpress.com/) | 05.10.2021 | nEXam-Team              |
+| [GitHub](https://github.com/Calco2001/nEXam)        | 05.10.2021 | nEXam-Team              |
 
 ### 1.5 Overview
 
 <!--[This subsection should describe what the rest of the **Software     Architecture Document** contains and explain how the **Software     Architecture Document** is organized.]-->
 
-The following chapter provides an overview of this project with vision and Overall Use Case Diagram. The third chapter (Requirements Specification) delivers more details about the specific requirements in terms of functionality, usability and design parameters. Finally there is a chapter with supporting information. 
+The following chapters provide an overview of this project with vision and Overall Use Case Diagram. The third chapter (Requirements Specification) delivers more details about the specific requirements in terms of functionality, usability and design parameters. Finally there is a chapter with supporting information. 
     
 ## 2. Architectural Representation 
 <!--before: Overall Description-->
