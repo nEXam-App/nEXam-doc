@@ -12,21 +12,36 @@
     - [Vision](#21-vision)
     - [Use Case Diagram](#22-use-case-diagram)
 	- [Technology Stack](#23-technology-stack)
+	- [Model view controller](#24-model_view_controller)
 - [Architectural Goals and Constrains](#3-architectural-goals-and-constraints)
     - [Functionality](#31-functionality)
+    
     - [Usability](#32-usability)
-    - [Reliability](#33-reliability)
-    - [Performance](#34-performance)
-    - [Supportability](#35-supportability)
-    - [Design Constraints](#36-design-constraints)
-    - [Online User Documentation and Help System Requirements](#37-on-line-user-documentation-and-help-system-requirements)
-    - [Purchased Components](#purchased-components)
-    - [Interfaces](#39-interfaces)
-    - [Licensing Requirements](#310-licensing-requirements)
-    - [Legal, Copyright And Other Notices](#311-legal-copyright-and-other-notices)
-    - [Applicable Standards](#312-applicable-standards)
+    
+    - [MVC tool](#33-mvc-tool)
+    
+      <!--[Reliability](#33-reliability)-->
+    
+      <!--[Performance](#34-performance)-->
+    
+      <!--[Supportability](#35-supportability)-->
+    
+      <!--[Design Constraints](#36-design-constraints)-->
+    
+      <!--[Online User Documentation and Help System Requirements](#37-on-line-user-documentation-and-help-system-requirements)-->
+    
+      <!--[Purchased Components](#purchased-components)-->
+    
+      <!--[Interfaces](#39-interfaces)-->
+    
+      <!--[Licensing Requirements](#310-licensing-requirements)-->
+    
+      <!--[Legal, Copyright And Other Notices](#311-legal-copyright-and-other-notices)-->
+    
+      <!--[Applicable Standards](#312-applicable-standards)-->
 - [Use-Case View](#4-use-case-view)
-    - [Use-Case Realizations](#41-use-case-realizations)
+    - [Use Case Diagram](#41-use-case-diagram)
+    - [Use-Case Realizations](#42-use-case-realizations)
 - [Logical view](#5-logical-view)
     - [Overview](#51-overview)
     -  [Architecturally Significant Design Packages](#52-architecturally-significant-design-packages)
@@ -55,7 +70,7 @@ This Software Requirements Specification (SRS) describes all specifications for 
 
 <!--[A brief description of what the Software Architecture Document     applies to; what is affected or influenced by this document.]-->
 
-The project is going to be realized as an Android and iOs App. The planned scope till end of december is shown in the [use-case specification](https://github.com/Calco2001/nEXam/blob/main/docs/Use-Case%20Specification.md#1-use-case).
+The project is going to be realized as an Android and iOS App. The planned scope till end of December is shown in the [use-case specification](https://github.com/Calco2001/nEXam/tree/main/docs/Use_Case_Specification).
 
 Actors of this app are students.
 
@@ -85,7 +100,7 @@ Actors of this app are students.
 
 <!--[This subsection should describe what the rest of the **Software     Architecture Document** contains and explain how the **Software     Architecture Document** is organized.]-->
 
-The following chapter provides an overview of this project with vision and Overall Use Case Diagram. The third chapter (Requirements Specification) delivers more details about the specific requirements in terms of functionality, usability and design parameters. Finally there is a chapter with supporting information. 
+The following chapter provides an overview of this project with vision and Overall Use Case Diagram. The third chapter (Architectural Goals and Constraints) delivers more details about the specific requirements in terms of functionality, usability and design parameters. Finally, there is a chapter with supporting information. 
     
 ## 2. Architectural Representation 
 <!--before: Overall Description-->
@@ -96,25 +111,22 @@ The following chapter provides an overview of this project with vision and Overa
 
 “nEXam” will be an app which helps you plan out when you should start learning before an exam and how much time you should spend learning. 
 
-How does it work?
-You need to enter your exam information, including date, subject and  topic. Based on this information the app will create an agenda when you  should study which topic. While studying you can run the in app timer,  so the app will change the background color of the topic to visualise  what has already been learned. Also you should be able to export the  iCal file to import it in your calendar of choice.
-
-### 2.2 Use Case Diagram
-
-![OUCD](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/use%20case%20diagram.jpg)
-
-- Green: Planned till end of december
+How does it work? You need to enter your exam information, including date, subject and  topic. Based on this information, the app will create an agenda when you  should study which topic. While studying, you can run the in-app timer,  so the app will change the background color of the topic to visualize  what has already been learned. Also, you should be able to export the  iCal file to import it in your calendar of choice.
 
 ### 2.3 Technology Stack
 The app should be available on iOS and Android.
 
-We all agreed to use VS Code as our IDE because it gives us more  flexibility to use other programming languages (if needed) in the same  application. Yes we have to adjust and customize the VS Code a bit, but  we think that’s fine. Some of us have also had great experiences with  the ‘Live Share’ extension, which allows us to work on code together and simultaneously. This is usefull when more than one person is working on a topic or someone needs help. 
+We all agreed to  use VS Code as our IDE because it gives us more flexibility to use other programming languages (if needed) in the same application. Yes, we have to adjust and customize the VS Code a bit, but we think that’s fine.  Some of us have also had great experiences with the ‘Live Share’  extension, which allows us to work on code together and simultaneously.  This is useful when more than one person is working on a topic or  someone needs help.
 
-As we mentioned in our first blog we will use Kotlin and SQLite. 
+As we mentioned in our first blog, we will use Kotlin and SQLite. The  views will be implemented in Android Studio because it supplies an easy  workflow for the designs. Furthermore, it points out possible  difficulties and gives hints for an accessible design.
 
-The main argument why we will use Kotlin (even if nobody has any  experience with it) is usability. With Kotlin we are able to create the  front- and backend, also Kotlin provides us with the possibility to  develop the app for Android and iOS without a huge additional workload.
+The main  argument why we will use Kotlin (even if nobody has any experience with  it) is usability. With Kotlin, we are able to create the front- and  backend, also Kotlin provides us with the possibility to develop the app for Android and iOS without a huge additional workload.
 
-We will use SQLite to store some data. Our goal would be to not need a large database and store all the data we need on the client. There will be no need to ‘work’ with the client’s data and everything should be  able to run only on the user’s device. 
+We will  use SQLite to store some data. Our goal would be to not need a large  database and store all the data we need on the client. There will be no  need to ‘work’ with the client’s data, and everything should be able to  run only on the user’s device.
+
+### 2.4 Model view controller
+
+n/a
 
 ## 3. Architectural Goals and Constraints
 <!--before: Specific Requirements-->
@@ -123,10 +135,14 @@ We will use SQLite to store some data. Our goal would be to not need a large dat
 
 ### 3.1 Functionality
 This section will explain the different use cases, you could see in the Use Case Diagram, and their functionality.  
-More information is available at our [Use-Case-Specification](https://github.com/Calco2001/nEXam/blob/main/docs/Use-Case%20Specification.md).
+More information is available at our [Use-Case-Specification](https://github.com/Calco2001/nEXam/tree/main/docs/Use_Case_Specification).
 
 ### 3.2 Usability
-We plan on designing the user interface as intuitive and self-explanatory as possible to make the user feel as comfortable as possible using the app. Though an FAQ document will be available, it should not be necessary to use it.
+We plan on designing the user interface as intuitive and  self-explanatory as possible to make the user feel as comfortable as  possible using the app. Though an FAQ document will be available, it  should not be necessary to use it. Through the use of Android Studio, it should be in an accessible design.
+
+### 3.3 MVC tool
+
+n/a
 
 #### <!--3.2.1 No training time needed-->
 <!--Our goal is that a user installs the android application, opens it and is able to use all features without any explanation or help.-->
@@ -134,7 +150,7 @@ We plan on designing the user interface as intuitive and self-explanatory as pos
 #### <!--3.2.2 Familiar Feeling-->
 <!--We want to implement an app with familiar designs and functions. This way the user is able to interact in familiar ways with the app without having to get to know new interfaces.-->
 
-### 3.3 Reliability
+### <!--3.3 Reliability-->
 
 #### <!--3.3.1 Availability-->
 
@@ -150,7 +166,7 @@ We plan on designing the user interface as intuitive and self-explanatory as pos
 #### <!--3.4.3 App perfomance / Response time-->
 <!--To provide the best App perfomance we aim to keep the response time as low as possible. This will make the user experience much better.-->
 
-### 3.5 Supportability
+### <!--3.5 Supportability-->
 
 #### <!--3.5.1 Coding Standards-->
 <!--We are going to write the code by using all of the most common clean code standards. For example we will name our variables and methods by their functionalities. This will keep the code easy to read by everyone and make further developement much easier.-->
@@ -158,7 +174,7 @@ We plan on designing the user interface as intuitive and self-explanatory as pos
 #### <!--3.5.2 Testing Strategy-->
 <!--The application will have a high test coverage and all important functionalities and edge cases should be tested. Further mistakes in the implementation will be discovered instantly and it will be easy to locate the error.--> 
 
-### 3.6 Design Constraints
+### <!--3.6 Design Constraints-->
 <!--We are trying to provide a modern and easy to handle design for the UI aswell as for the architecture of our application. To achieve that the functionalities will be kept as modular as possible.-->
 
 <!--Because we are progamming an Android App we chose Java as our programming language. Also we are using the common MVC-architecture to keep the front end and back end seperated. For a clean front end structure we use MVVM.-->
@@ -169,13 +185,13 @@ We plan on designing the user interface as intuitive and self-explanatory as pos
 
 <!--Java 8 and higher-->
 
-### 3.7 On-line User Documentation and Help System Requirements
+### <!--3.7 On-line User Documentation and Help System Requirements-->
 <!--The usage of the app should be as intuitive as possible so it won't need any further documentation. If the user needs some help we will implement a "Help"-Button in the App which includes a FAQ and a formular to contact the developement team.-->
 
-### 3.8 Purchased Components
+### <!--3.8 Purchased Components-->
 <!--We don't have any purchased components yet. If there will be purchased components in the future we will list them here.-->
 
-### 3.9 Interfaces
+### <!--3.9 Interfaces-->
 
 #### <!--3.9.1 User Interfaces-->
 <!--The User interfaces that will be implented are:-->
@@ -205,16 +221,23 @@ We plan on designing the user interface as intuitive and self-explanatory as pos
 #### <!--3.9.4 Communication Interfaces-->
 <!--The server and hardware will communicate using the http protocol.--> 
 
-### 3.10 Licensing Requirements
+### <!--3.10 Licensing Requirements-->
 
-### 3.11 Legal, Copyright, and Other Notices
+### <!--3.11 Legal, Copyright, and Other Notices-->
 <!--The logo is licensed to the Common Playground Team and is only allowed to use for the application. We do not take responsibilty for any incorrect data or errors in the application.-->
 
-### 3.12 Applicable Standards
+### <!--3.12 Applicable Standards-->
 
 <!--The development will follow the common clean code standards and naming conventions. Also we will create a definition of d which will be added here as soon as its complete.-->
 
 ## 4. Use-Case View
+
+### 4.1 Use Case Diagram
+
+![OUCD](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/use%20case%20diagram.jpg)
+
+- Green: Planned till end of December
+
 <!--before: Supporting Information-->
 
 <!--[This section lists use cases or scenarios from the use-case     model if they represent some significant, central functionality of the final     system, or if they have a large architectural coverage - they exercise many     architectural elements, or if they stress or illustrate a specific, delicate     point of the architecture.]-->
@@ -224,7 +247,9 @@ We plan on designing the user interface as intuitive and self-explanatory as pos
 
 <!-- Picture-Link definitions: -->
 
-### 4.1 Use-Case Realizations
+### 4.2 Use-Case Realizations
+
+The details for the use-cases can be found in the respective [use-case-specification document](https://github.com/Calco2001/nEXam/tree/main/docs/Use_Case_Specification).
 
 <!--[This section illustrates how the software actually works     by giving a few selected use-case (or scenario) realizations, and explains     how the various design model elements contribute to their functionality.]-->
 
@@ -236,7 +261,15 @@ We plan on designing the user interface as intuitive and self-explanatory as pos
 
 <!--[This subsection describes the overall decomposition of the     design model in terms of its package hierarchy and layers.]-->
 
+n/a
+
+<!--ADD HIGH LEVEL DIAGRAM-->
+
 ### 5.2 Architecturally Significant Design Packages
+
+n/a
+
+<!--ADD CLASS DIAGRAM WITH CLEARLY MARKED SECTIONS OF MVC-->
 
 <!--[For each significant package, include a subsection with its     name, its brief description, and a diagram with all significant classes and     packages contained within the package.--> 
 
@@ -248,17 +281,23 @@ We plan on designing the user interface as intuitive and self-explanatory as pos
 
 ## 7. Deployment View 
 
+n/a
+
+<!--ADD UML-DIAGRAM WITH SERVER/CLIENT ARCHITECTURE-->
+
 <!--[This section describes one or more physical network (hardware)     configurations on which the software is deployed and run. It is a view of     the Deployment Model. At a minimum for each configuration it should indicate     the physical nodes (computers, CPUs) that execute the software, and their     interconnections (bus, LAN, point-to-point, and so on.) Also include a mapping     of the processes of the **Process View** onto the physical nodes.]-->
 
 ## 8. Implementation View 
 
+n/a
+
 <!--[This section describes the overall structure of the implementation     model, the decomposition of the software into layers and subsystems in the     implementation model, and any architecturally significant components.]-->
 
-### 8.1 Overview
+### <!--8.1 Overview-->
 
 <!--[This subsection names and defines the various layers and     their contents, the rules that govern the inclusion to a given layer, and     the boundaries between layers. Include a component diagram that shows the     relations between layers. ]-->
 
-### 8.2 Layers
+### <!--8.2 Layers-->
 
 <!--[For each layer, include a subsection with its name, an enumeration     of the subsystems located in the layer, and a component diagram.]-->
 
@@ -274,8 +313,12 @@ Below you can see our db schema diagram and our class diagram:
 
 ## 10. Size and Performance 
 
+n/a
+
 <!--[A description of the major dimensioning characteristics of     the software that impact the architecture, as well as the target performance     constraints.]-->
 
 ## 11. Quality 
+
+n/a
 
 <!--[A description of how the software architecture contributes     to all capabilities (other than functionality) of the system: extensibility,     reliability, portability, and so on. If these characteristics have special     significance, for example safety, security or privacy implications, they should     be clearly delineated.]-->
