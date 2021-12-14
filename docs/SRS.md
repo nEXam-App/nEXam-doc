@@ -18,26 +18,25 @@
     - [3.3 Reliability](#33-reliability)
     - [3.4 Performance](#34_performance)
     - [3.5 Supportability](#35-supportability)
-    - [Design Constraints](#36-design-constraints)
-    - [Online User Documentation and Help System Requirements](#37-on-line-user-documentation-and-help-system-requirements)
-    - [Purchased Components](#purchased-components)
-    - [Interfaces](#39-interfaces)
-    - [Licensing Requirements](#310-licensing-requirements)
-    - [Legal, Copyright And Other Notices](#311-legal-copyright-and-other-notices)
-    - [Applicable Standards](#312-applicable-standards)
-- [Use-Case View](#4-use-case-view)
-    - [Use-Case Realizations](#41-use-case-realizations)
-- [Logical view](#5-logical-view)
-    - [Overview](#51-overview)
-    -  [Architecturally Significant Design Packages](#52-architecturally-significant-design-packages)
-- [Process View](#6-process-view)
-- [Deployment View](#7-deployment-view)
-- [Implementation View](#8-implementation-view)
-    - [Overview](#81-overview)
-    - [Layers](#82-layers)
-- [Data View (optional)](#9-data-view-(optional))
-- [Size and Performance](#10-size-and-performance)
-- [Quality](#11-quality)
+    - [3.6 Design Constraints](#36-design-constraints)
+    - [3.7 Online User Documentation and Help System Requirements](#37-online-user-documentation-and-help-system-requirements)
+    - [3.8 Purchased Components](#purchased-components)
+    - [3.9 Interfaces](#39-interfaces)
+    - [3.10 Legal, Copyright And Other Notices](#310-legal-copyright-and-other-notices)
+    - [3.11 Applicable Standards](#311-applicable-standards)
+- [4. Use-Case View](#4-use-case-view)
+    - [4.1 Use-Case Realizations](#41-use-case-realizations)
+- [5. Logical view](#5-logical-view)
+    - [5.1 Overview](#51-overview)
+    -  [5.2 Architecturally Significant Design Packages](#52-architecturally-significant-design-packages)
+- [6. Process View](#6-process-view)
+- [7. Deployment View](#7-deployment-view)
+- [8. Implementation View](#8-implementation-view)
+    - [8.1 Overview](#81-overview)
+    - [8.2 Layers](#82-layers)
+- [9. Data View (optional)](#9-data-view-(optional))
+- [10. Size and Performance](#10-size-and-performance)
+- [11. Quality](#11-quality)
 
 ## 1. Introduction
 
@@ -159,7 +158,7 @@ We strive for a modern and easy-to-use design for the user interface as well as 
 
 Since we want to program an iOS and Android app, we chose Kotlin as our programming language. We also use the common MVP architecture of Android to keep the frontend and the backend separate and to keep the possibility open to switch to other architectures without making adjustments in several places.
 
-### 3.7 On-line User Documentation and Help System Requirements
+### 3.7 Online User Documentation and Help System Requirements
 The operation of the app should be as intuitive as possible, so it does not need any further documentation. In case the user requires help, we expect to implement a “Help” button in the app, which will include a FAQ.
 
 ### 3.8 Purchased Components
@@ -177,12 +176,10 @@ Error message - a page displaying the error that occurred and the possibility to
 
 Success message - hopefully this message will appear after creating an exam. It contains the name of the current exam and the possibility to return to the dashboard or view the newly created exam.
 
-### 3.10 Licensing Requirements
-
-### 3.11 Legal, Copyright, and Other Notices
+### 3.10 Legal, Copyright, and Other Notices
 The logo is licensed to the nEXam team and may only be used for the application. We take no responsibility for incorrect data or errors in the application.
 
-### 3.12 Applicable Standards
+### 3.11 Applicable Standards
 
 During development, we will follow the usual clean code standards and naming conventions. We will also follow the structure of the Native Android Framework.
 
