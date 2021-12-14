@@ -85,19 +85,16 @@ Actors of this app are students.
 
 <!--[This subsection should describe what the rest of the **Software     Architecture Document** contains and explain how the **Software     Architecture Document** is organized.]-->
 
-The following chapters provide an overview of this project with vision and Overall Use Case Diagram. The third chapter (Requirements Specification) delivers more details about the specific requirements in terms of functionality, usability and design parameters. Finally there is a chapter with supporting information. 
+The following chapters provide an overview of this project with vision and Overall Use Case Diagram. The third chapter (Requirements Specification) delivers more details about the specific requirements in terms of functionality, usability and design parameters. Finally, there is a chapter with supporting information. 
     
 ## 2. Architectural Representation 
-<!--before: Overall Description-->
-
 <!--[This section describes what software architecture is for     the current system, and how it is represented. Of the **Use-Case**,     **Logical**, **Process**, **Deployment**,     and **Implementation Views**, it enumerates the views that are     necessary, and for each view, explains what types of model elements it contains.]-->
 
 ### 2.1 Vision
 
-“nEXam” will be an app which helps you plan out when you should start learning before an exam and how much time you should spend learning. 
+“nEXam” will be an app that allows you to plan when you should start studying before an exam and how much time you should spend on it. 
 
-How does it work?
-You need to enter your exam information, including date, subject and  topic. Based on this information the app will create an agenda when you  should study which topic. While studying you can run the in app timer,  so the app will change the background color of the topic to visualise  what has already been learned. Also you should be able to export the  iCal file to import it in your calendar of choice.
+How does it work? You need to enter your exam information, including date, subject, and  topic. Based on this information, the app will create an agenda of when you  should study which topic. While learning, you can run the in-app timer,  so the app changes the background color of the topic to visualize  what has already been learned. You should be able to export the iCal file to import it to the calendar of your choice.
 
 ### 2.2 Use Case Diagram
 
@@ -106,15 +103,17 @@ You need to enter your exam information, including date, subject and  topic. Bas
 - Green: Planned till end of december
 
 ### 2.3 Technology Stack
-The app should be available on iOS and Android.
+As already mentioned should the app be available on iOS and Android.
 
-We all agreed to use VS Code as our IDE because it gives us more  flexibility to use other programming languages (if needed) in the same  application. Yes we have to adjust and customize the VS Code a bit, but  we think that’s fine. Some of us have also had great experiences with  the ‘Live Share’ extension, which allows us to work on code together and simultaneously. This is usefull when more than one person is working on a topic or someone needs help. 
+In the beginning, we all agreed to use VS Code as our IDE because it gives us more flexibility to use other programming languages (if needed) in the same application. Yes, we have to customize VS Code a bit, but we think that's fine. Some of us have also had good experiences with the 'Live Share' extension, which allows us to work on code together and simultaneously. This is useful when more than one person is working on a topic or someone needs help.
 
-As we mentioned in our first blog we will use Kotlin and SQLite. 
+However, when we started developing views for the frontend, we found that Android Studio suited our needs better. So we switched to Android Studio. There we were able to create the views relatively easily. Moreover, the program pays attention to accessibility and offers the possibility to consider a dark and light theme from the beginning. The Native Android framework provided us with the structure. The only disadvantage was that we had to change our Maven project to a gradle project, which was relatively easy to do. For testing purposes or for the demo, the opening of the app within a virtual cell phone was of great help.
 
-The main argument why we will use Kotlin (even if nobody has any  experience with it) is usability. With Kotlin we are able to create the  front- and backend, also Kotlin provides us with the possibility to  develop the app for Android and iOS without a huge additional workload.
+As we mentioned in our first blog, we wanted to use Kotlin and SQLite. 
 
-We will use SQLite to store some data. Our goal would be to not need a large database and store all the data we need on the client. There will be no need to ‘work’ with the client’s data and everything should be  able to run only on the user’s device. 
+The main argument why we will use Kotlin (even if nobody has experience with it) is usability. With Kotlin, we are able to create the front-end and back-end. Also, Kotlin gives us the possibility to develop the app for Android and iOS without a lot of extra work.
+
+We wanted to use SQLite to store some data. Our goal is not to need a big database and store all the data we need on the client. There will be no need to “work” with the client's data, and everything should be able to run only on the user's device. After further consideration, we found that instead of an additional database, we can also access the data through an XML file. We filled this with test data, which can also already be displayed in the app.
 
 ## 3. Architectural Goals and Constraints
 <!--before: Specific Requirements-->
