@@ -121,8 +121,7 @@ We wanted to use SQLite to store some data. Our goal is not to need a big databa
 <!--[This section describes the software requirements and objectives     that have some significant impact on the architecture, for example, safety,     security, privacy, use of an off-the-shelf product, portability, distribution,     and reuse. It also captures the special constraints that may apply: design     and implementation strategy, development tools, team structure, schedule,     legacy code, and so on.]-->
 
 ### 3.1 Functionality
-This section will explain the different use cases, you could see in the Use Case Diagram, and their functionality.  
-More information is available at our [Use-Case-Specification](https://github.com/Calco2001/nEXam/blob/main/docs/Use-Case%20Specification.md).
+This section explains the different use cases you can see in the use case diagram and their functionality. For more information, see our [Use Case Specification](https://github.com/Calco2001/nEXam/tree/main/docs/Use_Case_Specification).
 
 ### 3.2 Usability
 We plan on designing the user interface as intuitive and self-explanatory as possible to make the user feel as comfortable as possible using the app. Though an FAQ document will be available, it should not be necessary to use it.
