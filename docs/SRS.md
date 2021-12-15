@@ -54,7 +54,7 @@ This Software Requirements Specification (SRS) describes all specifications for 
 
 <!--[A brief description of what the Software Architecture Document     applies to; what is affected or influenced by this document.]-->
 
-The project is going to be realized as an Android and iOs App. The planned scope till end of december is shown in the [use-case specification](https://github.com/Calco2001/nEXam/blob/main/docs/Use-Case%20Specification.md#1-use-case).
+The project is going to be realized as an Android and iOS App. The planned scope till end of December is shown in the [use-case specification](https://github.com/Calco2001/nEXam/tree/main/docs/Use_Case_Specification).
 
 Actors of this app are students.
 
@@ -106,6 +106,7 @@ As already mentioned should the app be available on iOS and Android.
 
 In the beginning, we all agreed to use VS Code as our IDE because it gives us more flexibility to use other programming languages (if needed) in the same application. Yes, we have to customize VS Code a bit, but we think that's fine. Some of us have also had good experiences with the 'Live Share' extension, which allows us to work on code together and simultaneously. This is useful when more than one person is working on a topic or someone needs help.
 
+
 However, when we started developing views for the frontend, we found that Android Studio suited our needs better. So we switched to Android Studio. There we were able to create the views relatively easily. Moreover, the program pays attention to accessibility and offers the possibility to consider a dark and light theme from the beginning. The Native Android framework provided us with the structure. The only disadvantage was that we had to change our Maven project to a gradle project, which was relatively easy to do. For testing purposes or for the demo, the opening of the app within a virtual cell phone was of great help.
 
 As we mentioned in our first blog, we wanted to use Kotlin and SQLite. 
@@ -145,7 +146,7 @@ Smartphones do not offer much storage space. Therefore, we strive to keep the re
 #### 3.4.2 App perfomance
 To provide the best app performance, we try to keep the response time as low as possible. This significantly improves the user experience and also makes the app more likely to be used for exam preparation.
 
-### 3.5 Supportability
+### <!--3.5 Supportability-->
 
 #### 3.5.1 Coding Standards
 We will write the code using all the common standards for clean code. For example, we will name our variables and methods after their functions. This will keep the code easy to read for everyone and make further development much easier. Also, we will follow the structure of the framework to make it easier for ourselves to get back into the structure of the app or to allow others to get into the project more easily.
@@ -164,7 +165,7 @@ The operation of the app should be as intuitive as possible, so it does not need
 ### 3.8 Purchased Components
 We do not use any purchased components so far. If there will be purchased components in the future, we will list them here.
 
-### 3.9 Interfaces
+### <!--3.9 Interfaces-->
 
 The following user interfaces are implemented: 
 
@@ -180,6 +181,7 @@ Success message - hopefully this message will appear after creating an exam. It 
 The logo is licensed to the nEXam team and may only be used for the application. We take no responsibility for incorrect data or errors in the application.
 
 ### 3.11 Applicable Standards
+
 
 During development, we will follow the usual clean code standards and naming conventions. We will also follow the structure of the Native Android Framework.
 
@@ -198,7 +200,15 @@ During development, we will follow the usual clean code standards and naming con
 
 <!--[This subsection describes the overall decomposition of the     design model in terms of its package hierarchy and layers.]-->
 
+n/a
+
+<!--ADD HIGH LEVEL DIAGRAM-->
+
 ### 5.2 Architecturally Significant Design Packages
+
+n/a
+
+<!--ADD CLASS DIAGRAM WITH CLEARLY MARKED SECTIONS OF MVC-->
 
 <!--[For each significant package, include a subsection with its     name, its brief description, and a diagram with all significant classes and     packages contained within the package.--> 
 
@@ -210,17 +220,23 @@ During development, we will follow the usual clean code standards and naming con
 
 ## 7. Deployment View 
 
+n/a
+
+<!--ADD UML-DIAGRAM WITH SERVER/CLIENT ARCHITECTURE-->
+
 <!--[This section describes one or more physical network (hardware)     configurations on which the software is deployed and run. It is a view of     the Deployment Model. At a minimum for each configuration it should indicate     the physical nodes (computers, CPUs) that execute the software, and their     interconnections (bus, LAN, point-to-point, and so on.) Also include a mapping     of the processes of the **Process View** onto the physical nodes.]-->
 
 ## 8. Implementation View 
 
+n/a
+
 <!--[This section describes the overall structure of the implementation     model, the decomposition of the software into layers and subsystems in the     implementation model, and any architecturally significant components.]-->
 
-### 8.1 Overview
+### <!--8.1 Overview-->
 
 <!--[This subsection names and defines the various layers and     their contents, the rules that govern the inclusion to a given layer, and     the boundaries between layers. Include a component diagram that shows the     relations between layers. ]-->
 
-### 8.2 Layers
+### <!--8.2 Layers-->
 
 <!--[For each layer, include a subsection with its name, an enumeration     of the subsystems located in the layer, and a component diagram.]-->
 
@@ -236,8 +252,12 @@ Below you can see our db schema diagram and our class diagram:
 
 ## 10. Size and Performance 
 
+n/a
+
 <!--[A description of the major dimensioning characteristics of     the software that impact the architecture, as well as the target performance     constraints.]-->
 
 ## 11. Quality 
+
+n/a
 
 <!--[A description of how the software architecture contributes     to all capabilities (other than functionality) of the system: extensibility,     reliability, portability, and so on. If these characteristics have special     significance, for example safety, security or privacy implications, they should     be clearly delineated.]-->
