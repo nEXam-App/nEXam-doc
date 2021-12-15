@@ -68,17 +68,18 @@ Below you will find our first wireframes. Those will show you our first thoughts
 
 We designed a light and a dark mode.
 
-![Create exam dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam.png)
-
-![Create exam light](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam%20light.png)
-
-![Error message dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examError_dark.png)
-
-![Error message dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examError_light.png)
-
-![Success message dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examSuccess_dark.png)
-
-![Success message light](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examSuccess_ligt.png)
+<img src="https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam.png" alt="drawing" width="350"/>
+<!--![Create exam dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam.png)-->
+<img src="https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam%20light.png" alt="drawing" width="350"/>
+<!--![Create exam light](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam%20light.png)-->
+<img src="https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examError_dark.png" alt="drawing" width="350"/>
+<!--![Error message dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examError_dark.png)-->
+<img src="https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examError_light.png" alt="drawing" width="350"/>
+<!--![Error message dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examError_light.png)-->
+<img src="https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examSuccess_dark.png" alt="drawing" width="350"/>
+<!--![Success message dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examSuccess_dark.png)-->
+<img src="https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examSuccess_ligt.png" alt="drawing" width="350"/>
+<!--![Success message light](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examSuccess_ligt.png)-->
 
 ## 4. Preconditions
 
