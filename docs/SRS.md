@@ -107,7 +107,7 @@ As already mentioned should the app be available on iOS and Android.
 In the beginning, we all agreed to use VS Code as our IDE because it gives us more flexibility to use other programming languages (if needed) in the same application. Yes, we have to customize VS Code a bit, but we think that's fine. Some of us have also had good experiences with the 'Live Share' extension, which allows us to work on code together and simultaneously. This is useful when more than one person is working on a topic or someone needs help.
 
 
-However, when we started developing views for the frontend, we found that Android Studio suited our needs better. So we switched to Android Studio. There we were able to create the views relatively easily. Moreover, the program pays attention to accessibility and offers the possibility to consider a dark and light theme from the beginning. The Native Android framework provided us with the structure. The only disadvantage was that we had to change our Maven project to a gradle project, which was relatively easy to do. For testing purposes or for the demo, the opening of the app within a virtual cell phone was of great help.
+However, when we started developing views for the frontend, we found that Android Studio suited our needs better. So we switched to Android Studio. There we were able to create the views relatively easily. Moreover, the program pays attention to accessibility and offers the possibility to consider a dark and light theme from the beginning. The Native Android framework provided us with the structure. The only disadvantage was that we had to change our Maven project to a Gradle project, which was relatively easy to do. For testing purposes or for the demo, the opening of the app within a virtual cell phone was of great help.
 
 As we mentioned in our first blog, we wanted to use Kotlin and SQLite. 
 
@@ -165,7 +165,7 @@ The operation of the app should be as intuitive as possible, so it does not need
 ### 3.8 Purchased Components
 We do not use any purchased components so far. If there will be purchased components in the future, we will list them here.
 
-### <!--3.9 Interfaces-->
+### <3.9 Interfaces
 
 The following user interfaces are implemented: 
 
