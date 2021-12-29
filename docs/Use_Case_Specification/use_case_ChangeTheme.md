@@ -40,6 +40,7 @@ Feature: Use Case 2 change the app theme
 ### 3.3 Mockups
 
 Below you will find two mockups of the same view with different themes.
+
 <img src="https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam.png" alt="drawing" width="350"/>
 <!--![Create exam dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam.png)-->
 <img src="https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam%20light.png" alt="drawing" width="350"/>

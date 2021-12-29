@@ -165,7 +165,7 @@ The operation of the app should be as intuitive as possible, so it does not need
 ### 3.8 Purchased Components
 We do not use any purchased components so far. If there will be purchased components in the future, we will list them here.
 
-### <3.9 Interfaces
+### 3.9 Interfaces
 
 The following user interfaces are implemented: 
 
