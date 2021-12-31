@@ -146,7 +146,7 @@ Smartphones do not offer much storage space. Therefore, we strive to keep the re
 #### 3.4.2 App perfomance
 To provide the best app performance, we try to keep the response time as low as possible. This significantly improves the user experience and also makes the app more likely to be used for exam preparation.
 
-### <!--3.5 Supportability-->
+### 3.5 Supportability
 
 #### 3.5.1 Coding Standards
 We will write the code using all the common standards for clean code. For example, we will name our variables and methods after their functions. This will keep the code easy to read for everyone and make further development much easier. Also, we will follow the structure of the framework to make it easier for ourselves to get back into the structure of the app or to allow others to get into the project more easily.
@@ -216,6 +216,8 @@ n/a
 
 ## 6. Process View
 
+n/a
+
 <!--[This section describes the system's decomposition into lightweight     processes (single threads of control) and heavyweight processes (groupings     of lightweight processes). Organize the section by groups of processes that     communicate or interact. Describe the main modes of communication between     processes, such as message passing, interrupts, and rendezvous.]-->
 
 ## 7. Deployment View 
@@ -232,11 +234,11 @@ n/a
 
 <!--[This section describes the overall structure of the implementation     model, the decomposition of the software into layers and subsystems in the     implementation model, and any architecturally significant components.]-->
 
-### <!--8.1 Overview-->
+### 8.1 Overview
 
 <!--[This subsection names and defines the various layers and     their contents, the rules that govern the inclusion to a given layer, and     the boundaries between layers. Include a component diagram that shows the     relations between layers. ]-->
 
-### <!--8.2 Layers-->
+### 8.2 Layers
 
 <!--[For each layer, include a subsection with its name, an enumeration     of the subsystems located in the layer, and a component diagram.]-->
 
