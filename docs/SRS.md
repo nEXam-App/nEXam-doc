@@ -90,7 +90,13 @@ You need to enter your exam information, including date, subject, and  topic. Ba
 
 This section explains the different use cases you can see in the use case diagram and their functionality. For more information, see our [Use Case Specification](https://github.com/Calco2001/nEXam/tree/main/docs/Use_Case_Specification).
 
-<!--ADD EXPLANATION FOR USE CASES-->
+#### 3.1.1 Dashboard
+
+This use case covers the default view. The upper part contains the exams, the lower part contains the timer, which can be used to stop the time for the individual exams in the future.
+
+#### 3.1.2 Agenda View
+
+Here you can make various adjustments for the dashboard. Among other things, you can select how the exams are displayed, and you can access the individual subchapters for the exams. There are also two designs for the light and dark modes.
 
 ### 3.2 Usability
 We plan to make the user interface as intuitive and self-explanatory as possible so that the user feels as comfortable as possible when using the app. While there will be a FAQ document available, it should not be necessary to use it.
