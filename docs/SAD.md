@@ -48,19 +48,13 @@
 
 <!--[This section defines the purpose of the **Software     Architecture Document**, in the overall project documentation, and     briefly describes the structure of the document. The specific audiences for     the document should be identified, with an indication of how they are expected     to use the document.]-->
 
-TODO TODO TODO
-
-This Software Architecture Document (SAD) describes all specifications for the application "nEXam". It includes an overview about this project and its vision, detailed information about the planned features and boundary conditions of the development process.
-
-TODO TODO TODO
+In this Software Architecture Document (SAD), we want you to get a closer look at our project. In here you can find a detailed description of our project "nEXam" and how the two main components, frontend and backend, are interacting with each other. It is intended to capture and convey the significant architectural decisions which have been made on the system.
 
 ### 1.2 Scope
 
 <!--[A brief description of what the Software Architecture Document     applies to; what is affected or influenced by this document.]-->
 
-The project is going to be realized as an Android and iOS App. The planned scope till end of December is shown in the [use-case specification](https://github.com/Calco2001/nEXam/tree/main/docs/Use_Case_Specification).
-
-Actors of this app are students.
+In here you can find different views and architecture components of nEXam, including classes, controller and data.
 
 ### 1.3 Definitions, Acronyms and Abbreviations
 
@@ -88,24 +82,32 @@ Actors of this app are students.
 
 <!--[This subsection should describe what the rest of the **Software     Architecture Document** contains and explain how the **Software     Architecture Document** is organized.]-->
 
-<!--OVERTHINK TEXT-->
+The next chapter provides the architectural goals and constraints, followed by the use cases and their realizations. Chapters five to nine deals with the views. Finally, there is information about the size and performance, as well as the quality. The next chapter provides the architectural goals and constraints, followed by the use cases and their realizations. Chapters five to nine deals with the views. Finally, there is information about the size and performance, as well as the quality.
 
-The following chapters provide an overview of this project with vision and Overall Use Case Diagram. The third chapter (Requirements Specification) delivers more details about the specific requirements in terms of functionality, usability and design parameters. Finally, there is a chapter with supporting information. 
-    
 ## 2. Architectural Representation 
+
 <!--[This section describes what software architecture is for     the current system, and how it is represented. Of the **Use-Case**,     **Logical**, **Process**, **Deployment**,     and **Implementation Views**, it enumerates the views that are     necessary, and for each view, explains what types of model elements it contains.]-->
 
-TODO TODO TODO
+Since we plan to create an Android and iOS app, we use the framework automatically provided by Android Studio. Below you can find the general MVP diagram.
 
-Since we plan to create an Android and iOS app, we use the framework automatically provided by Android Studio. Below is the general MVP diagram and our structure in the gradle project.
-
-TODO TODO TODO
+![MVP Android](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/mvp%20android.PNG)
 
 ## 3. Architectural Goals and Constraints
 
 <!--[This section describes the software requirements and objectives     that have some significant impact on the architecture, for example, safety,     security, privacy, use of an off-the-shelf product, portability, distribution,     and reuse. It also captures the special constraints that may apply: design     and implementation strategy, development tools, team structure, schedule,     legacy code, and so on.]-->
 
-TODO TODO TODO
+As already mentioned should the app be available on iOS and Android.
+
+In the beginning, we all agreed to use VS Code as our IDE because it gives us more flexibility to use other programming languages (if needed) in the same application. Yes, we have to customize VS Code a bit, but we think that's fine. Some of us have also had good experiences with the 'Live Share' extension, which allows us to work on code together and simultaneously. This is useful when more than one person is working on a topic or someone needs help.
+
+
+However, when we started developing views for the frontend, we found that Android Studio suited our needs better. So we switched to Android Studio. There we were able to create the views relatively easily. Moreover, the program pays attention to accessibility and offers the possibility to consider a dark and light theme from the beginning. The Native Android framework provided us with the structure. The only disadvantage was that we had to change our Maven project to a Gradle project, which was relatively easy to do. For testing purposes or for the demo, the opening of the app within a virtual cell phone was of great help.
+
+As we mentioned in our first blog, we wanted to use Kotlin and SQLite. 
+
+The main argument why we will use Kotlin (even if nobody has experience with it) is usability. With Kotlin, we are able to create the front-end and back-end. Also, Kotlin gives us the possibility to develop the app for Android and iOS without a lot of extra work.
+
+We wanted to use SQLite to store some data. Our goal is not to need a big database and store all the data we need on the client. There will be no need to “work” with the client's data, and everything should be able to run only on the user's device. After further consideration, we found that instead of an additional database, we can also access the data through an XML file. We filled this with test data, which can also already be displayed in the app.
 
 ## 4. Use-Case View
 <!--[This section lists use cases or scenarios from the use-case     model if they represent some significant, central functionality of the final     system, or if they have a large architectural coverage - they exercise many     architectural elements, or if they stress or illustrate a specific, delicate     point of the architecture.]-->
@@ -129,6 +131,8 @@ Green: Planned till end of December
 ### 5.1 Overview
 
 <!--[This subsection describes the overall decomposition of the     design model in terms of its package hierarchy and layers.]-->
+
+Here again is the picture with the overview of our MVP model. So it is easier to see the architecture in the following structure of our project.
 
 ![MVP Android](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/mvp%20android.PNG)
 
