@@ -7,7 +7,6 @@ import android.widget.AdapterView
 import android.widget.ListView
 import android.widget.ArrayAdapter
 import android.widget.Button
-import androidx.core.view.iterator
 
 
 class MainActivity : AppCompatActivity() {
