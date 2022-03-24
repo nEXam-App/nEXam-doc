@@ -15,10 +15,10 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/back"
+            android:id="@+id/createExamButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/back" />
+            android:text="@string/createExam" />
 
         <View
             android:layout_width="80dp"
@@ -26,10 +26,10 @@
             android:layout_weight="0" />
 
         <Button
-            android:id="@+id/save"
+            android:id="@+id/startTimer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/save" />
+            android:text="@string/startTimer" />
 
     </LinearLayout>
 
