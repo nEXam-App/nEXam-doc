@@ -10,8 +10,8 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/header"
-        android:layout_above="@+id/buttons_exams_error">
+        android:layout_above="@+id/buttons_exam_error"
+        android:layout_below="@+id/header_error">
 
         <RelativeLayout
             android:id="@+id/exam_error"
@@ -26,15 +26,15 @@
                 android:id="@+id/content"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:gravity="center">
-
+                android:gravity="center"
+                android:orientation="vertical">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/default_margin"
                     android:text="@string/the_following_error_occured"
+                    android:textAlignment="center"
                     android:textSize="@dimen/default_title_font_size" />
 
                 <TextView
@@ -42,6 +42,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/default_margin"
                     android:text="@string/example_error"
+                    android:textAlignment="center"
                     android:textSize="@dimen/default_title_font_size" />
 
                 <TextView
@@ -49,8 +50,8 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/default_margin"
                     android:text="@string/example_correction"
+                    android:textAlignment="center"
                     android:textSize="@dimen/default_title_font_size" />
-
             </LinearLayout>
 
         </RelativeLayout>

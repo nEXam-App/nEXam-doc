@@ -26,10 +26,10 @@
             android:layout_weight="0" />
 
         <Button
-            android:id="@+id/editExam"
+            android:id="@+id/showExam"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/edit_exam" />
+            android:text="@string/show_exam" />
 
     </LinearLayout>
 
