@@ -9,10 +9,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/default_margin"
-        android:layout_marginTop="@dimen/default_margin"
-        android:layout_marginEnd="@dimen/default_margin"
-        android:layout_marginBottom="@dimen/default_margin"
-        android:text="Header"
-        android:textSize="@dimen/default_font_size" />
+        android:layout_marginRight="@dimen/header_margin"
+        android:layout_marginLeft="@dimen/header_margin"
+        android:layout_marginBottom="@dimen/header_margin"
+        android:layout_marginTop="@dimen/header_margin_top"
+        android:text="@string/error"
+        android:textSize="@dimen/header_font_size" />
 </RelativeLayout>

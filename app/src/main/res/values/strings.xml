@@ -29,4 +29,6 @@
     <string name="error">Error</string>
     <string name="the_following_error_occured">The following error occured:</string>
     <string name="invalide_date_please_use">invalide date, please use</string>
+    <string name="example_error">Invalide date, please use</string>
+    <string name="example_correction">yyyy_mm_dd</string>
 </resources>
