@@ -1,34 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dashboard"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:id="@+id/dashboard">
+    android:layout_height="match_parent">
 
     <include layout="@layout/footer" />
 
     <include layout="@layout/buttons_dashboard" />
-    <include layout="@layout/remaining_time"/>
+
+    <include layout="@layout/remaining_time" />
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/remaining_time"
-        android:layout_alignParentTop="true"
-        android:overScrollMode="always">
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_above="@+id/remaining_time">
 
-        <RelativeLayout
+        <LinearLayout
             android:id="@+id/create_exam"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/default_margin"
             android:layout_marginTop="@dimen/default_margin"
             android:layout_marginEnd="@dimen/default_margin"
-            android:layout_marginBottom="@dimen/default_margin">
-
-        <LinearLayout
-            android:id="@+id/content"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_margin"
             android:orientation="vertical">
 
             <TextView
@@ -39,13 +35,10 @@
 
             <ListView
                 android:id="@+id/exam_list"
-                android:layout_width="match_parent"
-                android:layout_height="500dp"
-                android:footerDividersEnabled="true" />
-
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                tools:ignore="NestedScrolling" />
         </LinearLayout>
-
-        </RelativeLayout>
 
     </ScrollView>
 

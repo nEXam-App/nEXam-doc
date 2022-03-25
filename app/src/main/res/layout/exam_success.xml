@@ -4,7 +4,9 @@
     android:layout_height="match_parent">
 
     <include layout="@layout/footer" />
+
     <include layout="@layout/buttons_exam_success" />
+
     <include layout="@layout/header_success" />
 
     <ScrollView
@@ -14,42 +16,34 @@
         android:layout_below="@+id/header_success"
         android:overScrollMode="always">
 
-        <RelativeLayout
+        <LinearLayout
             android:id="@+id/exam_success"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/default_margin"
             android:layout_marginTop="@dimen/default_margin"
             android:layout_marginEnd="@dimen/default_margin"
-            android:layout_marginBottom="@dimen/default_margin">
+            android:layout_marginBottom="@dimen/default_margin"
+            android:gravity="center"
+            android:orientation="vertical">
 
-            <LinearLayout
-                android:id="@+id/content"
-                android:layout_width="match_parent"
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="vertical">
+                android:layout_margin="@dimen/default_margin"
+                android:text="@string/the_following_exam_has_been_created"
+                android:textAlignment="center"
+                android:textSize="@dimen/default_font_size" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_margin"
+                android:text="@string/example_exam"
+                android:textAlignment="center"
+                android:textSize="@dimen/default_title_font_size" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/default_margin"
-                    android:text="@string/the_following_exam_has_been_created"
-                    android:textSize="@dimen/default_font_size"
-                    android:textAlignment="center"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/default_margin"
-                    android:text="@string/example_exam"
-                    android:textAlignment="center"
-                    android:textSize="@dimen/default_title_font_size" />
-
-            </LinearLayout>
-
-        </RelativeLayout>
+        </LinearLayout>
 
     </ScrollView>
 
