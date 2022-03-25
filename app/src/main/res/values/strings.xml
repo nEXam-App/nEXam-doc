@@ -33,4 +33,5 @@
     <string name="example_correction">yyyy_mm_dd</string>
     <string name="example_success">The following exam has been created:</string>
     <string name="example_exam">Mathematik III</string>
+    <string name="example_topic">Statistik</string>
 </resources>
