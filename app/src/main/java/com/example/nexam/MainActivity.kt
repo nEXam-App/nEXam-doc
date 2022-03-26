@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         registerButton(R.id.back, R.layout.dashboard)
         registerButton(R.id.save, R.layout.exam_success)
         registerButton(R.id.toDashboard, R.layout.dashboard)
-        registerButton(R.id.editExam, R.layout.exam_view)
+        registerButton(R.id.editExam, R.layout.create_exam)
         registerButton(R.id.showExam, R.layout.exam_view)
         fillList(R.id.exam_list, R.array.test_exams)
         fillList(R.id.content_list, R.array.test_content)
