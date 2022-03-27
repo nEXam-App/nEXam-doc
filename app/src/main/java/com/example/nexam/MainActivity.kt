@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun registerButton(button: Int, view: Int) {
-        val button: Button? = findViewById(button)
+        val button = findViewById<Button>(button)
         if (button == null) return
         button.setOnClickListener(View.OnClickListener {
             setContentView(view)
