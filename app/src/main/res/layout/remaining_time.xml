@@ -1,28 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/remaining_time"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginHorizontal="@dimen/default_margin"
     android:layout_above="@+id/buttons_dashboard"
     android:layout_below="@+id/dashboard"
-    android:orientation="vertical"
+    android:layout_marginHorizontal="@dimen/default_margin"
     android:layout_marginLeft="@dimen/margin_buttons"
     android:layout_marginRight="@dimen/margin_buttons"
     android:layout_marginBottom="@dimen/default_margin"
-    android:gravity="center">
+    android:gravity="center"
+    tools:context=".TimerActivity"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="@string/remaining_time"
-        android:textSize="@dimen/default_title_font_size"/>
+        android:textSize="@dimen/default_title_font_size" />
 
     <EditText
+        android:id="@+id/countTime"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/remaining_time_for_selected_exam"
         android:importantForAutofill="no"
-        android:inputType="time"/>
+        android:textAlignment="center"
+        android:inputType="time" />
 
 </LinearLayout>

@@ -15,6 +15,7 @@
     <string name="the_following_exam_has_been_created">The following exam has been created:</string>
     <string name="error">Error</string>
     <string name="the_following_error_occurred">The following error occurred:</string>
+    <string name="finished">Finished</string>
 
     <!-- Buttons-->
     <string name="createExam">Create Exam</string>
