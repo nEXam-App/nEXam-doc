@@ -4,14 +4,14 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
-import android.view.View
+import android.text.TextUtils
 import android.widget.*
 import java.text.DecimalFormat
 import java.text.NumberFormat
 
 
 class MainActivity : AppCompatActivity() {
-    var counter = 0;
+    var counter = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         //button.setOnClickListener { openTimerActivity() }
     }
 
-    public fun loadView() {
+    private fun loadView() {
         registerButton(R.id.createExamButton, R.layout.create_exam)
         registerButton(R.id.back, R.layout.dashboard)
         registerButton(R.id.save, R.layout.exam_success)
@@ -36,18 +36,16 @@ class MainActivity : AppCompatActivity() {
         fillList(R.id.content_list, R.array.test_content)
     }
 
-    public fun registerButton(button: Int, view: Int) {
-        val button = findViewById<Button>(button)
-        if (button == null) return
-        button.setOnClickListener(View.OnClickListener {
+    private fun registerButton(button: Int, view: Int) {
+        val button = findViewById<Button>(button) ?: return
+        button.setOnClickListener {
             setContentView(view)
             loadView()
-        })
+        }
     }
 
-    public fun fillList(list: Int, array: Int) {
-        val examListView: ListView? = findViewById(list)
-        if (examListView == null) return
+    private fun fillList(list: Int, array: Int) {
+        val examListView: ListView = findViewById(list) ?: return
         examListView.adapter =
             ArrayAdapter(
                 this,
@@ -56,7 +54,7 @@ class MainActivity : AppCompatActivity() {
             )
 
         examListView.onItemClickListener =
-            AdapterView.OnItemClickListener { parent, view, position, id ->
+            AdapterView.OnItemClickListener { _, _, _, _ ->
                 setContentView(R.layout.exam_view)
                 loadView()
             }
@@ -67,12 +65,17 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
-    fun startTimeCounter(view: View) {
+    fun startTimeCounter() {
         val countTime: EditText = findViewById(R.id.countTime)
-        //TODO take input as formated text
+        //TODO take input as formatted text
         //TODO exception handling
         //TODO stop timer instead of start timer
-        val enteredTime:Long=countTime.text.toString().toLong()
+
+        val enteredTime: Long = if (TextUtils.isEmpty(countTime.text)) {
+            1200000
+        } else {
+            countTime.text.toString().toLong()
+        }
 
         object : CountDownTimer(enteredTime, 1000) {
             override fun onTick(millisUntilFinished: Long) {
@@ -80,15 +83,22 @@ class MainActivity : AppCompatActivity() {
                 val hour = millisUntilFinished / 3600000 % 24
                 val min = millisUntilFinished / 60000 % 60
                 val sec = millisUntilFinished / 1000 % 60
-                countTime.setText(f.format(hour) + ":" + f.format(min) + ":" + f.format(sec))
-                counter++
 
-                countTime.isEnabled=false
+                countTime.setText(
+                    getString(
+                        R.string.countTimeText,
+                        f.format(hour),
+                        f.format(min),
+                        f.format(sec)
+                    )
+                )
+                counter++
+                countTime.isEnabled = false
             }
 
             override fun onFinish() {
-                countTime.setText("00:00:00")
-                countTime.isEnabled=true
+                countTime.setText(getString(R.string.countTimeFinished))
+                countTime.isEnabled = true
             }
         }.start()
 
