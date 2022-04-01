@@ -1,6 +1,5 @@
 package com.example.nexam
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
@@ -18,11 +17,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.dashboard)
         loadView()
-
-        //Start timer button -> open TimerActivity
-        //var button: Button? = null
-        //button = findViewById<View>(R.id.startTimer) as Button
-        //button.setOnClickListener { openTimerActivity() }
     }
 
     private fun loadView() {
@@ -34,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         registerButton(R.id.showExam, R.layout.exam_view)
         fillList(R.id.exam_list, R.array.test_exams)
         fillList(R.id.content_list, R.array.test_content)
+        addTimer()
     }
 
     private fun registerButton(button: Int, view: Int) {
@@ -60,22 +55,26 @@ class MainActivity : AppCompatActivity() {
             }
     }
 
-    fun openTimerActivity() {
-        val intent = Intent(this, TimerActivity::class.java)
-        startActivity(intent)
+    private fun addTimer() {
+        val button = findViewById<Button>(R.id.startTimer) ?: return
+        button.setOnClickListener {
+            setContentView(R.layout.dashboard)
+            loadView()
+            startTimeCounter()
+        }
     }
 
-    fun startTimeCounter() {
+    private fun startTimeCounter() {
         val countTime: EditText = findViewById(R.id.countTime)
         //TODO take input as formatted text
         //TODO exception handling
         //TODO stop timer instead of start timer
 
-        val enteredTime: Long = if (TextUtils.isEmpty(countTime.text)) {
-            1200000
-        } else {
-            countTime.text.toString().toLong()
-        }
+         var enteredTime: Long = if (TextUtils.isEmpty(countTime.text)) {
+             1200000
+         } else {
+             countTime.text.toString().toLong()
+         }
 
         object : CountDownTimer(enteredTime, 1000) {
             override fun onTick(millisUntilFinished: Long) {
@@ -101,7 +100,5 @@ class MainActivity : AppCompatActivity() {
                 countTime.isEnabled = true
             }
         }.start()
-
-
     }
 }
