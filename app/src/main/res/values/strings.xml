@@ -27,7 +27,7 @@
     <string name="success">Success</string>
     <string name="the_following_exam_has_been_created">The following exam has been created:</string>
     <string name="error">Error</string>
-    <string name="the_following_error_occured">The following error occured:</string>
+    <string name="the_following_error_occurred">The following error occurred:</string>
     <string name="invalide_date_please_use">invalide date, please use</string>
     <string name="example_error">Invalide date, please use:</string>
     <string name="example_correction">yyyy_mm_dd</string>

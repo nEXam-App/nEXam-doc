@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/buttons_create_exam"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -12,7 +13,8 @@
         android:layout_marginLeft="@dimen/margin_buttons"
         android:layout_marginRight="@dimen/margin_buttons"
         android:gravity="center"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
 
         <Button
             android:id="@+id/back"
@@ -23,7 +25,8 @@
         <View
             android:layout_width="80dp"
             android:layout_height="match_parent"
-            android:layout_weight="0" />
+            android:layout_weight="0"
+            tools:ignore="InefficientWeight" />
 
         <Button
             android:id="@+id/save"

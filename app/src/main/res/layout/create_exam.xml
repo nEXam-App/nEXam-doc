@@ -4,6 +4,7 @@
     android:layout_height="match_parent">
 
     <include layout="@layout/footer" />
+
     <include layout="@layout/buttons_create_exam" />
 
     <ScrollView
@@ -13,73 +14,66 @@
         android:layout_alignParentTop="true"
         android:overScrollMode="always">
 
-        <RelativeLayout
+        <LinearLayout
             android:id="@+id/create_exam"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/default_margin"
             android:layout_marginTop="@dimen/default_margin"
             android:layout_marginEnd="@dimen/default_margin"
-            android:layout_marginBottom="@dimen/default_margin">
+            android:layout_marginBottom="@dimen/default_margin"
+            android:orientation="vertical">
 
-            <LinearLayout
-                android:id="@+id/content"
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/subject"
+                android:textSize="@dimen/default_font_size" />
+
+            <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:hint="@string/enter_subject" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/subject"
-                    android:textSize="@dimen/default_font_size" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/topic"
+                android:textSize="@dimen/default_font_size" />
 
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/enter_subject" />
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_first_topic" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/topic"
-                    android:textSize="@dimen/default_font_size" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date"
+                android:textSize="@dimen/default_font_size" />
 
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/enter_first_topic" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/yyyy_mm_dd"
+                android:importantForAutofill="no"
+                android:inputType="date" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/date"
-                    android:textSize="@dimen/default_font_size" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/content"
+                android:textSize="@dimen/default_font_size" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/yyyy_mm_dd"
-                    android:importantForAutofill="no"
-                    android:inputType="date" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|top"
+                android:hint="@string/enter_content_of_first_topic"
+                android:importantForAutofill="no"
+                android:inputType="textMultiLine" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/content"
-                    android:textSize="@dimen/default_font_size" />
-
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="start|top"
-                    android:hint="@string/enter_content_of_first_topic"
-                    android:importantForAutofill="no"
-                    android:inputType="textMultiLine" />
-
-            </LinearLayout>
-
-        </RelativeLayout>
+        </LinearLayout>
 
     </ScrollView>
 

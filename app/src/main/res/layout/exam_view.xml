@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <include layout="@layout/footer" />
 
@@ -12,78 +15,73 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/buttons_exam_view"
         android:layout_alignParentTop="true"
-        android:overScrollMode="always">
+        android:fillViewport="true">
 
-        <RelativeLayout
+        <LinearLayout
             android:id="@+id/exam_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/default_margin"
             android:layout_marginTop="@dimen/default_margin"
             android:layout_marginEnd="@dimen/default_margin"
-            android:layout_marginBottom="@dimen/default_margin">
+            android:layout_marginBottom="@dimen/default_margin"
+            android:orientation="vertical">
 
-            <LinearLayout
-                android:id="@+id/content"
-                android:layout_width="match_parent"
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:text="@string/subject"
+                android:textSize="@dimen/default_font_size" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/subject"
-                    android:textSize="@dimen/default_font_size" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/default_margin"
+                android:text="@string/example_exam"
+                android:textSize="@dimen/default_title_font_size" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/example_exam"
-                    android:textSize="@dimen/default_title_font_size" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_margin"
+                android:text="@string/topic"
+                android:textSize="@dimen/default_font_size" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/default_margin"
-                    android:text="@string/topic"
-                    android:textSize="@dimen/default_font_size" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/default_margin"
+                android:text="@string/example_topic"
+                android:textSize="@dimen/default_title_font_size" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/example_topic"
-                    android:textSize="@dimen/default_title_font_size" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_margin"
+                android:text="@string/date"
+                android:textSize="@dimen/default_font_size" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/default_margin"
-                    android:text="@string/date"
-                    android:textSize="@dimen/default_font_size" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/default_margin"
+                android:text="@string/_2021_12_09"
+                android:textSize="@dimen/default_title_font_size"/>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:inputType="date"
-                    android:text="@string/_2021_12_09"
-                    android:textSize="@dimen/default_title_font_size"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_margin"
+                android:text="@string/content"
+                android:textSize="@dimen/default_font_size" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/default_margin"
-                    android:text="@string/content"
-                    android:textSize="@dimen/default_font_size" />
+            <ListView
+                android:id="@+id/content_list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                tools:ignore="NestedScrolling" />
 
-                <ListView
-                    android:id="@+id/content_list"
-                    android:layout_width="match_parent"
-                    android:layout_height="300dp"
-                    android:overScrollMode="always" />
-
-            </LinearLayout>
-
-        </RelativeLayout>
+        </LinearLayout>
 
     </ScrollView>
 
