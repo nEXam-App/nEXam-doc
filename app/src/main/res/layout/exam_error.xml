@@ -11,7 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/buttons_exam_error"
-        android:layout_below="@+id/header_error">
+        android:layout_below="@+id/header_error"
+        android:overScrollMode="always">
 
         <RelativeLayout
             android:id="@+id/exam_error"

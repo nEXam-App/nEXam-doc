@@ -9,8 +9,9 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/buttons_create_exam"
         android:layout_alignParentTop="true"
-        android:layout_above="@+id/buttons_create_exam">
+        android:overScrollMode="always">
 
         <RelativeLayout
             android:id="@+id/create_exam"
@@ -52,6 +53,19 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:text="@string/date"
+                    android:textSize="@dimen/default_font_size" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/yyyy_mm_dd"
+                    android:importantForAutofill="no"
+                    android:inputType="date" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:text="@string/content"
                     android:textSize="@dimen/default_font_size" />
 
@@ -62,19 +76,6 @@
                     android:hint="@string/enter_content_of_first_topic"
                     android:importantForAutofill="no"
                     android:inputType="textMultiLine" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/date"
-                    android:textSize="@dimen/default_font_size" />
-
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/yyyy_mm_dd"
-                    android:importantForAutofill="no"
-                    android:inputType="date" />
 
             </LinearLayout>
 
