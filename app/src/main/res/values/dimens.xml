@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_margin">20dp</dimen>
+    <dimen name="default_font_size">18sp</dimen>
+    <dimen name="default_title_font_size">22sp</dimen>
+
+    <dimen name="margin_buttons">40</dimen>
+
+    <dimen name="footer_font_size">24sp</dimen>
+    <dimen name="footer_margin">10dp</dimen>
+</resources>
