@@ -4,11 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginHorizontal="@dimen/default_margin"
-    android:layout_above="@+id/buttons_create_exam"
+    android:layout_above="@+id/buttons_dashboard"
     android:layout_below="@+id/dashboard"
     android:orientation="vertical"
     android:layout_marginLeft="@dimen/margin_buttons"
     android:layout_marginRight="@dimen/margin_buttons"
+    android:layout_marginBottom="@dimen/default_margin"
     android:gravity="center">
 
     <TextView

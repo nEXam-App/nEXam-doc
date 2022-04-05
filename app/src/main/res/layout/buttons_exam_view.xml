@@ -15,18 +15,21 @@
         android:id="@+id/toDashboard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/to_dashboard" />
+        android:layout_gravity="start"
+        android:layout_weight="0.5"
+        android:text="@string/dashboard" />
 
     <View
-        android:layout_width="80dp"
-        android:layout_height="match_parent"
-        android:layout_weight="0"
-        tools:ignore="InefficientWeight" />
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"/>
 
     <Button
         android:id="@+id/editExam"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_weight="0.5"
         android:text="@string/edit_exam" />
 
 </LinearLayout>
