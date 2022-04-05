@@ -15,6 +15,9 @@
     <string name="the_following_exam_has_been_created">The following exam has been created:</string>
     <string name="error">Error</string>
     <string name="the_following_error_occurred">The following error occurred:</string>
+    <string name="finished">Finished</string>
+    <string name="countTimeText">%1$s:%2$s:%3$s</string>
+    <string name="countTimeFinished">00:00:00</string>
 
     <!-- Buttons-->
     <string name="createExam">Create Exam</string>
@@ -26,9 +29,9 @@
     <string name="edit_exam">Edit Exam</string>
 
     <!-- Example texts-->
-    <string name="example_date">2021-12-09</string>
+    <string name="example_date">2021–12–09</string>
     <string name="example_topic">Statistik</string>
     <string name="example_exam">Mathematik III</string>
     <string name="example_correction">yyyy_mm_dd</string>
-    <string name="example_error">Invalide date, please use:</string>
+    <string name="example_error">Invalid date, please use:</string>
 </resources>
