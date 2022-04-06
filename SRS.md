@@ -40,7 +40,7 @@ This Software Requirements Specification (SRS) describes all specifications for 
 
 <!--[A brief description of what the Software Architecture Document     applies to; what is affected or influenced by this document.]-->
 
-The project is going to be realized as an Android and iOS App. The planned scope till end of December is shown in the [use-case specification](https://github.com/Calco2001/nEXam/tree/main/docs/Use_Case_Specification).
+The project is going to be realized as an Android and iOS App. The planned scope till end of December is shown in the [use-case specification](https://github.com/nEXam-App/nEXam-doc/tree/main/docs/Use_Case_Specification).
 
 Actors of this app are students.
 
@@ -63,8 +63,9 @@ Actors of this app are students.
 
 | Title                                               |    Date    | Publishing organization |
 | --------------------------------------------------- | :--------: | ----------------------- |
-| [nEXam blog](https://nexam955203221.wordpress.com/) | 05.10.2021 | nEXam-Team              |
-| [GitHub](https://github.com/Calco2001/nEXam)        | 05.10.2021 | nEXam-Team              |
+| [nEXam blog](https://nexam955203221.wordpress.com/) | 05.10.2021 | nEXam-App               |
+| [GitHub](https://github.com/nEXam-App/nEXam)        | 05.10.2021 | nEXam-App               |
+| [Documents](https://github.com/nEXam-App/nEXam-doc) | 06.04.2022 | nEXam-App               |
 
 ### 1.5 Overview
 
@@ -82,13 +83,13 @@ You need to enter your exam information, including date, subject, and  topic. Ba
 
 ## 3. Specific Requirements
 
-![OUCD](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/use%20case%20diagram.jpg)
+![OUCD](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/nEXam-use%20case%20diagram.jpg)
 
 - Green: Planned till end of december
 
 ### 3.1 Functionality
 
-This section explains the different use cases you can see in the use case diagram and their functionality. For more information, see our [Use Case Specification](https://github.com/Calco2001/nEXam/tree/main/docs/Use_Case_Specification).
+This section explains the different use cases you can see in the use case diagram and their functionality. For more information, see our [Use Case Specification](https://github.com/nEXam-App/nEXam-doc/tree/main/docs/Use_Case_Specification).
 
 #### 3.1.1 Dashboard
 
@@ -140,7 +141,7 @@ Since we want to program an iOS and Android app, we chose Kotlin as our programm
 
 We discarded our planned database, SQLite, because of the small amount of data. Instead, the data is stored within an XML file.
 
-For our version control and project management we will use [GitHub](https://github.com/Calco2001/nEXam) and [YouTrack](https://dhbw-karlsruhe.myjetbrains.com/youtrack/dashboard?id=fc14affe-ae44-4123-8d77-b5828e4aa5eb).
+For our version control and project management we will use [GitHub](https://github.com/nEXam-App/nEXam) and [YouTrack](https://dhbw-karlsruhe.myjetbrains.com/youtrack/dashboard?id=fc14affe-ae44-4123-8d77-b5828e4aa5eb).
 
 ### 3.7 Online User Documentation and Help System Requirements
 The operation of the app should be as intuitive as possible, so it does not need any further documentation. In case the user requires help, we expect to implement a “Help” button in the app, which will include a FAQ.
