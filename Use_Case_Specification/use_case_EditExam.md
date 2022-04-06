@@ -3,24 +3,24 @@
 ## 1. Use-Case
 This use case allows users to edit the infos of an existing exam.
 
-![Use Case](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/use%20case%20diagram.jpg)
+![Use Case](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/nEXam-use%20case%20diagram.jpg)
 
 ## 2. Flow of Events
 ### 2.1 Basic flow
 A user will create an exam and list all of them. He can edit them if changes occur or delete them altogether.
 
-![Basic Flow](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/basic%20flow.jpg)
+![Basic Flow](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/basic%20flow.jpg)
 
 ### 2.2 Edit
 By editing the user can change all the info he wants for the current exam. The data will be validated afterwards.
 
 ## 3. Activity Diagram
 ### 3.1 Activity Diagram
-![Activity Diagram](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/activity_diagram_EditInfo.jpg)
+![Activity Diagram](https://github.com/nEXam-App/nEXam-doc/blob/main/docs/diagrams/activity_diagram_EditInfo.jpg)
 
 ### 3.2 Narratives
 The feature files for the use case.
-#### ![Usecase 2](https://github.com/Calco2001/nEXam/blob/main/application/src/test/UC2.feature): Edit Exam
+#### Usecase 2: Edit Exam
 ```Gherkin
 Feature: Use Case 2 edit an existing Exam
     As a USER 
@@ -79,28 +79,22 @@ Feature: Use Case 2 edit an existing Exam
 
 Below you will find our first wireframes. Those will show you our first thoughts about the look.
 
-![Edit exam](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20edit%20exam.PNG)
+![Edit exam](https://github.com/nEXam-App/nEXam-doc/blob/main/docs/wireframes/create%20edit%20exam.PNG)
 
-![Error](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/error.PNG)
+![Error](https://github.com/nEXam-App/nEXam-doc/blob/main/docs/wireframes/error.PNG)
 
-![Success message](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/success%20message.PNG)
+![Success message](https://github.com/nEXam-App/nEXam-doc/blob/main/docs/wireframes/success%20message.PNG)
 
 3.4 Created views
 
 We designed a light and a dark mode.
 
-<img src="https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam.png" alt="drawing" width="350"/>
-<!--![Edit exam dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam.png)-->
-<img src="https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam%20light.png" alt="drawing" width="350"/>
-<!--![Edit exam light](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam%20light.png)-->
-<img src="https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examError_dark.png" alt="drawing" width="350"/>
-<!--![Error message dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examError_dark.png)-->
-<img src="https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examError_light.png" alt="drawing" width="350"/>
-<!--![Error message dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examError_light.png)-->
-<img src="https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examSuccess_dark.png" alt="drawing" width="350"/>
-<!--![Success message dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examSuccess_dark.png)-->
-<img src="https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examSuccess_ligt.png" alt="drawing" width="350"/>
-<!--![Success message light](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/examSuccess_ligt.png)-->
+<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/docs/wireframes/create%20exam.png" alt="drawing" width="350"/>
+<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/docs/wireframes/create%20exam%20light.png" alt="drawing" width="350"/>
+<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/docs/wireframes/examError_dark.png" alt="drawing" width="350"/>
+<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/docs/wireframes/examError_light.png" alt="drawing" width="350"/>
+<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/docs/wireframes/examSuccess_dark.png" alt="drawing" width="350"/>
+<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/docs/wireframes/examSuccess_ligt.png" alt="drawing" width="350"/>
 
 ## 4. Preconditions
 
