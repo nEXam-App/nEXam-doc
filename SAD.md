@@ -91,7 +91,7 @@ The next chapter provides the architectural goals and constraints, followed by t
 
 Since we plan to create an Android and iOS app, we use the framework automatically provided by Android Studio. Below you can find the general MVP diagram.
 
-![MVP Android](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/mvp%20android.PNG)
+![MVP Android](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/mvp%20android.PNG)
 
 ## 3. Architectural Goals and Constraints
 
@@ -113,7 +113,7 @@ We wanted to use SQLite to store some data. Our goal is not to need a big databa
 ## 4. Use-Case View
 <!--[This section lists use cases or scenarios from the use-case     model if they represent some significant, central functionality of the final     system, or if they have a large architectural coverage - they exercise many     architectural elements, or if they stress or illustrate a specific, delicate     point of the architecture.]-->
 
-![OUCD](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/use%20case%20diagram.jpg)
+![OUCD](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/nEXam-use%20case%20diagram.jpg)
 
 Green: Planned till end of December
 
@@ -121,9 +121,9 @@ Green: Planned till end of December
 
 <!--[This section illustrates how the software actually works     by giving a few selected use-case (or scenario) realizations, and explains     how the various design model elements contribute to their functionality.]-->
 
-* [Use Case - Create Exam](https://github.com/Calco2001/nEXam/blob/main/docs/Use_Case_Specification/use_case_CreateExam.md)
-* [Use Case - Edit Exam](https://github.com/Calco2001/nEXam/blob/main/docs/Use_Case_Specification/use_case_EditExam.md)
-* [Use Case - Change Theme](https://github.com/Calco2001/nEXam/blob/main/docs/Use_Case_Specification/use_case_ChangeTheme.md)
+* [Use Case - Create Exam](https://github.com/nEXam-App/nEXam-doc/blob/main/Use_Case_Specification/use_case_CreateExam.md)
+* [Use Case - Edit Exam](https://github.com/nEXam-App/nEXam-doc/blob/main/Use_Case_Specification/use_case_EditExam.md)
+* [Use Case - Change Theme](https://github.com/nEXam-App/nEXam-doc/blob/main/Use_Case_Specification/use_case_ChangeTheme.md)
 
 ## 5. Logical View
 
@@ -135,11 +135,11 @@ Green: Planned till end of December
 
 Here again is the picture with the overview of our MVP model. So it is easier to see the architecture in the following structure of our project.
 
-![MVP Android](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/mvp%20android.PNG)
+![MVP Android](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/mvp%20android.PNG)
 
 ### 5.2 Architecturally Significant Design Packages
 
-![MVP from Android Studio](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/mvc%20from%20android%20studio.png)
+![MVP from Android Studio](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/mvc%20from%20android%20studio.png)
 
 <!--[For each significant package, include a subsection with its     name, its brief description, and a diagram with all significant classes and     packages contained within the package.--> 
 
@@ -183,9 +183,9 @@ n/a
 
 Below you can see our db schema diagram and our class diagram:
 
-![db schema](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/DB-Schema.jpg)
+![db schema](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/DB-Schema.jpg)
 
-![class diagram](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/UML%20class%20diagram.jpg)
+![class diagram](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/nEXam-UML%20class%20diagram.jpg)
 
 ## 10. Size and Performance 
 
