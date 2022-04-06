@@ -16,7 +16,7 @@ By editing the user can change all the info he wants for the current exam. The d
 
 ## 3. Activity Diagram
 ### 3.1 Activity Diagram
-![Activity Diagram](https://github.com/nEXam-App/nEXam-doc/blob/main/docs/diagrams/activity_diagram_EditInfo.jpg)
+![Activity Diagram](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/activity_diagram_EditInfo.jpg)
 
 ### 3.2 Narratives
 The feature files for the use case.
