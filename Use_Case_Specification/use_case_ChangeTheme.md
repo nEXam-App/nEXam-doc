@@ -9,7 +9,7 @@ This use case allows users to switch between light and dark theme.
 ### 2.1 Basic flow
 The app will use the system default theme.
 
-![Basic Flow](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/activity_diagram_ChangeTheme.jpg)
+![Basic Flow](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/basicflow_ChangeTheme.jpg)
 
 ## 3. Activity Diagram
 ### 3.1 Activity Diagram
