@@ -1,23 +1,23 @@
-# Use-Case Specification: Create Exam
+# Use-Case Specification: Change Theme
 
 ## 1. Use-Case
 This use case allows users to switch between light and dark theme.
 
-![Use Case](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/use%20case%20diagram.jpg)
+![Use Case](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/nEXam-use%20case%20diagram.jpg)
 
 ## 2. Flow of Events
 ### 2.1 Basic flow
 The app will use the system default theme.
 
-![Basic Flow](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/basicflow_CHangeTheme.jpg)
+![Basic Flow](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/activity_diagram_ChangeTheme.jpg)
 
 ## 3. Activity Diagram
 ### 3.1 Activity Diagram
-![Activity Diagram](https://github.com/Calco2001/nEXam/blob/main/docs/diagrams/activity_diagram_ChangeTheme.jpg)
+![Activity Diagram](https://github.com/nEXam-App/nEXam-doc/blob/main/docs/diagrams/activity_diagram_ChangeTheme.jpg)
 
 ### 3.2 Narratives
 The feature file for the first case.
-#### ![Usecase 1](https://github.com/Calco2001/nEXam/blob/main/application/src/test/UC3.feature): Change app theme
+#### ![Usecase 1](https://github.com/nEXam-App/nEXam-doc/blob/main/application/src/test/UC3.feature): Change app theme
 ```Gherkin
 Feature: Use Case 2 change the app theme
     As a USER 
@@ -41,10 +41,8 @@ Feature: Use Case 2 change the app theme
 
 Below you will find two mockups of the same view with different themes.
 
-<img src="https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam.png" alt="drawing" width="350"/>
-<!--![Create exam dark](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam.png)-->
-<img src="https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam%20light.png" alt="drawing" width="350"/>
-<!--![Create exam light](https://github.com/Calco2001/nEXam/blob/main/docs/wireframes/create%20exam%20light.png)-->
+<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/docs/wireframes/create%20exam.png" alt="drawing" width="350"/>
+<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/docs/wireframes/create%20exam%20light.png" alt="drawing" width="350"/>
 
 ## 4. Preconditions
 
