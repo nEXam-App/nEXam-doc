@@ -79,22 +79,22 @@ Feature: Use Case 2 edit an existing Exam
 
 Below you will find our first wireframes. Those will show you our first thoughts about the look.
 
-![Edit exam](https://github.com/nEXam-App/nEXam-doc/blob/main/docs/wireframes/create%20edit%20exam.PNG)
+![Edit exam](https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/create%20edit%20exam.PNG)
 
-![Error](https://github.com/nEXam-App/nEXam-doc/blob/main/docs/wireframes/error.PNG)
+![Error](https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/error.PNG)
 
-![Success message](https://github.com/nEXam-App/nEXam-doc/blob/main/docs/wireframes/success%20message.PNG)
+![Success message](https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/success%20message.PNG)
 
 3.4 Created views
 
 We designed a light and a dark mode.
 
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/docs/wireframes/create%20exam.png" alt="drawing" width="350"/>
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/docs/wireframes/create%20exam%20light.png" alt="drawing" width="350"/>
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/docs/wireframes/examError_dark.png" alt="drawing" width="350"/>
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/docs/wireframes/examError_light.png" alt="drawing" width="350"/>
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/docs/wireframes/examSuccess_dark.png" alt="drawing" width="350"/>
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/docs/wireframes/examSuccess_ligt.png" alt="drawing" width="350"/>
+<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/create%20exam.png" alt="drawing" width="350"/>
+<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/create%20exam%20light.png" alt="drawing" width="350"/>
+<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examError_dark.png" alt="drawing" width="350"/>
+<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examError_light.png" alt="drawing" width="350"/>
+<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examSuccess_dark.png" alt="drawing" width="350"/>
+<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examSuccess_ligt.png" alt="drawing" width="350"/>
 
 ## 4. Preconditions
 
