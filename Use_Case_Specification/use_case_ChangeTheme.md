@@ -17,7 +17,7 @@ The app will use the system default theme.
 
 ### 3.2 Narratives
 The feature file for the first case.
-#### ![Usecase 1](https://github.com/nEXam-App/nEXam-doc/blob/main/application/src/test/UC3.feature): Change app theme
+#### Usecase 1: Change app theme
 ```Gherkin
 Feature: Use Case 2 change the app theme
     As a USER 
