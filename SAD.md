@@ -75,8 +75,9 @@ In here you can find different views and architecture components of nEXam, inclu
 
 | Title                                               |    Date    | Publishing organization |
 | --------------------------------------------------- | :--------: | ----------------------- |
-| [nEXam blog](https://nexam955203221.wordpress.com/) | 05.10.2021 | nEXam-Team              |
-| [GitHub](https://github.com/Calco2001/nEXam)        | 05.10.2021 | nEXam-Team              |
+| [nEXam blog](https://nexam955203221.wordpress.com/) | 05.10.2021 | nEXam-App               |
+| [GitHub](https://github.com/nEXam-App/nEXam)        | 05.10.2021 | nEXam-App               |
+| [Documents](https://github.com/nEXam-App/nEXam-doc) | 06.04.2022 | nEXam-App               |
 
 ### 1.5 Overview
 
