@@ -5,7 +5,7 @@ This use case allows users to update the progress bar.
 
 ## 2. Flow of Events
 ### 2.1 Basic flow
-A user will update the progress bar of a topic. 
+A user starts or finishes learning a topic. Therefore, the progress bar of a topic will be updated. 
 
 ![Basic Flow](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/basic%20flow.jpg)
 
@@ -16,10 +16,10 @@ A user will update the progress bar of a topic.
 ![Activity Diagram](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/activity_diagram_CreateExam.jpg)
 
 ### 3.2 Narratives
-The feature file for the first case.
-#### Usecase 1: Update Progress bar
+The feature file for this case.
+#### Usecase 4: Update Progress bar
 ```Gherkin
-Feature: Use Case 1 Set progress bar to started
+Feature: Use Case 4 Set progress bar to started
     As a USER 
     I want to change the progress bar to started.
     Therefore I will need to start the timer of the topic.
@@ -67,7 +67,7 @@ We designed a light and a dark mode.
 Since we don't want to use a large database, we agreed not to have an authentication process. So the only requirements are read and write permissions on the local device.
 
 ## 5. Postconditions
-After creating a new exam, the user will be redirected to the overview, where all entries will be displayed.
+After performing one of the listed activities, the user can see his progress by the progress bar.
 
 ## 6. Function Points
 [//]: <Domain Characteristic Table>
