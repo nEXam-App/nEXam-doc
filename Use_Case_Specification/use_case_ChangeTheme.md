@@ -3,8 +3,6 @@
 ## 1. Use-Case
 This use case allows users to switch between light and dark theme.
 
-![Use Case](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/nEXam-use%20case%20diagram.jpg)
-
 ## 2. Flow of Events
 ### 2.1 Basic flow
 The app will use the system default theme.
