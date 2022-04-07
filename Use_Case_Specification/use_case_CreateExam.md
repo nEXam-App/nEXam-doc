@@ -3,8 +3,6 @@
 ## 1. Use-Case
 This use case allows users to create a new exam with the first topic.
 
-![Use Case](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/nEXam-use%20case%20diagram.jpg)
-
 ## 2. Flow of Events
 ### 2.1 Basic flow
 A user will create an exam and list all of them. He can edit them if changes occur or delete them altogether.
