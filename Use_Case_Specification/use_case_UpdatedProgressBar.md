@@ -1,16 +1,15 @@
-# Use-Case Specification: Create Exam
+# Use-Case Specification: Update Progress Bar
 
 ## 1. Use-Case
-This use case allows users to create a new exam.
+This use case allows users to update the progress bar.
 
 ## 2. Flow of Events
 ### 2.1 Basic flow
-A user will create an exam and list all of them. He can edit them if changes occur or delete them altogether.
+A user will update the progress bar of a topic. 
 
 ![Basic Flow](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/basic%20flow.jpg)
 
 ### 2.2 Creation
-During the creation of a new exam the user is asked, to enter the subject and optional the date of the exam.
 
 ## 3. Activity Diagram
 ### 3.1 Activity Diagram
@@ -18,36 +17,28 @@ During the creation of a new exam the user is asked, to enter the subject and op
 
 ### 3.2 Narratives
 The feature file for the first case.
-#### Usecase 1: Create Exam
+#### Usecase 1: Update Progress bar
 ```Gherkin
-Feature: Use Case 1 Create Exam
+Feature: Use Case 1 Set progress bar to started
     As a USER 
-    I want to create a new exam.
-    Therefore I will be asked for the subject and date.
+    I want to change the progress bar to started.
+    Therefore I will need to start the timer of the topic.
 
     Background:
         Given The application has the needed local permissions
 
     @postsession-feature:
-    Scenario Outline: Create new Exam
-        When The user clicks on the Create Exam button
-        And The user types the subject <subject>
-        And The user types the date <date>
-        And The user clicks on the Save button
-        And All the data is valid
-        Then The exam is created 
-        And The success message with <subject> is shown
-
-        Examples: Exam
-        | subject           | date       |
-        | Formale Sprache   | 2021-12-17 |
-        | Statistik         | 2021-12-23 |
+    Scenario Outline: Change progress bar to started
+        When The user clicks on an existing topic
+        And The user types the Start Timer button
+        And The status checkbox isnt checked
+        Then The progress bar will change from not started to started
 
     @postsession-feature:
-    Scenario: Leaving the Activity New Exam without creating an exam
-        When The user presses the Back button 
-        Then No exam is saved
-        And The user returns to the previous screen
+    Scenario: Change progress bar to finished
+        When The user checks the status checkbox
+        And The progress bar isnt on finished
+        Then The progress bar will change from not started or started to finished
 ```
 
 ### 3.3 Mockups
