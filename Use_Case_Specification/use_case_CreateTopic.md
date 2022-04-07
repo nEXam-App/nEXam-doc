@@ -19,7 +19,7 @@ Based on the difficulty level the topic will be safed with an amount of time the
 
 ### 3.2 Narratives
 The feature file for the first case.
-#### Usecase 1: Create Exam
+#### Usecase 1: Create Topic
 ```Gherkin
 Feature: Use Case 1 Create Topic
     As a USER 
