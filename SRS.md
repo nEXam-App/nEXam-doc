@@ -13,11 +13,11 @@
     - [3.1 Functionality](#31-functionality)
     - [3.2 Usability](#32-usability)
     - [3.3 Reliability](#33-reliability)
-    - [3.4 Performance](#34_performance)
+    - [3.4 Performance](#34-performance)
     - [3.5 Supportability](#35-supportability)
     - [3.6 Design Constraints](#36-design-constraints)
     - [3.7 Online User Documentation and Help System Requirements](#37-online-user-documentation-and-help-system-requirements)
-    - [3.8 Purchased Components](#purchased-components)
+    - [3.8 Purchased Components](#38-purchased-components)
     - [3.9 Interfaces](#39-interfaces)
     - [3.10 Licensing Requirements](#310-licensing-requirements)
     - [3.11 Legal, Copyright And Other Notices](#311-legal-copyright-and-other-notices)
@@ -40,7 +40,7 @@ This Software Requirements Specification (SRS) describes all specifications for 
 
 <!--[A brief description of what the Software Architecture Document     applies to; what is affected or influenced by this document.]-->
 
-The project is going to be realized as an Android and iOS App. The planned scope till end of December is shown in the [use-case specification](https://github.com/nEXam-App/nEXam-doc/tree/main/docs/Use_Case_Specification).
+The project is to be implemented as an Android app with the possibility of offering it for iOS at a later date. The planned scope for the first and second semesters is shown in the [OUCD](#3-specific-requirements). More information about the use cases can be found in the [use-case specification](https://github.com/nEXam-App/nEXam-doc/tree/main/Use_Case_Specification) folder.
 
 Actors of this app are students.
 
@@ -54,7 +54,7 @@ Actors of this app are students.
 | UC           | Use Case                            |
 | n/a          | not applicable                      |
 | tbd          | to be determined                    |
-| UCD          | overall Use Case Diagram            |
+| OUCD          | overall Use Case Diagram            |
 | FAQ          | Frequently asked Questions          |
 
 ### 1.4 References
@@ -85,7 +85,8 @@ You need to enter your exam information, including date, subject, and  topic. Ba
 
 ![OUCD](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/nEXam-use%20case%20diagram.jpg)
 
-- Green: Planned till end of december
+- Green: First semester
+- Yellow: Second semester
 
 ### 3.1 Functionality
 
