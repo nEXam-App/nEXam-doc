@@ -40,7 +40,8 @@ This Software Requirements Specification (SRS) describes all specifications for 
 
 <!--[A brief description of what the Software Architecture Document     applies to; what is affected or influenced by this document.]-->
 
-The project is to be implemented as an Android app with the possibility of offering it for iOS at a later date. The planned scope for the first and second semesters is shown in the [OUCD](#3-specific-requirements). More information about the use cases can be found in the [use-case specification](https://github.com/nEXam-App/nEXam-doc/tree/main/Use_Case_Specification) folder.
+The project is to be implemented as an Android app with the possibility of offering it for iOS at a later date. The planned scope for the first and second semesters is shown in the [OUCD](#3-specific-requirements). More information about the use cases can be found in the 
+[use-case specification](https://github.com/nEXam-App/nEXam-doc/tree/main/Use_Case_Specification) folder.
 
 Actors of this app are students.
 
