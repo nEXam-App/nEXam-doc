@@ -58,8 +58,6 @@ Below you will find our first wireframes. Those will show you our first thoughts
 
 ![Error](https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/error.PNG)
 
-![Success message](https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/success%20message.PNG)
-
 ### 3.4 Created views
 
 We designed a light and a dark mode.
