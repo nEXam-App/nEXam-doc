@@ -1,80 +1,59 @@
-# Use-Case Specification: Create Exam
+# Use-Case Specification: Show Dashboard
 
 ## 1. Use-Case
-This use case allows users to create a new exam.
+This use case shows the user the dashboard when he opens the app or clicks the dashboard button.
 
 ## 2. Flow of Events
 ### 2.1 Basic flow
-A user will create an exam and list all of them. He can edit them if changes occur or delete them altogether.
-
-![Basic Flow](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/basic%20flow.jpg)
+A user will open the app or clicks the corresponding button. Therefore, he will be navigated to the dashboard view. Here he can see already created exams and has the possibility to add more.
 
 ### 2.2 Creation
-During the creation of a new exam, the user is asked, to enter the subject and optional the date of the exam. Later on, there is also the opportunity to navigate to the add topic UI.
+While the view is loading, the systems fill the belonging text view with the existing exams from the database. Only the title will be visible, so the users are not confused with too much information at the same point.
 
 ## 3. Activity Diagram
 ### 3.1 Activity Diagram
-![Activity Diagram](https://github.com/nEXam-App/nEXam-doc/blob/bc15f070dcdfbce8f52901afdc50dbbf4994b986/diagrams/activity%20diagram/nEXam-activity%20diagram%20(create%20Exam).jpg)
+![Activity Diagram](https://github.com/nEXam-App/nEXam-doc/blob/81110067eca9360f0dd356b023b2782b6d20422a/diagrams/activity%20diagram/nEXam-activity%20diagram%20ShowDashboard.jpg)
 
 ### 3.2 Narratives
 The feature file for this use case.
-#### Usecase: Create Exam
+#### Usecase: Show Dashboard
 ```Gherkin
-Feature: Use Case Create Exam
+Feature: Use Case Show Dashboard
     As a USER 
-    I want to create a new exam.
-    Therefore I will be asked for the subject and date.
+    I want to open the app or navigate to the dashboard from another view.
+    Therefore, I will need to open the app or click the corresponding button.
 
     Background:
         Given The application has the needed local permissions
 
     @postsession-feature:
-    Scenario Outline: Create new Exam
-        When The user clicks on the Create Exam button
-        And The user types the subject <subject>
-        And The user types the date <date>
-        And The user clicks on the Save button
-        And All the data is valid
-        Then The exam is created 
-        And The success message with <subject> is shown
-
-        Examples: Exam
-        | subject           | date       |
-        | Formale Sprache   | 2021-12-17 |
-        | Statistik         | 2021-12-23 |
-
-    @postsession-feature:
-    Scenario: Leaving the Activity New Exam without creating an exam
-        When The user presses the Back button 
-        Then No exam is saved
-        And The user returns to the previous screen
+    Scenario Outline: Show Dashboard
+        When The user clicks on the App Icon or the Dashboard button
+        Then The dashboard with is shown
+        And the text view is loaded with the exams from the database
 ```
 
 ### 3.3 Mockups
 
-Below you will find our first wireframes. Those will show you our first thoughts about the look.
+Below you will find our first wireframe. This will show you our first thoughts about the look.
 
-![Create exam](https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/create%20edit%20exam.PNG)
-
-![Error](https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/error.PNG)
+![Show Dashboard](https://github.com/nEXam-App/nEXam-doc/blob/81110067eca9360f0dd356b023b2782b6d20422a/wireframes/dashboard.PNG)
 
 ### 3.4 Created views
 
 We designed a light and a dark mode.
 
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/create%20exam.png" alt="drawing" width="350"/>
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/create%20exam%20light.png" alt="drawing" width="350"/>
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examError_dark.png" alt="drawing" width="350"/>
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examError_light.png" alt="drawing" width="350"/>
+<img src="https://github.com/nEXam-App/nEXam-doc/blob/81110067eca9360f0dd356b023b2782b6d20422a/wireframes/dashboard_dark.png" alt="drawing" width="350"/>
+<img src="https://github.com/nEXam-App/nEXam-doc/blob/81110067eca9360f0dd356b023b2782b6d20422a/wireframes/dashboard_light.png" alt="drawing" width="350"/>
 
 ## 4. Preconditions
 
 Since we don't want to use a large database, we agreed not to have an authentication process. So the only requirements are read and write permissions on the local device.
 
 ## 5. Postconditions
-After creating a new exam, the user will be redirected to the dashboard, where all entries will be displayed.
+After showing the dashboard, the user can add more exams with the create exam button or navigate to an existing exam by clicking it.
 
 ## 6. Function Points
-We calculated 111,15 function points for this use case.
+We calculated 90.35 function points for this use case.
 
-![Function Points](https://github.com/nEXam-App/nEXam-doc/blob/bc15f070dcdfbce8f52901afdc50dbbf4994b986/diagrams/FP/FPCreateExam.PNG)
+![Function Points](https://github.com/nEXam-App/nEXam-doc/blob/81110067eca9360f0dd356b023b2782b6d20422a/diagrams/FP/FPCreateDashboard.PNG)
