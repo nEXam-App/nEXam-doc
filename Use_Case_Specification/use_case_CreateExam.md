@@ -10,17 +10,17 @@ A user will create an exam and list all of them. He can edit them if changes occ
 ![Basic Flow](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/basic%20flow.jpg)
 
 ### 2.2 Creation
-During the creation of a new exam the user is asked, to enter the subject and optional the date of the exam.
+During the creation of a new exam, the user is asked, to enter the subject and optional the date of the exam. Later on, there is also the opportunity to navigate to the add topic UI.
 
 ## 3. Activity Diagram
 ### 3.1 Activity Diagram
-![Activity Diagram](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/activity_diagram_CreateExam.jpg)
+![Activity Diagram](https://github.com/nEXam-App/nEXam-doc/blob/bc15f070dcdfbce8f52901afdc50dbbf4994b986/diagrams/activity%20diagram/nEXam-activity%20diagram%20(create%20Exam).jpg)
 
 ### 3.2 Narratives
-The feature file for the first case.
-#### Usecase 1: Create Exam
+The feature file for this use case.
+#### Usecase: Create Exam
 ```Gherkin
-Feature: Use Case 1 Create Exam
+Feature: Use Case Create Exam
     As a USER 
     I want to create a new exam.
     Therefore I will be asked for the subject and date.
@@ -68,17 +68,14 @@ We designed a light and a dark mode.
 <img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/create%20exam%20light.png" alt="drawing" width="350"/>
 <img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examError_dark.png" alt="drawing" width="350"/>
 <img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examError_light.png" alt="drawing" width="350"/>
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examSuccess_dark.png" alt="drawing" width="350"/>
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examSuccess_ligt.png" alt="drawing" width="350"/>
 
 ## 4. Preconditions
 
 Since we don't want to use a large database, we agreed not to have an authentication process. So the only requirements are read and write permissions on the local device.
 
 ## 5. Postconditions
-After creating a new exam, the user will be redirected to the overview, where all entries will be displayed.
+After creating a new exam, the user will be redirected to the dashboard, where all entries will be displayed.
 
 ## 6. Function Points
-[//]: <Domain Characteristic Table>
-
-[//]: <Complexity Adjustment Table>
+We calculated 111,15 function points for this use case.
+![Function Points](https://github.com/nEXam-App/nEXam-doc/blob/bc15f070dcdfbce8f52901afdc50dbbf4994b986/diagrams/FP/FPCreateExam.PNG)
