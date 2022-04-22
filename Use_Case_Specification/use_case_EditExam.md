@@ -14,11 +14,11 @@ By editing the user can change all the info he wants for the current exam. The d
 
 ## 3. Activity Diagram
 ### 3.1 Activity Diagram
-![Activity Diagram](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/activity_diagram_EditInfo.jpg)
+![Activity Diagram](https://github.com/nEXam-App/nEXam-doc/blob/d20a447bf40a9d16de67bf4c70d59bb871cd25a5/diagrams/activity%20diagram/activity_diagram_EditExam.jpg)
 
 ### 3.2 Narratives
 The feature files for the use case.
-#### Usecase 2: Edit Exam
+#### Usecase: Edit Exam
 ```Gherkin
 Feature: Use Case 2 edit an existing Exam
     As a USER 
@@ -79,8 +79,6 @@ Below you will find our first wireframes. Those will show you our first thoughts
 
 ![Error](https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/error.PNG)
 
-![Success message](https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/success%20message.PNG)
-
 3.4 Created views
 
 We designed a light and a dark mode.
@@ -89,8 +87,6 @@ We designed a light and a dark mode.
 <img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/create%20exam%20light.png" alt="drawing" width="350"/>
 <img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examError_dark.png" alt="drawing" width="350"/>
 <img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examError_light.png" alt="drawing" width="350"/>
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examSuccess_dark.png" alt="drawing" width="350"/>
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examSuccess_ligt.png" alt="drawing" width="350"/>
 
 ## 4. Preconditions
 
@@ -105,6 +101,6 @@ After the user saved his edits, the updated data will be displayed in the overvi
 After confirming the deletion modal, the exam will be removed from the overview.
 
 ## 6. Function Points
-[//]: <Domain Characteristic Table>
+We calculated function points for this use case.
 
-[//]: <Complexity Adjustment Table>
+![function points](https://github.com/nEXam-App/nEXam-doc/blob/d20a447bf40a9d16de67bf4c70d59bb871cd25a5/diagrams/FP/FPEditExam.PNG)
