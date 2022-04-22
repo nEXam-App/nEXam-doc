@@ -11,13 +11,13 @@ The app will use the system default theme.
 
 ## 3. Activity Diagram
 ### 3.1 Activity Diagram
-![Activity Diagram](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/activity_diagram_ChangeTheme.jpg)
+![Activity Diagram](https://github.com/nEXam-App/nEXam-doc/blob/2559fe2e702bdab4ce9363fa6d51ad84bb05a61d/diagrams/activity%20diagram/activity_diagram_ChangeTheme.jpg)
 
 ### 3.2 Narratives
-The feature file for the first case.
-#### Usecase 1: Change app theme
+The feature file for this case.
+#### Usecase: Change app theme
 ```Gherkin
-Feature: Use Case 2 change the app theme
+Feature: Use Case change the app theme
     As a USER 
     I want to change the theme of the app.
     Therefore I need to change the system default theme.
@@ -50,6 +50,4 @@ Since we don't want to use a large database, we agreed not to have an authentica
 After changing the system default theme the app theme will update automaticly. It is not needed to restart the app.
 
 ## 6. Function Points
-[//]: <Domain Characteristic Table>
-
-[//]: <Complexity Adjustment Table>
+Since Android Studio automatically provides a dark and light mode, we did not create function points for this use case. Instead, this is listed with the other use cases.
