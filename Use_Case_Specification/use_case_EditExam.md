@@ -101,6 +101,6 @@ After the user saved his edits, the updated data will be displayed in the overvi
 After confirming the deletion modal, the exam will be removed from the overview.
 
 ## 6. Function Points
-We calculated function points for this use case.
+We calculated 125.45 function points for this use case.
 
 ![function points](https://github.com/nEXam-App/nEXam-doc/blob/d20a447bf40a9d16de67bf4c70d59bb871cd25a5/diagrams/FP/FPEditExam.PNG)
