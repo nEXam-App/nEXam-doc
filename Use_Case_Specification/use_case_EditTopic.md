@@ -59,7 +59,7 @@ Below you will find our first wireframes. Here you can see our initial thoughts 
 
 ![Error](https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/error.PNG)
 
-3.4 Created views
+### 3.4 Created views
 
 We will design a light and a dark mode.
 
