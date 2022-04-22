@@ -7,7 +7,7 @@ This use case allows users to create a new topic.
 ### 2.1 Basic flow
 A user will add a topic to an existing exam. He can edit them if changes occur or delete them altogether.
 
-![Basic Flow](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/basic%20flow.jpg)
+![Basic Flow](https://github.com/nEXam-App/nEXam-doc/blob/861925ad9fd5208579205441ed99b85b9dc07c43/diagrams/nEXam-basic%20flow%20topic.jpg)
 
 ### 2.2 Creation
 During the creation of a new topic the user is asked, to enter the topic and the difficulty level.
@@ -15,16 +15,16 @@ Based on the difficulty level the topic will be safed with an amount of time the
 
 ## 3. Activity Diagram
 ### 3.1 Activity Diagram
-![Activity Diagram](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/activity_diagram_CreateExam.jpg)
+![Activity Diagram](https://github.com/nEXam-App/nEXam-doc/blob/bafb0e93da82652e75b73ab68f5ddb4727a8c543/diagrams/activity%20diagram/nEXam-activity%20diagram%20CreateTopic.jpg)
 
 ### 3.2 Narratives
-The feature file for the first case.
-#### Usecase 1: Create Topic
+The feature file for this use case.
+#### Usecase: Create Topic
 ```Gherkin
-Feature: Use Case 1 Create Topic
+Feature: Use Case Create Topic
     As a USER 
     I want to add a new topic to an existing exam.
-    Therefore I will be asked for the topic difficulty level.
+    Therefore I will be asked for the topic and difficulty level.
 
     Background:
         Given The application has the needed local permissions
@@ -54,24 +54,20 @@ Feature: Use Case 1 Create Topic
 
 ### 3.3 Mockups
 
-Below you will find our first wireframes. Those will show you our first thoughts about the look.
+Below you will find our first wireframes. Here you can see our initial thoughts on the look, as the topic will be analogous to exam.
 
 ![Create exam](https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/create%20edit%20exam.PNG)
 
 ![Error](https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/error.PNG)
 
-![Success message](https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/success%20message.PNG)
-
 ### 3.4 Created views
 
-We designed a light and a dark mode.
+We will design a light and a dark mode.
 
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/create%20exam.png" alt="drawing" width="350"/>
+<!--<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/create%20exam.png" alt="drawing" width="350"/>
 <img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/create%20exam%20light.png" alt="drawing" width="350"/>
 <img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examError_dark.png" alt="drawing" width="350"/>
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examError_light.png" alt="drawing" width="350"/>
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examSuccess_dark.png" alt="drawing" width="350"/>
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examSuccess_ligt.png" alt="drawing" width="350"/>
+<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examError_light.png" alt="drawing" width="350"/>-->
 
 ## 4. Preconditions
 
@@ -81,6 +77,6 @@ Since we don't want to use a large database, we agreed not to have an authentica
 After adding a new topic, the user will be redirected to the overview, where all entries will be displayed.
 
 ## 6. Function Points
-[//]: <Domain Characteristic Table>
+We calculated 120.9 function points for this use case.
 
-[//]: <Complexity Adjustment Table>
+![function points](https://github.com/nEXam-App/nEXam-doc/blob/bafb0e93da82652e75b73ab68f5ddb4727a8c543/diagrams/FP/FPCreateTopic.PNG)
