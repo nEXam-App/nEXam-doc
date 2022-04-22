@@ -7,13 +7,9 @@ This use case allows users to update the progress bar.
 ### 2.1 Basic flow
 A user starts or finishes learning a topic. Therefore, the progress bar of a topic will be updated. 
 
-![Basic Flow](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/basic%20flow.jpg)
-
-### 2.2 Creation
-
 ## 3. Activity Diagram
 ### 3.1 Activity Diagram
-![Activity Diagram](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/activity_diagram_CreateExam.jpg)
+![Activity Diagram](https://github.com/nEXam-App/nEXam-doc/blob/de7ca120f8f833eb6c871575df7fb7b9599263e0/diagrams/activity%20diagram/nEXam-activity%20diagram%20UpdateProgressBar.jpg)
 
 ### 3.2 Narratives
 The feature file for this case.
@@ -43,24 +39,16 @@ Feature: Use Case 4 Set progress bar to started
 
 ### 3.3 Mockups
 
-Below you will find our first wireframes. Those will show you our first thoughts about the look.
+Below you will shortly find our first wireframes. Those will show you our first thoughts about the look.
 
-![Create exam](https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/create%20edit%20exam.PNG)
-
-![Error](https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/error.PNG)
-
-![Success message](https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/success%20message.PNG)
+//![Create exam](https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/create%20edit%20exam.PNG)
 
 ### 3.4 Created views
 
-We designed a light and a dark mode.
+We will designe a light and a dark mode.
 
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/create%20exam.png" alt="drawing" width="350"/>
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/create%20exam%20light.png" alt="drawing" width="350"/>
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examError_dark.png" alt="drawing" width="350"/>
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examError_light.png" alt="drawing" width="350"/>
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examSuccess_dark.png" alt="drawing" width="350"/>
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examSuccess_ligt.png" alt="drawing" width="350"/>
+//<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/create%20exam.png" alt="drawing" width="350"/>
+//<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/create%20exam%20light.png" alt="drawing" width="350"/>
 
 ## 4. Preconditions
 
@@ -70,6 +58,6 @@ Since we don't want to use a large database, we agreed not to have an authentica
 After performing one of the listed activities, the user can see his progress by the progress bar.
 
 ## 6. Function Points
-[//]: <Domain Characteristic Table>
+We calculated 128.7 function points for this use case.
 
-[//]: <Complexity Adjustment Table>
+![function points](https://github.com/nEXam-App/nEXam-doc/blob/de7ca120f8f833eb6c871575df7fb7b9599263e0/diagrams/FP/FPUpdateProgressBar.PNG)
