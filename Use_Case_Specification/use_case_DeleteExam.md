@@ -13,7 +13,7 @@ A user will delete an existing exam.
 
 ## 3. Activity Diagram
 ### 3.1 Activity Diagram
-![Activity Diagram](https://github.com/nEXam-App/nEXam-doc/blob/dad586efc7345a079579fe563834f81206a945d9/diagrams/activity%20diagram/activity_diagram_deleteExam.jpg)
+![Activity Diagram](https://github.com/nEXam-App/nEXam-doc/blob/596e9751f7b76e0b887cd12279af117328acb112/diagrams/activity%20diagram/nEXam-activity%20diagram%20(delete%20exam).jpg)
 
 ### 3.2 Narratives
 The feature file for this use case.
