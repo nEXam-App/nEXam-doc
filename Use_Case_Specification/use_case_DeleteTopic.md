@@ -13,7 +13,7 @@ A user will delete an existing topic.
 
 ## 3. Activity Diagram
 ### 3.1 Activity Diagram
-![Activity Diagram](https://github.com/nEXam-App/nEXam-doc/blob/48fb0651dfb06617b7f788927c06c29b4fdcf83f/diagrams/activity%20diagram/activity_diagram_deleteTopic.jpg)
+![Activity Diagram](https://github.com/nEXam-App/nEXam-doc/blob/644cb5ffeaec9f091a81d516f04789365744a34f/diagrams/activity%20diagram/nEXam-activity%20diagram%20(delete%20topic).jpg)
 
 ### 3.2 Narratives
 The feature file for this use case.
@@ -43,7 +43,7 @@ Feature: Use Case Delete Topic
 
 ### 3.3 Mockups
 
-Below you will find our first wireframes for an exam. Here you can see our initial thoughts on the look, as the Topic will be analogous to exam.
+Below you will find our first wireframes for an exam. Here you can see our initial thoughts on the look, as the topic will be analogous to exam.
 
 ![Create exam](https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/create%20edit%20exam.PNG)
 
