@@ -13,13 +13,13 @@ A user will delete an existing exam.
 
 ## 3. Activity Diagram
 ### 3.1 Activity Diagram
-![Activity Diagram](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/activity_diagram_CreateExam.jpg)
+![Activity Diagram](https://github.com/nEXam-App/nEXam-doc/blob/dad586efc7345a079579fe563834f81206a945d9/diagrams/activity%20diagram/activity_diagram_deleteExam.jpg)
 
 ### 3.2 Narratives
-The feature file for the first case.
-#### Usecase 1: Delete Exam
+The feature file for this use case.
+#### Usecase: Delete Exam
 ```Gherkin
-Feature: Use Case 1 Create Topic
+Feature: Use Case Delete Exam
     As a USER 
     I want to delete existing exam.
 
@@ -29,10 +29,9 @@ Feature: Use Case 1 Create Topic
     @postsession-feature:
     Scenario Outline: Delete Exam
         When the user clicks on an existig Exam
-        And the user clicks on the delete button
+        And the user clicks on the edit button
+        And the user clicks in edit exam on the delete button
         Then the exam will be deleted
-
-       
 
     @postsession-feature:
     Scenario: Leaving the Activity delete exam without deleting an exam
@@ -49,8 +48,6 @@ Below you will find our first wireframes. Those will show you our first thoughts
 
 ![Error](https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/error.PNG)
 
-![Success message](https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/success%20message.PNG)
-
 ### 3.4 Created views
 
 We designed a light and a dark mode.
@@ -59,17 +56,15 @@ We designed a light and a dark mode.
 <img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/create%20exam%20light.png" alt="drawing" width="350"/>
 <img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examError_dark.png" alt="drawing" width="350"/>
 <img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examError_light.png" alt="drawing" width="350"/>
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examSuccess_dark.png" alt="drawing" width="350"/>
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examSuccess_ligt.png" alt="drawing" width="350"/>
 
 ## 4. Preconditions
 
 Since we don't want to use a large database, we agreed not to have an authentication process. So the only requirements are read and write permissions on the local device.
 
 ## 5. Postconditions
-After adding a new topic, the user will be redirected to the overview, where all entries will be displayed.
+After deleting an exam, the user will be redirected to the overview, where the remaining entries will be displayed.
 
 ## 6. Function Points
-[//]: <Domain Characteristic Table>
+We calculated 121.55 function points for this use case.
 
-[//]: <Complexity Adjustment Table>
+![function points](https://github.com/nEXam-App/nEXam-doc/blob/dad586efc7345a079579fe563834f81206a945d9/diagrams/FP/FPDeleteExam.PNG)
