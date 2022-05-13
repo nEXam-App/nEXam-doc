@@ -154,12 +154,12 @@ The tests are used for quality assurance, risk mitigation and to meet functional
 - UI testing of views/fragments
 - Unit testing
 
-*Database: Room*:
+*Backend with Database: Room*:
 - Unit testing
 - Integration testing
 - Api testing
 
-<!--TODO maybe add graphic like this: https://github.com/nilskre/CommonPlayground/blob/0228b4c35e72e22177461711436413335903977c/docs/test_plan/testing_overview.png -->
+![testing overview](https://github.com/nEXam-App/nEXam-doc/blob/5faceab75198f6503df3a17c7da389370ad33cf9/diagrams/nEXam-Testing%20Diagram.jpg)
 
 The tests themself will not be tested and will not account into code coverage.
 
