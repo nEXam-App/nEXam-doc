@@ -141,11 +141,9 @@ n/a
 
 ## 7. Deployment View 
 
-n/a
+Here you can see our deployement view diagram: 
 
-<!--ADD UML-DIAGRAM WITH SERVER/CLIENT ARCHITECTURE-->
-
-<!--[This section describes one or more physical network (hardware)     configurations on which the software is deployed and run. It is a view of     the Deployment Model. At a minimum for each configuration it should indicate     the physical nodes (computers, CPUs) that execute the software, and their     interconnections (bus, LAN, point-to-point, and so on.) Also include a mapping     of the processes of the **Process View** onto the physical nodes.]-->
+![deployment diagram](https://github.com/nEXam-App/nEXam-doc/blob/2a007547b934fd3fec273b92bae162f9db293d7d/diagrams/deployment-android.jpg)
 
 ## 8. Implementation View 
 
