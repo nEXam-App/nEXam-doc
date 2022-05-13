@@ -86,8 +86,6 @@ This test plan is written primarily for internal documentation reasons. It is me
 
 ### 1.4 Document Terminology and Acronyms
 
-[This subsection provides the definitions of any terms, acronyms, and abbreviations required to properly interpret the Test Plan. Avoid listing items that are generally applicable to the project as a whole and that are already defined in the project's Glossary. Include a reference to the project's Glossary in the References section.]
-
 | Abbr | Abbreviation                        |
 |------|-------------------------------------|
 | API  | Application Programmable Interface  |
@@ -144,7 +142,7 @@ The tests are used for quality assurance, risk mitigation and to meet functional
 ## 3. Target Test Items
 
 - Android frontend
-- Database testing (and APIs)
+- Backend testing (and APIs)
 
 ## 4. Outline of Planned Tests
 
@@ -257,21 +255,39 @@ n/a
 
 ## 7.1 Test Evaluation Summaries
 
-The project owns a certain amount of tests in the Frontend and Backend. Since we won't to know if problems occur before we push, we agreed on running the tests beforehand and only push if they all passed. Furthermore a code analysis with SonarQube is triggered. We use two different repos for the docs and the source code.
+The project owns a certain amount of tests in the Frontend and Backend. Since we want to know if problems occur before we push, we agreed on running the tests beforehand and only push if they all passed. Furthermore a code analysis with SonarCloud is triggered. We use two different repos for the docs and the source code.
+
+![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=nEXam-App_nEXam)
+
+Overview in SonarCloud:
+
+![sonarCloud overview](https://github.com/nEXam-App/nEXam-doc/blob/8073a93ddc7ef37c03f6ad7ee5bdc0565073fd62/diagrams/SonarCloudOverview.PNG)
+
+Integration of SonarCloud with gitHub:
+
+![SonarCloud github](https://github.com/nEXam-App/nEXam-doc/blob/7d953d68e858ff3ccd4b45936a304602946cc432/diagrams/SonarCloudGithub.PNG)
+
+IDE test execution:
+
+![test results](https://github.com/nEXam-App/nEXam-doc/blob/7d953d68e858ff3ccd4b45936a304602946cc432/diagrams/ProveOfRunningTests.PNG)
 
 ## 7.2 Reporting on Test Coverage
 
-For reporting our test coverage we also use SonarQube.
+For reporting our test coverage we use SonarCloud.
+
+![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=nEXam-App_nEXam)
 
 ## 7.3 Perceived Quality Reports
 
-The code quality tool is SonarQube.
+The code quality is also checked by SonarCloud. After a push or pull request you can see an overview as the following:
+
+![sonarCloud overview](https://github.com/nEXam-App/nEXam-doc/blob/8073a93ddc7ef37c03f6ad7ee5bdc0565073fd62/diagrams/SonarCloudOverview.PNG)
 
 ## 7.4 Incident Logs and Change Requests
 
-We integrated the tools mentioned above into our GitHub pull request workflow.
+We integrated the tools mentioned above into our GitHub pull request workflow. The screenshot shows the integration:
 
-<!--TODO maybe screenshot of integration-->
+![sonarCloud integration](https://github.com/nEXam-App/nEXam-doc/blob/80bf4829ab6ddcb7c507ce08afce6fc0719775ba/diagrams/SonarCloudIntegration.PNG)
 
 ## 7.5 Smoke Test Suite and Supporting Test Scripts
 
@@ -332,8 +348,8 @@ The following tools will be employed to support the test process for this Test P
 |---------------------|---------------|
 |Repository|[github.com](https://github.com/nEXam-App/nEXam)|
 |Documents|[github.com](https://github.com/nEXam-App/nEXam-doc)|
-|Test Coverage Monitor|[SonarQube](https://www.sonarqube.org/)|
-|Metrics Tool|[SonarQube](https://www.sonarqube.org/)|
+|Test Coverage Monitor|[SonarCloud](https://sonarcloud.io/)|
+|Metrics Tool|[SonarCloud](https://sonarcloud.io/)|
 
 ### 9.4 Test Environment Configurations
 
