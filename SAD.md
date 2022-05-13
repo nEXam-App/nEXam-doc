@@ -127,10 +127,13 @@ At this point we want to show you also the architecture of our database:
 
 ### 5.2 Architecturally Significant Design Packages
 
-On this section you can find our class diagrams for the frontend and the backend. We have clearly marked which parts fulfill the model, the view and the presenter tasks.
+On this section you can find our class diagrams for the frontend and the backend. We have clearly marked which parts fulfill the model, the view and the controller tasks.
 
-Here is the class diagram for the backend. As the backend has no view part we only highlighted the model and the presenter parts. 
-<!--TODO add uml class diagram with overlay for backend and frontend, s. https://github.com/nilskre/CommonPlayground/blob/pm/docs/SoftwareArchitectureDocument.md-->
+![overlay with uml diagram](https://github.com/nEXam-App/nEXam-doc/blob/fd45157525425d73e1280033d289bfbd07444999/diagrams/overlay%20as%20png.PNG)
+
+As the quality of the the export with the overlay is not the best, here's also the original generated class diagram.
+
+![class diagram](https://github.com/nEXam-App/nEXam-doc/blob/fd45157525425d73e1280033d289bfbd07444999/generated%20uml.png)
 
 ## 6. Process View
 
