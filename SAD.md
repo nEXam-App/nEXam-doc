@@ -78,23 +78,19 @@ This document contains the architectural representation, goals and constraints a
 
 ## 2. Architectural Representation 
 
-This project uses the MVP Pattern for the front end (Android App) and for the backend. So the model (data model, domain specific classes), the view (user interface) and the presenter are separated. The MVP Pattern can be seen in the next picture:
-
-![MVP Android](https://github.com/nEXam-App/nEXam-doc/blob/0106cd6df1207d1bccfdc5f2be6b3ec8280ba805/diagrams/mvp%20android.PNG)
-
-The front end internally follows the MVVM pattern which can be depicted as following. This pattern separates the View components again into a funcional part (the ViewModel) and a purely representational part (View) while the model remains analogous to the back end. 
+This project follows the MVVM pattern which can be depicted as following. This pattern separates the View components into a funcional part (the ViewModel) and a purely representational part (View) while the model remains analogous to the back end. 
 
 ![MVVM Pattern](https://github.com/nEXam-App/nEXam-doc/blob/ea192e0d8105d75a232d11394428079cb8846336/diagrams/MVVMPattern.png)
 
 ## 3. Architectural Goals and Constraints
 
-### MVP
+### MVVM
 
-As mentioned in chapter two frontend and backend are using the MVP pattern. This enables a clean software architecture with separate model view and presenter.
+As mentioned in chapter two frontend and backend are using the MVVM pattern. This enables a clean software architecture with separate model view and ViewModel.
 
 ### Frontend
 
-The Android App Client is written in Kotlin. In the Frontend no MVP Tool is needed, because the MVP Pattern is integrated into Android development. However, since the App only serves as as frontend the MVP it serves as the V component to the overall application formed by frontend and backend together. For a clean view structure the frontend in itself uses the MVVM (Model View ViewModel) pattern.
+The Android App Client is written in Kotlin. For a clean view structure the frontend itself uses the MVVM (Model View ViewModel) pattern.
 MVVM:
 - Model: domain specific classes modeled after backend classes
 - View: activities
@@ -115,11 +111,11 @@ n/a
 
 ### 5.1 Overview
 
-Here again is the picture with the overview of our MVP model. So it is easier to see the architecture in the following structure of our project.
+Here again is the picture with the overview of our MVVM model. So it is easier to see the architecture in the following structure of our project.
 
-![MVP Android](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/mvp%20android.PNG)
+![MVVM Pattern](https://github.com/nEXam-App/nEXam-doc/blob/ea192e0d8105d75a232d11394428079cb8846336/diagrams/MVVMPattern.png)
 
-![MVP from Android Studio](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/mvc%20from%20android%20studio.png)
+![MVVM from Android Studio](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/mvc%20from%20android%20studio.png)
 
 At this point we want to show you also the architecture of our database:
 
@@ -127,13 +123,9 @@ At this point we want to show you also the architecture of our database:
 
 ### 5.2 Architecturally Significant Design Packages
 
-On this section you can find our class diagrams for the frontend and the backend. We have clearly marked which parts fulfill the model, the view and the controller tasks.
+On this section you can find our class diagrams for the frontend and the backend. We have clearly marked which parts fulfill the model, the view and the viewmodel tasks.
 
-![overlay with uml diagram](https://github.com/nEXam-App/nEXam-doc/blob/fd45157525425d73e1280033d289bfbd07444999/diagrams/overlay%20as%20png.PNG)
-
-As the quality of the the export with the overlay is not the best, here's also the original generated class diagram.
-
-![class diagram](https://github.com/nEXam-App/nEXam-doc/blob/fd45157525425d73e1280033d289bfbd07444999/generated%20uml.png)
+![overlay with uml diagram](https://github.com/nEXam-App/nEXam-doc/blob/97a03b5bd5ca7b32cee5362947e51f57d0ccf2bd/diagrams/umlDiagrams/uml%20important%20files_designPattern.png)
 
 ## 6. Process View
 
@@ -173,6 +165,7 @@ n/a
 
 ## 11. Quality 
 
-n/a
+We're using some design patterns since the beginning. Therefore, you can find a listing of them in our [blog post](https://nexam955203221.wordpress.com/2022/05/19/se2-week-7-design-patterns/).
+In the following overlay are the patterns marked with green:
 
-<!--[A description of how the software architecture contributes     to all capabilities (other than functionality) of the system: extensibility,     reliability, portability, and so on. If these characteristics have special     significance, for example safety, security or privacy implications, they should     be clearly delineated.]-->
+![overlay with uml diagram](https://github.com/nEXam-App/nEXam-doc/blob/97a03b5bd5ca7b32cee5362947e51f57d0ccf2bd/diagrams/umlDiagrams/uml%20important%20files_designPattern.png)
