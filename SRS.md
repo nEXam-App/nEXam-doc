@@ -226,6 +226,10 @@ We calculated function points for the use cases and plotted them in a graph alon
 
 ![fp vs. time](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/diagrams/FP/functionPointAnalysisTimeSpent.PNG)
 
+Here's the current state of the function points after the second semester.
+
+![fp end of semster two](https://github.com/nEXam-App/nEXam-doc/blob/2feaddbbb0ac8bfb74f424a8ead4554201d3f21d/diagrams/FP/newFunctionPoints.PNG)
+
 ### 3.8 Online User Documentation and Help System Requirements
 
 The operation of the app should be as intuitive as possible, so it does not need any further documentation. In case the user requires help, we expect to implement a “Help” button in the app, which will include a FAQ.
