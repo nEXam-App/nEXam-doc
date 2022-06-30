@@ -224,9 +224,7 @@ Create/ Edit Exam - provides the fields for a new exam. Also, it should be possi
 
 Create/ Edit Topic - provides the fields for a new topic. It should be possible to edit the information of the selected topic.
 
-View Exam - shows detailed information about an exam and a list of the existing topics. It is possible here to navigate to edit exam.
-
-View Topic - shows detailed information about a topic and contains a timer for the selected exam. Here it is posible to navigate to edit topic and start the timer.
+View Exam - shows detailed information about an exam and the estimated time. Also provides the oppurtunity to start and stop the time for the estimated tim. It is possible here to navigate to edit exam.
 
 Error message - a page displaying the error that occurred and the possibility to edit the field with the invalid data or return to the dashboard 
 
