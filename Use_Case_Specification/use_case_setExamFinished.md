@@ -64,6 +64,6 @@ Since we don't want to use a large database, we agreed not to have an authentica
 After changing the finished status of a selected exam, the user will stay on the edit exam view.
 
 ## 6. Function Points
-needs to be done
+We calculated 94.25 function points for this use case.
 
-![Function Points](https://github.com/nEXam-App/nEXam-doc/blob/bc15f070dcdfbce8f52901afdc50dbbf4994b986/diagrams/FP/FPCreateExam.PNG)
+![Function Points](https://github.com/nEXam-App/nEXam-doc/blob/bc15f070dcdfbce8f52901afdc50dbbf4994b986/diagrams/FP/FPSetExamFinished.PNG)
