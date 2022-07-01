@@ -30,7 +30,8 @@ Feature: Use Case Set Exam finished
 
     @postsession-feature:
     Scenario Outline: Finish a selected exam
-        When The user clicks on the finish switchbutton
+        When The user navigates to the detail view of an existing exam
+        And The user clicks on the finish switchbutton
         And The exam is currently unfinished
         And The user clicks on the yes answer on the dialog
         Then The exam is set to finished 
