@@ -31,7 +31,8 @@ Feature: Use Case Start Timer
 
     @postsession-feature:
     Scenario Outline: start timer
-        When The user clicks on the start timer button
+        When The user navigated to the detail view of an existing exam
+        And The user clicks on the start timer button
         Then The timer will start counting down the estimated time 
 
      @postsession-feature:
