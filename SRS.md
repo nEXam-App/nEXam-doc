@@ -41,7 +41,7 @@ Planned use cases are:
 - Show Dashboard: This use case covers the default view and contains the exams.
 - Change Theme: The app will use the system default setting. Therefore we must provide a light and dark mode. The user has no need to change it itself.
 - Exam: There are three use cases for this subitem. These are the typical CRUD operations, so create, edit, delete and view exam belong here.
-- Set finished: The exams can be set on finished to show an additional label and channge the priority on the dashboard.
+- Set finished: The exams can be set on finished to show an additional label and change the priority on the dashboard.
 - Timer: A timer will count the estimated effort down. 
 
 ### 1.3 Definitions, Acronyms and Abbreviations
@@ -92,7 +92,8 @@ The technology we use is:
 - Frontend: Android with Kotlin and XML
 - IDE: Visual Studio and Android Studio
 - Project Management: Youtrack, GitHub
-- Testing: Cucumber, Espresso, JUnit, SonarCloud
+- Testing: Cucumber, Espresso with Green Coffee, JUnit
+- Metrics: SonarCloud
 
 ## 3. Specific Requirements
 
