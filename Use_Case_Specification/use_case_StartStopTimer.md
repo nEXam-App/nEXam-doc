@@ -65,6 +65,6 @@ Since we don't want to use a large database, we agreed not to have an authentica
 The user will stay on the exam details.
 
 ## 6. Function Points
-We calculated 111,15 function points for this use case.
+We calculated 92.3 function points for this use case.
 
-![Function Points](https://github.com/nEXam-App/nEXam-doc/blob/bc15f070dcdfbce8f52901afdc50dbbf4994b986/diagrams/FP/FPCreateExam.PNG)
+![Function Points](https://github.com/nEXam-App/nEXam-doc/blob/bc15f070dcdfbce8f52901afdc50dbbf4994b986/diagrams/FP/FPSetExamFinished.PNG)
