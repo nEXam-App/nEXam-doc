@@ -41,9 +41,8 @@ Planned use cases are:
 - Show Dashboard: This use case covers the default view and contains the exams.
 - Change Theme: The app will use the system default setting. Therefore we must provide a light and dark mode. The user has no need to change it itself.
 - Exam: There are three use cases for this subitem. These are the typical CRUD operations, so create, edit, delete and view exam belong here.
-- Topic: Since the topics are similar to the exams, the use cases create, edit, delete and show topic should be mentioned here as well.
-- Send Notifications: To inform and acitivate the user to learn, the systems sends push up messages to the users smartphone.
-- Update Progress Bar: There are three states for the topics. Pending, started and finished. These are calculated based on the saved progress and the time spent. For the user, the current state is indicated by a corresponding background color.
+- Set finished: The exams can be set on finished to show an additional label and channge the priority on the dashboard.
+- Timer: A timer will count the estimated effort down. 
 
 ### 1.3 Definitions, Acronyms and Abbreviations
 
@@ -93,7 +92,7 @@ The technology we use is:
 - Frontend: Android with Kotlin and XML
 - IDE: Visual Studio and Android Studio
 - Project Management: Youtrack, GitHub
-- Testing: Cucumber, Espresso, JUnit
+- Testing: Cucumber, Espresso, JUnit, SonarCloud
 
 ## 3. Specific Requirements
 
@@ -108,15 +107,12 @@ Until December we plan to implement:
 - 3.1.4 Show Dashboard
 
 Until June, we want to implement:
-- 3.1.5 Update Progress Bar
-- 3.1.6 Send Notifications
-- 3.1.7 Create Exam
-- 3.1.8 Edit Exam
-- 3.1.9 Delete Exam
-- 3.1.10 Create Topic
-- 3.1.11 Edit Topic
-- 3.1.12 Delete Topic
-- 3.1.13 Show Topic
+- 3.1.5 Start / Stop Timer
+- 3.1.6 Create Exam
+- 3.1.7 Edit Exam
+- 3.1.8 Delete Exam
+- 3.1.9 Set Exam finished
+
 
 #### 3.1.1 Change Theme
 
@@ -142,21 +138,15 @@ This use case covers the default view and contains the existing exams.
 
 [Show Dashboard](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_ShowDashboard.md)
 
-#### 3.1.5 Update Progress Bar
+#### 3.1.5 Start/Stop Timer
 
-There are three states for the topics. Pending, started and finished. These are calculated based on the saved progress and the time spent. For the user, the current state is indicated by a corresponding background color.
+The estimated time can be count down by a start Timer button. As well the Timer can be stopped by another button.
 
-[Update Progress Bar](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_UpdatedProgressBar.md)
+[Start / Stop Timer](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_StartStopTimer.md)
 
-#### 3.1.6 Send Notifications
+#### 3.1.6-3.1.9 Exam
 
-To inform and acitivate the user to learn, the systems sends push up messages to the users smartphone.
-
-[Send Notifications](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_SendNotifactions.md)
-
-#### 3.1.7-3.1.9 Exam
-
-There are three use cases for this subitem. These are three of the typical CRUD operations, so create, edit and delete an exam.
+There are four use cases for this subitem. These are three of the typical CRUD operations, so create, edit and delete an exam. Additional you can use a switchbutton to set the selected Exam on 'finished'. This will show an additional label. Also it will effect the sorting on the dashboard.
 
 [Create Exam](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_CreateExam.md)
 
@@ -164,21 +154,7 @@ There are three use cases for this subitem. These are three of the typical CRUD 
 
 [Delete Exam](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_DeleteExam.md)
 
-#### 3.1.10-3.1.13 Topic
-
-Since the topics are similar to the exams, the use cases create, edit, delete and show topic should be mentioned here as well.
-
-[Create Topic](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_CreateTopic.md)
-
-[Edit Topic](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_EditTopic.md)
-
-[Delete Topic](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_DeleteTopic.md)
-
-[Show Topic](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_ShowTopic.md)
-
-#### 3.1.14 Agenda View
-
-Here you can make various adjustments for the dashboard. Among other things, you can select how the exams are displayed, and you can access the individual subchapters for the exams. There are also two designs for the light and dark modes. - tbd
+[Finish Exam](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_setExamFinished.md)
 
 ### 3.2 Usability
 
@@ -244,13 +220,9 @@ The following user interfaces are implemented:
 
 Dashboard - lists all current exams. Here it is possible to create new exams.
 
-Create/ Edit Exam - provides the fields for a new exam. Also, it should be possible to edit the information of the selected exam here and to navigate to the creation interface of a topic. 
+Create/ Edit Exam - provides the fields for a new exam. Also, it should be possible to edit the information of the selected exam here. 
 
-Create/ Edit Topic - provides the fields for a new topic. It should be possible to edit the information of the selected topic.
-
-View Exam - shows detailed information about an exam and a list of the existing topics. It is possible here to navigate to edit exam.
-
-View Topic - shows detailed information about a topic and contains a timer for the selected exam. Here it is posible to navigate to edit topic and start the timer.
+View Exam - shows detailed information about an exam and the estimated time. Also provides the oppurtunity to start and stop the time for the estimated tim. It is possible here to navigate to edit exam.
 
 Error message - a page displaying the error that occurred and the possibility to edit the field with the invalid data or return to the dashboard 
 
