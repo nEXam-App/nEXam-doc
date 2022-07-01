@@ -142,7 +142,7 @@ This use case covers the default view and contains the existing exams.
 
 The estimated time can be count down by a start Timer button. As well the Timer can be stopped by another button.
 
-[Update Progressbar](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_UpdatedProgressBar.md)
+[Start / Stop Timer](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_StartStopTimer.md)
 
 #### 3.1.6-3.1.9 Exam
 
@@ -154,7 +154,7 @@ There are four use cases for this subitem. These are three of the typical CRUD o
 
 [Delete Exam](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_DeleteExam.md)
 
-[Finish Exam](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_DeleteExam.md)
+[Finish Exam](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_setExamFinished.md)
 
 ### 3.2 Usability
 
@@ -220,9 +220,7 @@ The following user interfaces are implemented:
 
 Dashboard - lists all current exams. Here it is possible to create new exams.
 
-Create/ Edit Exam - provides the fields for a new exam. Also, it should be possible to edit the information of the selected exam here and to navigate to the creation interface of a topic. 
-
-Create/ Edit Topic - provides the fields for a new topic. It should be possible to edit the information of the selected topic.
+Create/ Edit Exam - provides the fields for a new exam. Also, it should be possible to edit the information of the selected exam here. 
 
 View Exam - shows detailed information about an exam and the estimated time. Also provides the oppurtunity to start and stop the time for the estimated tim. It is possible here to navigate to edit exam.
 
