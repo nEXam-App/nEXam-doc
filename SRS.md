@@ -141,7 +141,7 @@ This use case covers the default view and contains the existing exams.
 
 #### 3.1.5 Start/Stop Timer
 
-The estimated time can be count down by a start Timer button. As well the Timer can be stopped by another button.
+The estimated time can be counted down by a start Timer button. As well, the Timer can be stopped by another button.
 
 [Start / Stop Timer](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_StartStopTimer.md)
 
@@ -156,6 +156,22 @@ There are four use cases for this subitem. These are three of the typical CRUD o
 [Delete Exam](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_DeleteExam.md)
 
 [Finish Exam](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_setExamFinished.md)
+
+#### 3.1.10 Agenda View
+
+Here you can make various adjustments for the dashboard. Among other things, you can select how the exams are displayed, and you can access the individual subchapters for the exams. There are also two designs for the light and dark modes. - tbd
+
+#### 3.1.11 Topics
+
+Instead of an input text field directly by the exam, it should be possible in the future to enter separate topics for one exam. Here you also have the CRUD use cases. -tbd
+
+[Create Topic](https://github.com/nEXam-App/nEXam-doc/blob/main/Use_Case_Specification/use_case_CreateTopic.md)
+
+[Show Topic](https://github.com/nEXam-App/nEXam-doc/blob/main/Use_Case_Specification/use_case_ShowTopic.md)
+
+[Edit Topic](https://github.com/nEXam-App/nEXam-doc/blob/main/Use_Case_Specification/use_case_EditTopic.md)
+
+[Delete Topic](https://github.com/nEXam-App/nEXam-doc/blob/main/Use_Case_Specification/use_case_DeleteTopic.md)
 
 ### 3.2 Usability
 
@@ -223,7 +239,7 @@ Dashboard - lists all current exams. Here it is possible to create new exams.
 
 Create/ Edit Exam - provides the fields for a new exam. Also, it should be possible to edit the information of the selected exam here. 
 
-View Exam - shows detailed information about an exam and the estimated time. Also provides the oppurtunity to start and stop the time for the estimated tim. It is possible here to navigate to edit exam.
+View Exam - shows detailed information about an exam and the estimated time. Also, it provides the opportunity to start and stop the timer for the suggested time. It is possible here to navigate to edit exam.
 
 Error message - a page displaying the error that occurred and the possibility to edit the field with the invalid data or return to the dashboard 
 
