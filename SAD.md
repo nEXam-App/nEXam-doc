@@ -63,7 +63,7 @@ This document describes the architecture of the nEXam project.
 | [UC5 Create Exam](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_CreateExam.md)                                                                               | Apr. 2022 | nEXam-App |
 | [UC6 Edit Exam](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_EditExam.md)                                                                                   | Apr. 2022 | nEXam-App |
 | [UC7 Delete Exam](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_DeleteExam.md)                                                                               | Apr. 2022 | nEXam-App |
-| [UC8 Start Stop Timer](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_StartStopTimer.md) 
+| [UC8 Start Stop Timer](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_StartStopTimer.md)  | Apr. 2022 | nEXam-App |
 | [UC9 Set Exam finished](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_setExamFinished.md)                                                                               | Apr. 2022 | nEXam-App |                                                                              | Apr. 2022 | nEXam-App |
 | [Test Plan](https://github.com/nEXam-App/nEXam-doc/blob/0d0ce2e8de074a444fa6914afc6e07c656a7acb1/test_plan_template.md)                                   | Apr. 2022 | nEXam-App |
 | [SRS](https://github.com/nEXam-App/nEXam-doc/blob/0d0ce2e8de074a444fa6914afc6e07c656a7acb1/SRS.md)                                                  | Oct. 2021 | nEXam-App |
@@ -74,7 +74,7 @@ This document contains the architectural representation, goals and constraints a
 
 ## 2. Architectural Representation 
 
-This project follows the MVVM pattern which can be depicted as following. This pattern separates the View components into a funcional part (the ViewModel) and a purely representational part (View) while the model remains analogous to the back end. 
+This project follows the MVVM pattern which can be depicted as following. This pattern separates the view components into a funcional part (the ViewModel) and a purely representational part (View) while the model remains analogous to the back end. 
 
 ![MVVM Pattern](https://github.com/nEXam-App/nEXam-doc/blob/ea192e0d8105d75a232d11394428079cb8846336/diagrams/MVVMPattern.png)
 
@@ -101,7 +101,7 @@ The backend is also written in Kotlin. As a database we use the Room persistence
 
 ### 4.1 Use-Case Realizations
 
-n/a
+Information about the different realizations of the use cases can be found in [our SRS](https://github.com/nEXam-App/nEXam-doc/blob/main/SRS.md).
 
 ## 5. Logical View
 
@@ -147,13 +147,17 @@ n/a
 
 ## 9. Data View (optional)
 
-Below you can see our db schema diagram and our class diagram:
-
-<!--TODO update-->
+Below you can see our current db schema diagram and our current class diagram:
 
 ![db schema](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/DB-Schema.jpg)
 
 ![class diagram](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/nEXam-UML%20class%20diagram.jpg)
+
+Since we couldn't implement as much as wanted, here are also the db schema and class diagram how it was planned and maybe done in the future:
+
+![future db schema](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/DB-Schema_future.jpg)
+
+![future class diagram](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/nEXam-UML%20class%20diagram_future.jpg)
 
 ## 10. Size and Performance 
 
@@ -162,6 +166,7 @@ n/a
 ## 11. Quality 
 
 We're using some design patterns since the beginning. Therefore, you can find a listing of them in our [blog post](https://nexam955203221.wordpress.com/2022/05/19/se2-week-7-design-patterns/).
+
 In the following overlay are the patterns marked with green:
 
 ![overlay with uml diagram](https://github.com/nEXam-App/nEXam-doc/blob/97a03b5bd5ca7b32cee5362947e51f57d0ccf2bd/diagrams/umlDiagrams/uml%20important%20files_designPattern.png)
