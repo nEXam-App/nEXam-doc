@@ -71,7 +71,7 @@ This Test Plan for nEXam supports the following objectives:
 
 ### 1.2 Scope
 
-This test plan will cover tests assuring the functionality of the application's front end, back end and the communication between the two. This document shows the following types of testing:
+This test plan will cover tests assuring the functionality of the application's frontend, backend and the communication between the two. This document shows the following types of testing:
 
 - Unit Testing
 - Integration Testing
@@ -111,9 +111,8 @@ This test plan is written primarily for internal documentation reasons. It is me
 | [UC5 Create Exam](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_CreateExam.md)                                                                               | Apr. 2022 | nEXam-App |
 | [UC6 Edit Exam](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_EditExam.md)                                                                                   | Apr. 2022 | nEXam-App |
 | [UC7 Delete Exam](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_DeleteExam.md)                                                                               | Apr. 2022 | nEXam-App |
-| [UC8 Start Stop Timer](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_StartStopTimer.md) 
+| [UC8 Start Stop Timer](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_StartStopTimer.md) | Apr. 2022 | nEXam-App |
 | [UC9 Set Exam finished](https://github.com/nEXam-App/nEXam-doc/blob/7869f8d2f7074c54fab07d40a0b7f2b6814a376a/Use_Case_Specification/use_case_setExamFinished.md)                                                                               | Apr. 2022 | nEXam-App |                                                                               | Apr. 2022 | nEXam-App |
-| [Test Plan](https://github.com/nEXam-App/nEXam-doc/blob/0d0ce2e8de074a444fa6914afc6e07c656a7acb1/test_plan_template.md)                                   | Apr. 2022 | nEXam-App |
 | [SRS](https://github.com/nEXam-App/nEXam-doc/blob/0d0ce2e8de074a444fa6914afc6e07c656a7acb1/SRS.md)                                                  | Oct. 2021 | nEXam-App |
 | [SAD](https://github.com/nEXam-App/nEXam-doc/blob/0d0ce2e8de074a444fa6914afc6e07c656a7acb1/SAD.md)                                                  | Oct. 2021 | nEXam-App |
 
@@ -155,7 +154,7 @@ The tests are used for quality assurance, risk mitigation and to meet functional
 
 ![testing overview](https://github.com/nEXam-App/nEXam-doc/blob/5faceab75198f6503df3a17c7da389370ad33cf9/diagrams/nEXam-Testing%20Diagram.jpg)
 
-The tests themself will not be tested and will not account into code coverage.
+The tests themselves will not be tested and will not account into code coverage.
 
 ### 4.2 Outline of Other Candidates for Potential Inclusion
 
@@ -187,7 +186,7 @@ Unit tests ensure that the tested source code works as expected. Therefore, smal
 |Technique              | Implement test methos using JUnit Framework (Frontend & Backend)    |
 |Oracles                | Test execution logs results                                         |
 |Required Tools         | JUnit 4 & 5 Dependencies                                            |
-|Success Criteria       | All tests pass. Coverage is above 10% (Frontend) / 60% (Backend)    |
+|Success Criteria       | All tests pass.                                                     |
 |Special Considerations | -                                                                   |
 
 #### 5.2.2 User Interface Testing
@@ -197,7 +196,7 @@ UI testing involves testing the application from the user's perspective. The goa
 |                       | Description                                                         |
 |-----------------------|---------------------------------------------------------------------|
 |Technique Objective    | Test application automated from the perspective of the user through UI test |
-|Technique              | Writing Gherkin .feature files with clearly defined steps and the expected results. Te test implementation of the steps use the Android Espresso library to serve the emulator |
+|Technique              | Writing Gherkin .feature files with clearly defined steps and the expected results. The test implementation of the steps use the Android Espresso library with Green Coffee to serve the emulator |
 |Oracles                | Expect that the steps of the test are executed successfully and the UI behaves as planned. Test execution logs results to the command line |
 |Required Tools         | Dependencies of Cucumber and Espresso (official Android UI test library) and an implementation of a test runner based on JUnit 4 to execute UI tests with Cucumber and Espresso |
 |Success Criteria       | All UI tests pass |
@@ -269,7 +268,7 @@ IDE test execution:
 
 ## 7.2 Reporting on Test Coverage
 
-For reporting our test coverage we use SonarCloud.
+For reporting, our test wanted to use SonarCloud. Since you have to send a coverage report to SonarCloud to display it, we looked if Android Studio provides one for us. Unfortunately, it didn't, even though the coverage option was activated.
 
 ![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=nEXam-App_nEXam)
 
@@ -312,7 +311,7 @@ n/a
 ## 8. Testing Workflow
 
 1. Local testing in the IDE
-2. Commit and Push triggers SonarQube
+2. Commit and Push as well as Pull requests trigger SonarCloud
 
 ## 9. Environmental Needs
 
@@ -333,7 +332,7 @@ The following base software elements are required in the test environment for th
 |-----------------------|----------------------------------------------|
 | Android Studio        | Test Runner / IDE                            |
 | JUnit 4 & 5           | Unit testing library                         |
-| Espresso              | UI testing library                           |
+| Espresso with Green Coffee             | UI testing library                           |
 | Cucumber              | human readable test definitions              |
 
 ### 9.3 Productivity and Support Tools
