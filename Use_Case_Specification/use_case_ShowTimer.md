@@ -1,14 +1,14 @@
 # Use-Case Specification: Show timer
 
 ## 1. Use-Case
-This use case allows users to keep track of their time for a specific topic.
+This use case allows users to keep track of their time for a specific exam.
 
 ## 2. Flow of Events
 ### 2.1 Basic flow
-A user will be able to see the timer in the opend topic. He has the possibilty to start and stop the timer.
+A user will be able to see the timer in the opend exam. He has the possibilty to start and stop the timer.
 
 ### 2.2 Creation
-During the creation of a new topic, the user was asked, to enter a difficulty to the topic. With this value, the app suggests the remaining time and displays it.
+During the creation of a new exam, the user was asked, to enter a difficulty to the exam. With this value, the app suggests the remaining time and displays it.
 
 ## 3. Activity Diagram
 ### 3.1 Activity Diagram
@@ -20,7 +20,7 @@ The feature file for this use case.
 ```Gherkin
 Feature: Use Case Show Timer
     As a USER 
-    I want to keep track of my time spent for a topic.
+    I want to keep track of my time spent for a exam.
     Therefore I can start and stop the built-in timer.
 
     Background:
@@ -28,8 +28,8 @@ Feature: Use Case Show Timer
 
     @postsession-feature:
     Scenario Outline: Show Timer
-        When The user clicks on an existing topic
-        And The user sees the timer below the information for the topic
+        When The user clicks on an existing exam
+        And The user sees the timer below the information for the exam
         And The user start the timer with the button
         And The user stops the timer again
         Then The remaining time will be displayed
