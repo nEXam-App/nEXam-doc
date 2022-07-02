@@ -42,7 +42,7 @@ Planned use cases are:
 - Change Theme: The app will use the system default setting. Therefore we must provide a light and dark mode. The user has no need to change it itself.
 - Exam: There are three use cases for this subitem. These are the typical CRUD operations, so create, edit, delete and view exam belong here.
 - Set finished: The exams can be set on finished to show an additional label and change the priority on the dashboard.
-- Timer: A timer will count the estimated effort down. 
+- Timer: A timer is shown in the detail view of an existing exam. It's possible to start and stop it, and it will count the estimated effort down. 
 
 ### 1.3 Definitions, Acronyms and Abbreviations
 
@@ -74,7 +74,7 @@ The following chapters provide an overview of this project with vision and Overa
 “nEXam” will be an app that allows you to plan when you should start studying before an exam and how much time you should spend on it. 
 
 How does it work? 
-You need to enter your exam information, including date, subject, and  topics. Based on this information, the app will create an agenda of when you  should study which topic. While learning, you can run the in-app timer,  so the app changes the background color of the topic to visualize  what has already been learned. You should be able to export the iCal file to import it to the calendar of your choice.
+You need to enter your exam information, including date, subject, difficulty and topics. Based on this information, the app will create an agenda of when you  should study which topic. While learning, you can run the in-app timer,  so you can keep track of the time spent on an individual exam. Future You should also be able to export the iCal file to import it to the calendar of your choice.
 
 ### 2.2 Use Case Diagram
 
@@ -175,7 +175,7 @@ Instead of an input text field directly by the exam, it should be possible in th
 
 ### 3.2 Usability
 
-We plan to make the user interface as intuitive and self-explanatory as possible so that the user feels as comfortable as possible when using the app. We will use familiar icons to navigate, already known from other typical applications. Our goal is that a user installs the application, opens it and is able to use all features without any explanation or help. Though there will be an FAQ document available, but it should not be necessary to use it.
+We plan to make the user interface as intuitive and self-explanatory as possible so that the user feels as comfortable as possible when using the app. We will use familiar icons to navigate, already known from other typical applications. Our goal is that a user installs the application, opens it and is able to use all features without any explanation or help.
 
 In addition, we also want to pay attention to accessibility, as Android Studio will automatically give you hints and tips about it. Thus, it should correspond to the current time and also meet future demands.
 
@@ -189,7 +189,7 @@ The app should be available throughout, as it runs locally on your own phone. Du
 
 #### 3.4.1 Storage
 
-Smartphones do not offer much storage space. Therefore, we strive to keep the required storage space as small as possible and save it in a local database. 
+Smartphones do not offer much storage space. Therefore, we strive to keep the required storage space as small as possible and save it in a local room database. 
 
 #### 3.4.2 App perfomance
 
@@ -203,13 +203,13 @@ We will write the code using all the common standards for clean code. For exampl
 
 #### 3.5.2 Testing Strategy
 
-The application should ideally have a high test coverage and all important functionalities and edge cases should be tested. Further errors in the implementation will be detected immediately, and it will be easier to localize the error. With the current state we have written two feature files, we will look into testing in more detail next semester.
+The application should ideally have a high test coverage and all important functionalities and edge cases should be tested. Further errors in the implementation will be detected immediately, and it will be easier to localize the error.
 
 ### 3.6 Design Constraints
 
 We strive for a modern and easy-to-use design for the user interface as well as for the architecture of our application. To achieve this, the functionalities are kept as modular as possible.
 
-Since we want to have to opportunity to provide the app as iOS and Android app, we chose Kotlin as our programming language. We also use the common MVP architecture of Android to keep the frontend and the backend separate and to keep the possibility open to switch to other architectures without making adjustments in several places.
+Since we want to have to opportunity to provide the app as iOS and Android app, we chose Kotlin as our programming language. We also use the common MVVM architecture of Android to keep the frontend and the backend separate and to keep the possibility open to switch to other architectures without making adjustments in several places.
 
 For our version control and project management we will use [GitHub](https://github.com/nEXam-App/nEXam) and [YouTrack](https://dhbw-karlsruhe.myjetbrains.com/youtrack/dashboard?id=fc14affe-ae44-4123-8d77-b5828e4aa5eb).
 
@@ -225,7 +225,7 @@ Here's the current state of the function points after the second semester.
 
 ### 3.8 Online User Documentation and Help System Requirements
 
-The operation of the app should be as intuitive as possible, so it does not need any further documentation. In case the user requires help, we expect to implement a “Help” button in the app, which will include a FAQ.
+The operation of the app should be as intuitive as possible, so it does not need any further documentation. In case the user requires help, Future Us can implement a “Help” button in the app, which will include a FAQ.
 
 ### 3.9 Purchased Components
 
@@ -241,9 +241,9 @@ Create/ Edit Exam - provides the fields for a new exam. Also, it should be possi
 
 View Exam - shows detailed information about an exam and the estimated time. Also, it provides the opportunity to start and stop the timer for the suggested time. It is possible here to navigate to edit exam.
 
-Error message - a page displaying the error that occurred and the possibility to edit the field with the invalid data or return to the dashboard 
+Delete Exam - is a User Dialog, to make sure only exams are deleted if the user really wants it.
 
-Success message - hopefully this message will appear after creating an exam or topic. It contains the name of the current exam or topic. We decided to make a toast message instead of a view to provide a better user expirience.
+Set Exam finished - similar to delete exams, there is a Confirm Dialog. If an exam is finished, it is clearly marked on the dashboard and in the detail view of an exam.
 
 ### 3.11 Licensing Requirements
 
