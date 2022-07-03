@@ -268,7 +268,7 @@ IDE test execution:
 
 ## 7.2 Reporting on Test Coverage
 
-For reporting, our test wanted to use SonarCloud. Since you have to send a coverage report to SonarCloud to display it, we looked if Android Studio provides one for us. Unfortunately, it didn't, even though the coverage option was activated.
+For coverage, our test wanted to use SonarCloud. Since you have to send a coverage report to SonarCloud to display it, we looked to see if Android Studio provided one for us. Unfortunately, it didn't, even though the coverage option was enabled. So we can't determine our current test coverage without putting in a lot of extra effort, which we didn't have the time to do with two people.
 
 ![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=nEXam-App_nEXam)
 
