@@ -45,8 +45,8 @@ Below you will find our first wireframes. Those will show you our first thoughts
 
 We designed a light and a dark mode.
 
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/70084e70270abd4ab53fe7f90b9996a2fade4caa/wireframes/create%20topic%20dark.png" alt="drawing" width="350"/>
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/70084e70270abd4ab53fe7f90b9996a2fade4caa/wireframes/create%20topic%20light.png" alt="drawing" width="350"/>
+<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examView_dark.png" alt="drawing" width="350"/>
+<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examView_light.png" alt="drawing" width="350"/>
 
 ## 4. Preconditions
 
