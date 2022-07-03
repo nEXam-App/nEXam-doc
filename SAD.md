@@ -117,6 +117,10 @@ At this point we want to show you also the architecture of our database:
 
 ![Room architecture](https://github.com/nEXam-App/nEXam-doc/blob/4a39680b206200656747039013e22cb649ef97d3/diagrams/RoomLibraryArchitecture.PNG)
 
+So overall, our architecture looks like the following:
+
+![nexam architecture](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/nEXam-nEXam-Architecture.jpg)
+
 ### 5.2 Architecturally Significant Design Packages
 
 On this section you can find our class diagrams for the frontend and the backend. We have clearly marked which parts fulfill the model, the view and the viewmodel tasks.
