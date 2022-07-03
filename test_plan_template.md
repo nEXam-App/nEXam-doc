@@ -378,6 +378,8 @@ We want to keep over 20% code coverage.
 |Test runner is not able to execute tests|Use standard libraries which include working Test Runner|fix test execution configuration|
 |UI tests fail|Refactor tests|publish refactored test and restart|
 
+More risks within the whole project can be found in our [risk management document](https://docs.google.com/spreadsheets/d/1D37-90Dhg_P-9yCL7CjMfnPYa3YZMsxbcvK8pcW6_Z8/edit?usp=sharing) or our [related blog post](https://nexam955203221.wordpress.com/2022/04/12/se2-week-2-consider-your-risks/).
+
 ## 13. Management Process and Procedures
 
 n/a
