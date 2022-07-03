@@ -43,8 +43,8 @@ Below you will find our first wireframe. This will show you our first thoughts a
 
 We designed a light and a dark mode.
 
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/81110067eca9360f0dd356b023b2782b6d20422a/wireframes/dashboard_dark.png" alt="drawing" width="350"/>
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/81110067eca9360f0dd356b023b2782b6d20422a/wireframes/dashboard_light.png" alt="drawing" width="350"/>
+<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/dashboard_dark.png" alt="drawing" width="350"/>
+<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/dashboard_light.png" alt="drawing" width="350"/>
 
 ## 4. Preconditions
 
