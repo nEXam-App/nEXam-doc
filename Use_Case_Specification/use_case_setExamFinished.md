@@ -1,4 +1,4 @@
-# Use-Case Specification: Finish Exam
+# Use-Case Specification: Set exam finished
 
 ## 1. Use-Case
 This use case allows users to finish a selected exam.
@@ -14,7 +14,7 @@ By clicking on a switch button and answering the confirm dialog with 'yes' the u
 
 ## 3. Activity Diagram
 ### 3.1 Activity Diagram
-![Activity Diagram](https://github.com/nEXam-App/nEXam-doc/blob/bc15f070dcdfbce8f52901afdc50dbbf4994b986/diagrams/activity%20diagram/nEXam-activity%20diagram%20(finish%20exam).jpg)
+![Activity Diagram](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/activity%20diagram/nEXam-activity%20diagram%20(finish%20exam).jpg)
 
 ### 3.2 Narratives
 The feature file for this use case.
@@ -67,4 +67,4 @@ After changing the finished status of a selected exam, the user will stay on the
 ## 6. Function Points
 We calculated 94.25 function points for this use case.
 
-![Function Points](https://github.com/nEXam-App/nEXam-doc/blob/bc15f070dcdfbce8f52901afdc50dbbf4994b986/diagrams/FP/FPSetExamFinished.PNG)
+![Function Points](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/FP/FPSetExamFinished.PNG)
