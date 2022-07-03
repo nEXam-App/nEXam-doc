@@ -10,7 +10,7 @@ A user will create an exam and list all of them. He can edit them if changes occ
 ![Basic Flow](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/basic%20flow.jpg)
 
 ### 2.2 Set finished
-By clicking on a switchbutton and answering the up poping dialog with 'yes' the user can set the exam on finished
+By clicking on a switch button and answering the confirm dialog with 'yes' the user can set the exam to finished. With setting an exam to finish, the user can also change the sorting order on the dashboard.
 
 ## 3. Activity Diagram
 ### 3.1 Activity Diagram
@@ -18,7 +18,7 @@ By clicking on a switchbutton and answering the up poping dialog with 'yes' the 
 
 ### 3.2 Narratives
 The feature file for this use case.
-#### Usecase: Create Exam
+#### Usecase: Set exam finished
 ```Gherkin
 Feature: Use Case Set Exam finished
     As a USER 
@@ -31,7 +31,7 @@ Feature: Use Case Set Exam finished
     @postsession-feature:
     Scenario Outline: Finish a selected exam
         When The user navigates to the detail view of an existing exam
-        And The user clicks on the finish switchbutton
+        And The user clicks on the finish switch button
         And The exam is currently unfinished
         And The user clicks on the yes answer on the dialog
         Then The exam is set to finished 
@@ -39,11 +39,11 @@ Feature: Use Case Set Exam finished
 
 
     @postsession-feature:
-    Scenario Outline: Uninish a selected exam
-        When The user clicks on the finish switchbutton
+    Scenario Outline: Unfinish a selected exam
+        When The user clicks on the finish switch button
         And The exam is currently finished
         Then The exam is set to unfinished 
-        And The finished label is hiden
+        And The finished label is hidden
 ```
 
 ### 3.3 Created views
