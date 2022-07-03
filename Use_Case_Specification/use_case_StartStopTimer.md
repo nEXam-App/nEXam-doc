@@ -19,9 +19,9 @@ Other buttons, like delete or edit button, will also cast a stop timer action.
 
 ### 3.2 Narratives
 The feature file for this use case.
-#### Usecase: Create Exam
+#### Usecase: Start/ Stop timer
 ```Gherkin
-Feature: Use Case Start Timer
+Feature: Use Case Start/ Stop Timer
     As a USER 
     I want to start a timer.
     Therefore I need to click the start timer button.
@@ -47,8 +47,6 @@ Below you will find our first wireframes. Those will show you our first thoughts
 
 ![Create exam](https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/create%20edit%20exam.PNG)
 
-![Error](https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/error.PNG)
-
 ### 3.4 Created views
 
 We designed a light and a dark mode.
@@ -63,7 +61,7 @@ We designed a light and a dark mode.
 Since we don't want to use a large database, we agreed not to have an authentication process. So the only requirements are read and write permissions on the local device.
 
 ## 5. Postconditions
-The user will stay on the exam details.
+The user will stay on the exam detail view.
 
 ## 6. Function Points
 We calculated 92.3 function points for this use case.
