@@ -15,7 +15,7 @@ Other buttons, like delete or edit button, will also cast a stop timer action.
 
 ## 3. Activity Diagram
 ### 3.1 Activity Diagram
-![Activity Diagram](https://github.com/nEXam-App/nEXam-doc/blob/bc15f070dcdfbce8f52901afdc50dbbf4994b986/diagrams/activity%20diagram/nEXam-activity%20diagram%20(start%20stop%20timer).jpg)
+![Activity Diagram](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/activity%20diagram/nEXam-activity%20diagram%20(start%20stop%20timer).jpg)
 
 ### 3.2 Narratives
 The feature file for this use case.
@@ -66,4 +66,4 @@ The user will stay on the exam detail view.
 ## 6. Function Points
 We calculated 92.3 function points for this use case.
 
-![Function Points](https://github.com/nEXam-App/nEXam-doc/blob/bc15f070dcdfbce8f52901afdc50dbbf4994b986/diagrams/FP/FPSetExamFinished.PNG)
+![Function Points](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/FP/FPStartStopTimer.PNG)
