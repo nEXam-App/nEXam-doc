@@ -174,3 +174,5 @@ We're using some design patterns since the beginning. Therefore, you can find a 
 In the following overlay are the patterns marked with green:
 
 ![overlay with uml diagram](https://github.com/nEXam-App/nEXam-doc/blob/97a03b5bd5ca7b32cee5362947e51f57d0ccf2bd/diagrams/umlDiagrams/uml%20important%20files_designPattern.png)
+
+As well we wanted to mention here our [blogpost to our Metrics](https://nexam955203221.wordpress.com/2022/06/06/se2-week8-metrics/).
