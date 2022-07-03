@@ -5,7 +5,7 @@ This use case allows users to view a created exam.
 
 ## 2. Flow of Events
 ### 2.1 Basic flow
-A user will create an exam and list all of them. He can view them.
+A user will create an exam and this exam will be listed on the dashboard with others. To see more details about it, he can change in the detail view with a click on the specific exam.
 
 ![Basic Flow](https://github.com/nEXam-App/nEXam-doc/blob/main/diagrams/basic%20flow.jpg)
 

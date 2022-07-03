@@ -58,16 +58,9 @@ Below you will find our first wireframes. Here you can see our initial thoughts 
 
 ![Create exam](https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/create%20edit%20exam.PNG)
 
-![Error](https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/error.PNG)
-
 ### 3.4 Created views
 
 We will design a light and a dark mode.
-
-<!--<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/create%20exam.png" alt="drawing" width="350"/>
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/create%20exam%20light.png" alt="drawing" width="350"/>
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examError_dark.png" alt="drawing" width="350"/>
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/examError_light.png" alt="drawing" width="350"/>-->
 
 ## 4. Preconditions
 

@@ -41,14 +41,9 @@ Feature: Use Case 4 Set progress bar to started
 
 Below you will shortly find our first wireframes. Those will show you our first thoughts about the look.
 
-<!--![Create exam](https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/create%20edit%20exam.PNG)-->
-
 ### 3.4 Created views
 
-We will designe a light and a dark mode.
-
-<!--<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/create%20exam.png" alt="drawing" width="350"/>
-<img src="https://github.com/nEXam-App/nEXam-doc/blob/main/wireframes/create%20exam%20light.png" alt="drawing" width="350"/>-->
+We will design a light and a dark mode.
 
 ## 4. Preconditions
 
